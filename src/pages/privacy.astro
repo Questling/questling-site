@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_EMAIL } from '../consts';
+
+const title = 'Privacy Policy | Questling';
+const description =
+  'Questling has no accounts and no servers — everything the app saves stays on your phone. Nothing is collected, tracked, sold, or shared.';
+
+// The date the policy was last actually changed (not auto-updated).
+const lastUpdated = 'June 30, 2026';
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="section">
+    <div class="container container--narrow">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated {lastUpdated}</p>
+
+      <p>
+        I'm the developer of Questling, and I made it so your stuff stays with you.
+        The app has no accounts and no servers behind it, so nothing it saves ever
+        leaves your phone.
+      </p>
+
+      <h2>What's kept on your phone</h2>
+      <p>While you use the app, it remembers a few things, all stored on your own device:</p>
+      <ul>
+        <li>your gems, the quests you've finished, and the quest you're currently on</li>
+        <li>the rewards you add in the Shop</li>
+        <li>any photos you attach in the Memory Journal</li>
+      </ul>
+      <p>I never see any of it. There's nowhere for the app to send it, so it doesn't.</p>
+
+      <h2>Camera and photos</h2>
+      <p>
+        Questling only asks for your camera or photos so you can save a picture with a
+        quest as a keepsake. Those pictures stay on your phone and aren't uploaded anywhere.
+      </p>
+
+      <h2>What I collect</h2>
+      <p>
+        Nothing. No tracking, no analytics, no ads, no accounts. I don't collect, sell,
+        or share any of your information, and nobody else does either, because none of it
+        leaves your device.
+      </p>
+
+      <h2>Deleting your data</h2>
+      <p>
+        You can remove individual photos and rewards right in the app. If you want all of
+        it gone, deleting the app takes everything with it.
+      </p>
+
+      <h2>Kids</h2>
+      <p>
+        Questling is meant for a parent to run on their own phone. Since nothing is
+        collected and nothing leaves the device, no personal information is gathered from
+        anyone, kids included.
+      </p>
+
+      <h2>Changes</h2>
+      <p>If I change this policy, I'll update the date at the top.</p>
+
+      <h2>Questions</h2>
+      <p>Email me at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container--narrow { max-width: 720px; }
+  h1 { margin-bottom: 0.25rem; }
+  .updated { color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 2rem; }
+  h2 { font-size: 1.3rem; margin-top: 2.2rem; }
+  p, li { color: var(--ink); }
+  ul { margin: 0 0 1.1rem; padding-left: 1.3rem; }
+  li { margin-bottom: 0.5rem; }
+  a { color: var(--primary); text-decoration: underline; }
+</style>

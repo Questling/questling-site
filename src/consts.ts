@@ -5,7 +5,7 @@ export const SITE_DESCRIPTION =
   'Questling lives on your phone and turns screen time into real-world quests for your kids — challenges you approve, gems they earn, rewards you choose. Your child stays device-free. Coming soon to the App Store.';
 
 export const CONTACT_EMAIL = 'hello@getquestling.com';
-export const PRIVACY_URL = 'https://questling.github.io/QuestlingPrivacy/';
+export const PRIVACY_URL = '/privacy';
 
 // The gem logo, used for the favicon and social-share previews.
 export const SITE_OG_IMAGE = '/questling-icon.png';
