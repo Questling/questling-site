@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Page not found (404) | Questling';
+const description = 'That page wandered off. Let’s get you back on the trail.';
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="section">
+    <div class="container container--narrow center">
+      <img src="/questling-icon.png" alt="" width="72" height="72" class="four-gem" />
+      <p class="four-code">404</p>
+      <h1>This quest led to a dead end.</h1>
+      <p class="lead">
+        The page you're looking for isn't here — maybe it moved, or the link was
+        mistyped. No worries, the adventure continues elsewhere.
+      </p>
+      <div class="four-actions">
+        <a class="btn btn--gem" href="/">Back to home</a>
+        <a class="btn btn--ghost" href="/articles">Read the articles</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container--narrow { max-width: 560px; }
+  .four-gem { margin: 0 auto 1rem; border-radius: 16px; box-shadow: var(--shadow-md); }
+  .four-code { font-size: 3.5rem; font-weight: 800; color: var(--primary); margin: 0; letter-spacing: -0.03em; }
+  h1 { margin: 0.2rem 0 0.6rem; }
+  .lead { color: var(--ink-soft); font-size: 1.1rem; margin-bottom: 1.6rem; }
+  .four-actions { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; }
+</style>

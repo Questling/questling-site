@@ -1,0 +1,284 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { SITE_TITLE, SITE_DESCRIPTION, CONTACT_EMAIL } from '../consts';
+
+// Grab every article, newest first, keep the latest 3 for the home strip.
+const articles = (await getCollection('articles')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const featured = articles.slice(0, 3);
+
+const steps = [
+  { img: '/images/step-quest.svg',   title: 'You pick a quest', body: 'Browse the quest catalog and choose a real-world, screen-free challenge that fits your kid — outdoors or creative.' },
+  { img: '/images/step-approve.svg', title: 'Check it with your kid', body: 'Look it over together and make sure they\'re excited about it. Nothing goes ahead unless your kid is a yes.' },
+  { img: '/images/step-do.svg',      title: 'Do it together', body: 'Head out and actually do the quest — build, explore, make, move. Kid and parent, in the real world, no screen.' },
+  { img: '/images/step-gems.svg',    title: 'Earn gems', body: 'Finishing the quest earns gems. Gems unlock rewards you set — screen time, treats, a day out, your call.' },
+];
+---
+
+<BaseLayout title={`${SITE_TITLE} — Screen-free adventures & real-world quests for kids`} description={SITE_DESCRIPTION}>
+  <!-- ===================== HERO ===================== -->
+  <section class="hero section">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <span class="badge"><span class="badge__dot"></span> Coming soon to the App Store</span>
+        <h1>Screen-free adventures your kids will actually want.</h1>
+        <p class="hero__lead">
+          Questling lives on <strong>your</strong> phone — never your kid's. You pick
+          a real-world quest, do it together, and they earn gems to trade for rewards
+          <strong>you</strong> choose. Your child stays screen-free. That's the whole point.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--gem" href="#get-notified">Get notified at launch</a>
+          <a class="btn btn--ghost" href="/#how-it-works">See how it works</a>
+        </div>
+
+        <div class="stores" aria-label="App availability">
+          <span class="store-badge store-badge--soon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M16.36 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.74-1.78-3.33-1.8-1.42-.14-2.77.83-3.49.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.78 2.29-1.61 2.79-.41 6.92 1.16 9.19.77 1.11 1.68 2.36 2.87 2.31 1.15-.05 1.59-.74 2.98-.74 1.39 0 1.78.74 3 .72 1.24-.02 2.02-1.13 2.78-2.25.88-1.29 1.24-2.54 1.26-2.6-.03-.01-2.42-.93-2.44-3.7zM14.13 5.6c.64-.77 1.07-1.85.95-2.92-.92.04-2.03.61-2.69 1.38-.59.68-1.11 1.78-.97 2.83 1.03.08 2.07-.52 2.71-1.29z"/></svg>
+            <span><small>Soon on the</small><strong>App Store</strong></span>
+          </span>
+          <span class="store-badge store-badge--soon">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.1c-.2.2-.3.5-.3.9v18c0 .4.1.7.3.9l.1.1L13.8 12 3.7 2l-.1.1z" fill="#5be29a"/><path d="M17.3 15.5L13.8 12l3.5-3.5 4.1 2.3c1.2.7 1.2 1.7 0 2.4l-4.1 2.3z" fill="#34c77b"/><path d="M3.7 21.9l10.1-10-3.5-3.5L3.7 21.9z" fill="#4f46c7"/><path d="M3.7 2.1l6.6 6.3 3.5-3.4L3.7 2.1z" fill="#3a32a0"/></svg>
+            <span><small>Soon on</small><strong>Google Play</strong></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="hero__art">
+        <img class="hero__deco" src="/images/hero-deco.svg" alt="" aria-hidden="true" />
+        <!-- Real app screenshot (the parent's phone). To use the Home or Shop screen
+             instead, save it into public/images/ and change the src below. -->
+        <div class="phone">
+          <img src="/images/app-quest.png" alt="The Questling app on a parent's phone, showing a quest with a steps checklist and a memory journal of photos" width="1206" height="2622" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== THE PROBLEM ===================== -->
+  <section class="section section--alt">
+    <div class="container center">
+      <span class="section__eyebrow">Why Questling</span>
+      <h2>Childhood moved indoors — and it's not on you.</h2>
+      <p class="section__lead">
+        Kids today spend more time on screens and less outside than their parents did.
+        It's not because they're lazy, and it's not because you're not trying — the
+        screen is just the easiest thing in the room. Questling makes outside the
+        easy choice instead.
+      </p>
+
+      <div class="stat-grid">
+        <div class="card stat">
+          <span class="stat__num">~7 hrs</span>
+          <span class="stat__label">a day many kids spend on screens for entertainment</span>
+        </div>
+        <div class="card stat">
+          <span class="stat__num">&lt; 10 min</span>
+          <span class="stat__label">average unstructured outdoor play some days</span>
+        </div>
+        <div class="card stat">
+          <span class="stat__num">1 tap</span>
+          <span class="stat__label">all it takes to hand them something better to do</span>
+        </div>
+      </div>
+      <p class="stat-note">Questling doesn't fight screens or pile on the guilt — it just makes the outdoors the more exciting offer.</p>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section id="how-it-works" class="section">
+    <div class="container center">
+      <span class="section__eyebrow">How it works</span>
+      <h2>Four simple steps. You stay in control the whole way.</h2>
+      <p class="section__lead">
+        Everything happens on <strong>your</strong> phone — the parent's. Your kid
+        never needs a device, an app, or an account. You stay the gatekeeper for
+        every quest and reward.
+      </p>
+    </div>
+
+    <div class="container">
+      <ol class="steps">
+        {steps.map((step, i) => (
+          <li class="card step">
+            <span class="step__num">{i + 1}</span>
+            <img class="step__icon" src={step.img} alt="" width="120" height="120" loading="lazy" />
+            <h3>{step.title}</h3>
+            <p>{step.body}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== MEMORY JOURNAL ===================== -->
+  <section class="section section--alt">
+    <div class="container memory__grid">
+      <div class="memory__copy">
+        <span class="section__eyebrow">Memory journal</span>
+        <h2>Every adventure, saved in one place.</h2>
+        <p>
+          Questling isn't only about the next quest — it's about everything your kid
+          has already done. As they finish quests, you snap a photo and save it to a
+          private <strong>memory journal</strong> right in the app.
+        </p>
+        <p>
+          Months from now you won't have screen time to look back on. You'll have a
+          scrapbook of forts built, bugs found, and places explored — proof the
+          adventures added up to something real.
+        </p>
+        <ul class="memory__list">
+          <li>Add photos to any completed quest</li>
+          <li>Private to your family — yours to keep</li>
+          <li>Watch the collection grow over time</li>
+        </ul>
+      </div>
+      <div class="memory__art">
+        <img src="/images/memory-journal.svg" alt="A scrapbook of photo snapshots from completed quests, saved in the app" width="720" height="540" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED ARTICLES ===================== -->
+  {featured.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <div class="strip-head center">
+          <span class="section__eyebrow">From the blog</span>
+          <h2>Ideas for raising kids in a screen-heavy world</h2>
+        </div>
+        <div class="article-grid">
+          {featured.map((a) => (
+            <ArticleCard
+              href={`/articles/${a.id}`}
+              title={a.data.title}
+              description={a.data.description}
+              pubDate={a.data.pubDate}
+              heroImage={a.data.heroImage}
+              heroAlt={a.data.heroAlt}
+            />
+          ))}
+        </div>
+        <div class="strip-foot">
+          <a class="btn btn--ghost" href="/articles">All articles</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ===================== EMAIL SIGNUP (static, no backend) ===================== -->
+  <section id="get-notified" class="section">
+    <div class="container">
+      <div class="signup card">
+        <div class="signup__copy">
+          <h2>Get notified when we launch</h2>
+          <p>We'll email you once — the day Questling hits the App Store. No spam, ever.</p>
+        </div>
+        <!--
+          STATIC SITE: there is no server to receive a form, so "subscribing"
+          opens the visitor's email app pre-filled to you (mailto:). When you're
+          ready for a real list, swap this <form> for a Buttondown / Mailchimp /
+          ConvertKit embed — all of those are no-backend, copy-paste snippets.
+          TODO: replace mailto with a real email-capture embed before launch.
+        -->
+        <form
+          class="signup__form"
+          action={`mailto:${CONTACT_EMAIL}`}
+          method="post"
+          enctype="text/plain"
+        >
+          <label class="visually-hidden" for="email">Your email address</label>
+          <input id="email" type="email" name="email" placeholder="you@email.com" required />
+          <button class="btn btn--gem" type="submit">Notify me</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Hero */
+  .hero { padding-top: clamp(2rem, 5vw, 3.5rem); }
+  .hero__grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+  .hero__lead { font-size: clamp(1rem, 0.6vw + 0.85rem, 1.18rem); max-width: 46ch; }
+  .hero__actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin: 1.6rem 0 1.4rem; }
+  .hero__art { position: relative; display: grid; place-items: center; min-height: clamp(420px, 60vw, 560px); }
+  .hero__deco { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; z-index: 0; pointer-events: none; }
+  .phone { position: relative; z-index: 1; width: min(252px, 70%); padding: 10px; background: #20203a; border-radius: 42px; box-shadow: var(--shadow-lg); }
+  .phone img { display: block; width: 100%; height: auto; aspect-ratio: 1206 / 2622; object-fit: cover; border-radius: 32px; }
+
+  /* Problem stats */
+  .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; margin: 2.2rem 0 1rem; text-align: left; }
+  .stat { padding: 1.5rem 1.4rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  .stat__num { font-size: 2rem; font-weight: 800; color: var(--primary); letter-spacing: -0.02em; }
+  .stat__label { color: var(--ink-soft); font-size: 0.96rem; }
+  .stat-note { font-weight: 600; color: var(--ink); margin-top: 1.2rem; }
+
+  /* Steps */
+  .steps { list-style: none; margin: 2.4rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
+  .step { position: relative; padding: 1.6rem 1.4rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  .step__num { position: absolute; top: 1rem; right: 1.1rem; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: var(--highlight); color: var(--primary-dark); font-weight: 800; font-size: 0.9rem; }
+  .step__icon { width: 76px; height: 76px; }
+  .step h3 { margin-top: 0.4rem; }
+
+  /* Memory journal */
+  .memory__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+  .memory__copy h2 { margin-top: 0.4rem; }
+  .memory__list { list-style: none; margin: 1.3rem 0 0; padding: 0; display: grid; gap: 0.6rem; }
+  .memory__list li { position: relative; padding-left: 1.7rem; color: var(--ink); font-weight: 500; }
+  .memory__list li::before {
+    content: ''; position: absolute; left: 2px; top: 0.55em;
+    width: 10px; height: 10px; border-radius: 3px; background: var(--gem); transform: rotate(45deg);
+  }
+  .memory__art img { width: 100%; height: auto; aspect-ratio: 720 / 540; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); }
+
+  /* Featured strip: centered header, balanced grid, centered "All articles" below */
+  .strip-head { margin-bottom: 1.9rem; }
+  .strip-head h2 { margin: 0.4rem 0 0; }
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 360px));
+    justify-content: center;
+    gap: 1.4rem;
+  }
+  .strip-foot { text-align: center; margin-top: 2.2rem; }
+
+  /* Signup */
+  .signup { display: flex; align-items: center; justify-content: space-between; gap: 1.8rem; flex-wrap: wrap; padding: clamp(1.6rem, 4vw, 2.6rem); background: linear-gradient(120deg, #ffffff, var(--gem-tint)); }
+  .signup__copy h2 { margin-bottom: 0.3rem; }
+  .signup__copy p { margin: 0; }
+  .signup__form { display: flex; gap: 0.6rem; flex: 1; min-width: min(280px, 100%); max-width: 460px; }
+  .signup__form input { flex: 1; padding: 0.8rem 1rem; border-radius: 999px; border: 1px solid var(--line); font: inherit; background: #fff; }
+  .signup__form input:focus-visible { outline-color: var(--gem); }
+
+  /* Responsive */
+  /* Card grids step down as space shrinks. */
+  @media (max-width: 900px) {
+    .steps { grid-template-columns: repeat(2, 1fr); }
+    .memory__grid { grid-template-columns: 1fr; }
+    .memory__art { order: -1; }
+  }
+
+  /* Hero: once two columns no longer fit comfortably (~760px), stack into one
+     clean CENTERED column — copy first, then the phone — so it never looks
+     marooned at split-screen / tablet widths. */
+  @media (max-width: 760px) {
+    .hero__grid { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+    .hero__copy { order: -1; }
+    .hero__lead { margin-inline: auto; }
+    .hero__actions, .stores { justify-content: center; }
+    .hero__art { min-height: 0; margin-top: 0.75rem; }
+    .phone { width: min(240px, 66%); }
+  }
+
+  @media (max-width: 640px) {
+    .stat-grid { grid-template-columns: 1fr; }
+    .steps { grid-template-columns: 1fr; }
+    /* Signup stacks on phones — center it so it matches the other sections. */
+    .signup { text-align: center; justify-content: center; }
+    .signup__form { margin-inline: auto; }
+  }
+</style>

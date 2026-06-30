@@ -1,0 +1,119 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+
+// One static page per Markdown file in src/content/articles/.
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { data } = article;
+const { Content } = await render(article);
+
+const dateLabel = data.pubDate.toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
+
+// Absolute URLs for the structured data (Google wants absolute paths).
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const imageUrl = new URL(data.heroImage, Astro.site).toString();
+const logoUrl = new URL('/questling-icon.png', Astro.site).toString();
+
+// Schema.org "Article" — this is what can earn a rich result in Google.
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.description,
+  image: [imageUrl],
+  datePublished: data.pubDate.toISOString(),
+  dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
+  author: { '@type': 'Organization', name: SITE_TITLE },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_TITLE,
+    logo: { '@type': 'ImageObject', url: logoUrl },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+};
+---
+
+<BaseLayout
+  title={`${data.title} | ${SITE_TITLE}`}
+  description={data.description}
+  image={data.heroImage}
+  type="article"
+>
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <article class="post">
+    <div class="container container--narrow">
+      <a class="post__back" href="/articles">← All articles</a>
+      <header class="post__head">
+        <time datetime={data.pubDate.toISOString()}>{dateLabel}</time>
+        <h1>{data.title}</h1>
+        <p class="post__lead">{data.description}</p>
+      </header>
+    </div>
+
+    <div class="container container--narrow">
+      <img class="post__hero" src={data.heroImage} alt={data.heroAlt} width="800" height="500" />
+    </div>
+
+    <div class="container container--narrow">
+      <div class="prose">
+        <Content />
+      </div>
+
+      <!-- Soft CTA at the end of every article -->
+      <aside class="post__cta card">
+        <img src="/questling-icon.png" alt="" width="48" height="48" />
+        <div>
+          <strong>Questling turns this into a habit.</strong>
+          <p>Screen-free quests you approve, gems your kid earns, rewards you choose. Coming soon to the App Store.</p>
+        </div>
+        <a class="btn btn--gem" href="/#get-notified">Get notified</a>
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .container--narrow { max-width: 760px; }
+  .post { padding-block: clamp(2rem, 5vw, 3.2rem); }
+  .post__back { display: inline-block; margin-bottom: 1.4rem; font-weight: 600; font-size: 0.92rem; }
+  .post__head time { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary); }
+  .post__head h1 { margin: 0.5rem 0 0.6rem; }
+  .post__lead { font-size: 1.18rem; color: var(--ink-soft); }
+  .post__hero { width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); margin: 1.5rem 0 2.2rem; }
+
+  /* Article body typography */
+  .prose { font-size: 1.08rem; }
+  .prose :global(h2) { margin-top: 2.2rem; font-size: 1.6rem; }
+  .prose :global(h3) { margin-top: 1.6rem; font-size: 1.25rem; }
+  .prose :global(p) { color: var(--ink); margin: 0 0 1.15rem; }
+  .prose :global(ul), .prose :global(ol) { color: var(--ink); margin: 0 0 1.2rem; padding-left: 1.3rem; }
+  .prose :global(li) { margin-bottom: 0.5rem; }
+  .prose :global(a) { color: var(--primary); text-decoration: underline; }
+  .prose :global(blockquote) {
+    margin: 1.6rem 0; padding: 0.6rem 1.3rem; border-left: 4px solid var(--gem);
+    background: var(--gem-tint); border-radius: 0 12px 12px 0; color: var(--ink); font-style: italic;
+  }
+  .prose :global(strong) { color: var(--ink); }
+
+  .post__cta {
+    display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap;
+    margin-top: 3rem; padding: 1.4rem 1.6rem;
+    background: linear-gradient(120deg, #fff, var(--primary-tint));
+  }
+  .post__cta img { border-radius: 12px; }
+  .post__cta div { flex: 1; min-width: min(220px, 100%); }
+  .post__cta p { margin: 0.2rem 0 0; font-size: 0.95rem; }
+</style>

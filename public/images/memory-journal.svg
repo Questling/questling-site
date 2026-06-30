@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="mjTitle">
+  <title id="mjTitle">A scrapbook of photo snapshots from completed quests, saved in the app's memory journal</title>
+  <defs>
+    <linearGradient id="mjGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/>
+      <stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft surface -->
+  <rect x="40" y="40" width="640" height="460" rx="40" fill="#ece9fb"/>
+
+  <!-- a stack of photo snapshots -->
+  <!-- photo 1: backyard / outdoors -->
+  <g transform="rotate(-8 230 250)">
+    <rect x="120" y="150" width="180" height="210" rx="10" fill="#ffffff" stroke="#e6e3f5"/>
+    <rect x="134" y="164" width="152" height="150" rx="5" fill="#bfe6cf"/>
+    <circle cx="170" cy="200" r="18" fill="#f2c879"/>
+    <path d="M134 314 l44 -46 34 30 26 -22 48 38 v0 h-152 Z" fill="#7fc89c"/>
+    <rect x="142" y="328" width="90" height="9" rx="4" fill="#e3dfff"/>
+  </g>
+
+  <!-- photo 2: craft / creative -->
+  <g transform="rotate(5 470 230)">
+    <rect x="380" y="120" width="180" height="210" rx="10" fill="#ffffff" stroke="#e6e3f5"/>
+    <rect x="394" y="134" width="152" height="150" rx="5" fill="#cfc7f7"/>
+    <path d="M394 284 l40 -50 30 26 26 -20 52 44 h-148 Z" fill="#9b8ff0"/>
+    <circle cx="430" cy="172" r="16" fill="#bcdcf5"/>
+    <rect x="402" y="298" width="100" height="9" rx="4" fill="#e3dfff"/>
+  </g>
+
+  <!-- photo 3: front, water/sky -->
+  <g transform="rotate(-2 340 360)">
+    <rect x="250" y="270" width="186" height="216" rx="10" fill="#ffffff" stroke="#e6e3f5"/>
+    <rect x="264" y="284" width="158" height="156" rx="5" fill="#bcdcf5"/>
+    <circle cx="300" cy="320" r="20" fill="#f2c879"/>
+    <path d="M264 440 l50 -40 30 22 34 -26 44 34 h-158 Z" fill="#8fb6e0"/>
+    <rect x="272" y="454" width="110" height="10" rx="5" fill="#e3dfff"/>
+  </g>
+
+  <!-- gem + sparkles tying it to rewards -->
+  <g transform="translate(560 400) scale(0.5)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#mjGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+  <path d="M150 110 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 Z" fill="#57c8e6"/>
+  <path d="M610 150 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

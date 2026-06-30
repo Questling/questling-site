@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="ta">
+  <title id="ta">A child looking out a window at the sunny outdoors</title>
+  <defs>
+    <linearGradient id="aOut" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dcd5fb"/>
+      <stop offset="1" stop-color="#f3f0ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#f0eefb"/>
+  <!-- room wall -->
+  <rect width="800" height="500" fill="#f0eefb"/>
+  <!-- window frame -->
+  <rect x="250" y="70" width="300" height="320" rx="14" fill="#ffffff" stroke="#cfc7f7" stroke-width="10"/>
+  <rect x="266" y="86" width="268" height="288" rx="6" fill="url(#aOut)"/>
+  <!-- outdoor scene inside window -->
+  <circle cx="470" cy="160" r="40" fill="#e3dfff"/>
+  <path d="M266 320 q140 -70 268 0 v54 h-268 Z" fill="#1f9d5c" opacity="0.7"/>
+  <rect x="312" y="270" width="9" height="50" rx="4" fill="#6b5e4a"/>
+  <circle cx="316.5" cy="262" r="22" fill="#2f8f57"/>
+  <!-- window mullions -->
+  <rect x="396" y="86" width="8" height="288" fill="#cfc7f7"/>
+  <rect x="266" y="226" width="268" height="8" fill="#cfc7f7"/>
+  <!-- child silhouette looking out -->
+  <g transform="translate(150 250)">
+    <circle cx="0" cy="0" r="42" fill="#3a32a0"/>
+    <rect x="-46" y="40" width="92" height="150" rx="40" fill="#4f46c7"/>
+  </g>
+</svg>

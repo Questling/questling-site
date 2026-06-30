@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t4">
+  <title id="t4">Earning a green reward gem</title>
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/>
+      <stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="#ece9fb"/>
+  <g transform="translate(60 58)">
+    <polygon points="-26,-16 26,-16 40,2 0,46 -40,2" fill="url(#g4)"/>
+    <polygon points="-26,-16 26,-16 0,4" fill="#5be29a"/>
+    <g stroke="#0f7a44" stroke-width="2" stroke-linejoin="round" fill="none" opacity="0.55">
+      <line x1="-40" y1="2" x2="40" y2="2"/>
+      <line x1="-26" y1="-16" x2="0" y2="4"/>
+      <line x1="26" y1="-16" x2="0" y2="4"/>
+      <line x1="0" y1="4" x2="0" y2="46"/>
+      <line x1="-40" y1="2" x2="0" y2="46"/>
+      <line x1="40" y1="2" x2="0" y2="46"/>
+    </g>
+  </g>
+  <path d="M30 30 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z" fill="#34c77b"/>
+  <path d="M92 78 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 Z" fill="#4f46c7"/>
+</svg>

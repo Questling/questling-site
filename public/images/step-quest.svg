@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t1">
+  <title id="t1">A phone showing a new quest suggestion</title>
+  <rect width="120" height="120" rx="28" fill="#ece9fb"/>
+  <rect x="40" y="24" width="40" height="72" rx="9" fill="#4f46c7"/>
+  <rect x="45" y="31" width="30" height="52" rx="4" fill="#ffffff"/>
+  <circle cx="60" cy="90" r="3" fill="#ffffff"/>
+  <!-- quest pin on the screen -->
+  <path d="M60 41 c-8 0 -13 6 -13 13 c0 9 13 20 13 20 s13 -11 13 -20 c0 -7 -5 -13 -13 -13 Z" fill="#1f9d5c"/>
+  <circle cx="60" cy="54" r="5" fill="#ffffff"/>
+  <!-- spark -->
+  <path d="M90 30 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 Z" fill="#34c77b"/>
+</svg>

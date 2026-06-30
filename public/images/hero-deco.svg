@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="gemG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/>
+      <stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#34c77b" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#34c77b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft backdrop shapes -->
+  <rect x="40" y="80" width="520" height="560" rx="150" fill="#ece9fb"/>
+  <circle cx="110" cy="170" r="50" fill="#e3dfff"/>
+  <circle cx="500" cy="560" r="70" fill="#e3dfff"/>
+
+  <!-- floating reward gem (top-right) -->
+  <circle cx="500" cy="170" r="120" fill="url(#glow)"/>
+  <g transform="translate(500 170) scale(0.6)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#gemG)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+    <g stroke="#0f7a44" stroke-width="3" stroke-linejoin="round" fill="none" opacity="0.55">
+      <line x1="-110" y1="0" x2="110" y2="0"/>
+      <line x1="-70" y1="-44" x2="0" y2="8"/>
+      <line x1="70" y1="-44" x2="0" y2="8"/>
+      <line x1="0" y1="8" x2="0" y2="120"/>
+      <line x1="-110" y1="0" x2="0" y2="120"/>
+      <line x1="110" y1="0" x2="0" y2="120"/>
+    </g>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M120 470 l8 18 18 8 -18 8 -8 18 -8 -18 -18 -8 18 -8 Z" fill="#57c8e6"/>
+  <path d="M470 470 l6 13 13 6 -13 6 -6 13 -6 -13 -13 -6 13 -6 Z" fill="#34c77b"/>
+  <path d="M150 600 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

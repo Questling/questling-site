@@ -1,0 +1,58 @@
+---
+// All the <head> SEO tags live here so every page gets them right.
+import { SITE_TITLE, SITE_OG_IMAGE } from '../consts';
+import '../styles/global.css';
+
+interface Props {
+  title: string;        // unique per page
+  description: string;  // unique per page (shows under the title on Google)
+  image?: string;       // social-share preview image
+  /** 'website' for normal pages, 'article' for blog posts */
+  type?: 'website' | 'article';
+}
+
+const { title, description, image = SITE_OG_IMAGE, type = 'website' } = Astro.props;
+
+// Astro.site comes from `site:` in astro.config.mjs. Astro.url is the current page.
+// new URL(path, base) turns relative paths into absolute ones — social sites
+// require absolute image/URL paths to render a preview.
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image, Astro.site);
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Primary SEO -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+
+<!-- Favicon (the gem) -->
+<link rel="icon" type="image/png" href="/questling-icon.png" />
+<link rel="apple-touch-icon" href="/questling-icon.png" />
+<meta name="theme-color" content="#4f46c7" />
+
+<!-- Open Graph (Facebook, iMessage, Slack, LinkedIn previews) -->
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- Fonts: Inter, with preconnect so it loads fast -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+/>

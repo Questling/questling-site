@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+const articles = (await getCollection('articles')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const title = 'Articles — Screen-free parenting & getting kids outdoors | Questling';
+const description =
+  'Practical, no-guilt articles for parents on cutting screen time and getting kids outside and creative. From the team behind Questling.';
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="section">
+    <div class="container">
+      <header class="articles-head">
+        <span class="section__eyebrow">Articles</span>
+        <h1>Screen-free parenting, minus the guilt trip.</h1>
+        <p class="section__lead">
+          Real, useful writing about screen time, outdoor play, and raising curious
+          kids. Each piece stands on its own — Questling just happens to be one tool
+          that helps.
+        </p>
+      </header>
+
+      {articles.length === 0 ? (
+        <p>No articles yet — check back soon.</p>
+      ) : (
+        <div class="article-grid">
+          {articles.map((a) => (
+            <ArticleCard
+              href={`/articles/${a.id}`}
+              title={a.data.title}
+              description={a.data.description}
+              pubDate={a.data.pubDate}
+              heroImage={a.data.heroImage}
+              heroAlt={a.data.heroAlt}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .articles-head { max-width: 60ch; margin: 0 auto 2.6rem; text-align: center; }
+  .articles-head .section__lead { margin-inline: auto; }
+  /* Auto-fitting, centered grid: cards stay a comfortable width and stay balanced
+     whether there's 1 article or 12 — no lone card stranded on the left. */
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 360px));
+    justify-content: center;
+    gap: 1.4rem;
+  }
+</style>

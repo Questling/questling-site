@@ -1,0 +1,18 @@
+{
+  "name": "questling-site",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing + SEO website for Questling — screen-free adventures for kids.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.6.1",
+    "@astrojs/sitemap": "^3.3.0"
+  }
+}

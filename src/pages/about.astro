@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_EMAIL } from '../consts';
+
+const title = 'About Questling — Why we built it';
+const description =
+  'Questling started with a simple question: what if a kid\'s phone handed them an adventure instead of another video? Here\'s the story.';
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="section">
+    <div class="container container--narrow">
+      <span class="section__eyebrow">About</span>
+      <h1>We think kids deserve a better default than a screen.</h1>
+
+      <p class="lead">
+        Questling started with a small, stubborn question: <em>what if the phone in
+        the house handed a kid an adventure instead of another video?</em>
+      </p>
+
+      <p>
+        Like a lot of families, we watched "go play" quietly turn into "go watch."
+        Not because anyone was doing anything wrong — screens are just the easiest
+        thing in the room, designed by very smart people to stay that way. We didn't
+        want to fight that with guilt or lectures. We wanted to fight it with
+        something more fun.
+      </p>
+
+      <p>
+        So we built Questling around a simple loop: a parent picks a real-world
+        quest, checks it with their kid, they do it together, and the kid earns gems
+        to trade for rewards the parent chooses — and you can save photos of it all to
+        a memory journal. Outdoor and creative challenges — build a fort, find a stick
+        shaped like a sword, draw the backyard — small enough to start today, real
+        enough to feel like something.
+      </p>
+
+      <p>
+        Two beliefs are baked into every part of it:
+      </p>
+
+      <blockquote>
+        Parents stay in control. And the outdoors should feel exciting again — not
+        like a chore a kid is being forced into.
+      </blockquote>
+
+      <p>
+        That's why nothing happens without a parent's tap, and why every quest is
+        built to spark curiosity rather than nag. Questling isn't anti-screen. It's
+        pro-everything-else.
+      </p>
+
+      <p>
+        We're a small team building this carefully, in the open, one piece at a time.
+        Questling is <strong>coming soon to the App Store</strong> — and if you want a
+        nudge the day it lands, <a href="/#get-notified">leave your email</a> or just
+        <a href={`mailto:${CONTACT_EMAIL}`}>say hello</a>. We read everything.
+      </p>
+
+      <a class="btn btn--gem" href="/#get-notified">Get notified at launch</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container--narrow { max-width: 720px; }
+  h1 { margin-top: 0.6rem; }
+  .lead { font-size: 1.25rem; color: var(--ink); margin: 1rem 0 1.4rem; }
+  p { font-size: 1.06rem; color: var(--ink); }
+  blockquote {
+    margin: 1.6rem 0; padding: 0.8rem 1.4rem; border-left: 4px solid var(--gem);
+    background: var(--gem-tint); border-radius: 0 12px 12px 0; font-style: italic; font-size: 1.1rem;
+  }
+  .btn { margin-top: 1.4rem; }
+</style>

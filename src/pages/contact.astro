@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_EMAIL, PRIVACY_URL } from '../consts';
+
+const title = 'Contact Questling';
+const description =
+  'Questions, feedback, or press? Email the Questling team directly. We read everything.';
+const subject = encodeURIComponent('Hello Questling');
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="section">
+    <div class="container container--narrow center">
+      <span class="section__eyebrow">Contact</span>
+      <h1>Say hello.</h1>
+      <p class="lead">
+        Questions, feedback, an idea for a quest, or press — we'd genuinely love to
+        hear it. There's no contact form here on purpose; it just opens your email so
+        you reach a real person directly.
+      </p>
+
+      <a class="btn btn--gem contact-btn" href={`mailto:${CONTACT_EMAIL}?subject=${subject}`}>
+        Email {CONTACT_EMAIL}
+      </a>
+
+      <p class="contact-fallback">
+        Prefer to copy it? <strong>{CONTACT_EMAIL}</strong>
+      </p>
+
+      <hr class="rule" />
+
+      <p class="small">
+        Looking for how we handle data? Read our
+        <a href={PRIVACY_URL} target="_blank" rel="noopener">Privacy Policy</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container--narrow { max-width: 640px; }
+  h1 { margin-top: 0.6rem; }
+  .lead { font-size: 1.15rem; color: var(--ink-soft); margin: 1rem auto 1.8rem; max-width: 52ch; }
+  .contact-btn { font-size: 1.05rem; padding: 0.9rem 1.8rem; }
+  .contact-fallback { margin-top: 1.2rem; color: var(--ink-soft); }
+  .rule { border: 0; border-top: 1px solid var(--line); margin: 2.4rem auto; max-width: 200px; }
+  .small { font-size: 0.95rem; color: var(--ink-soft); }
+</style>

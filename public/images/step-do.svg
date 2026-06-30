@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t3">
+  <title id="t3">A child running outdoors to do the quest</title>
+  <rect width="120" height="120" rx="28" fill="#ece9fb"/>
+  <!-- sun -->
+  <circle cx="90" cy="34" r="13" fill="#cfc7f7"/>
+  <!-- ground -->
+  <path d="M14 92 q46 -12 92 0 v14 h-92 Z" fill="#1f9d5c" opacity="0.85"/>
+  <!-- tree -->
+  <rect x="24" y="70" width="7" height="24" rx="3" fill="#6b5e4a"/>
+  <circle cx="27.5" cy="64" r="15" fill="#2f8f57"/>
+  <!-- running child -->
+  <g transform="translate(58 44)">
+    <circle cx="0" cy="0" r="11" fill="#ffd9b8"/>
+    <path d="M-8 -8 q8 -10 16 0 q0 7 -8 7 q-8 0 -8 -7 Z" fill="#3a32a0"/>
+    <path d="M-2 10 q14 4 12 20 l-8 2 q-2 -10 -10 -12 Z" fill="#4f46c7"/>
+    <rect x="-12" y="30" width="10" height="20" rx="5" fill="#3a32a0" transform="rotate(20 -7 30)"/>
+    <rect x="4" y="30" width="10" height="20" rx="5" fill="#3a32a0" transform="rotate(-22 9 30)"/>
+  </g>
+</svg>
