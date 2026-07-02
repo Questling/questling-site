@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tb">
+  <title id="tb">A bored child with an idea sparking into a reward gem above their head</title>
+  <defs>
+    <linearGradient id="bGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#f0eefb"/>
+  <rect x="60" y="392" width="680" height="70" rx="20" fill="#e3dfff"/>
+
+  <!-- slouched, bored child -->
+  <g>
+    <rect x="196" y="300" width="70" height="96" rx="30" fill="#4f46c7"/>
+    <circle cx="231" cy="262" r="44" fill="#4f46c7"/>
+    <rect x="250" y="300" width="26" height="70" rx="13" fill="#3a32a0" transform="rotate(-22 250 300)"/>
+    <!-- bored dots -->
+    <circle cx="300" cy="250" r="5" fill="#cfc7f7"/>
+    <circle cx="322" cy="250" r="5" fill="#cfc7f7"/>
+    <circle cx="344" cy="250" r="5" fill="#cfc7f7"/>
+  </g>
+
+  <!-- idea thought bubble with a gem -->
+  <circle cx="430" cy="300" r="10" fill="#ffffff"/>
+  <circle cx="460" cy="270" r="15" fill="#ffffff"/>
+  <rect x="450" y="110" width="250" height="150" rx="42" fill="#ffffff" stroke="#e6e3f5"/>
+  <g transform="translate(575 185) scale(0.5)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#bGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+  <path d="M508 150 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 Z" fill="#57c8e6"/>
+
+  <path d="M150 150 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#34c77b"/>
+  <path d="M690 330 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>
