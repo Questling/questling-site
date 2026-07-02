@@ -15,6 +15,15 @@ export const SITE_OG_IMAGE = '/questling-icon.png';
 export const NAV_LINKS = [
   { label: 'How It Works', href: '/#how-it-works' },
   { label: 'Articles', href: '/articles' },
+  { label: 'Socials', href: '/socials' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
+];
+
+// Your social profiles. ⚠️ UPDATE these handles/URLs to your real ones if they
+// differ — I used "getquestling" as the assumed handle everywhere.
+export const SOCIAL_LINKS = [
+  { name: 'Instagram', handle: '@getquestling', url: 'https://instagram.com/getquestling', icon: 'instagram' },
+  { name: 'TikTok', handle: '@getquestling', url: 'https://tiktok.com/@getquestling', icon: 'tiktok' },
+  { name: 'YouTube', handle: '@getquestling', url: 'https://youtube.com/@getquestling', icon: 'youtube' },
 ];
