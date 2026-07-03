@@ -7,7 +7,7 @@ const articles = (await getCollection('articles')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const title = 'Articles — Screen-free parenting & getting kids outdoors | Questling';
+const title = 'Articles: Screen-free parenting & getting kids outdoors | Questling';
 const description =
   'Practical, no-guilt articles for parents on cutting screen time and getting kids outside and creative. From the team behind Questling.';
 ---
@@ -20,13 +20,13 @@ const description =
         <h1>Screen-free parenting, minus the guilt trip.</h1>
         <p class="section__lead">
           Real, useful writing about screen time, outdoor play, and raising curious
-          kids. Each piece stands on its own — Questling just happens to be one tool
+          kids. Each piece stands on its own, and Questling just happens to be one tool
           that helps.
         </p>
       </header>
 
       {articles.length === 0 ? (
-        <p>No articles yet — check back soon.</p>
+        <p>No articles yet. Check back soon.</p>
       ) : (
         <div class="article-grid">
           {articles.map((a) => (

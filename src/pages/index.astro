@@ -11,14 +11,14 @@ const articles = (await getCollection('articles')).sort(
 const featured = articles.slice(0, 3);
 
 const steps = [
-  { img: '/images/step-quest.svg',   title: 'You pick a quest', body: 'Browse the quest catalog and choose a real-world, screen-free challenge that fits your kid — outdoors or creative.' },
+  { img: '/images/step-quest.svg',   title: 'You pick a quest', body: 'Browse the quest catalog and choose a real-world, screen-free challenge that fits your kid, outdoors or creative.' },
   { img: '/images/step-approve.svg', title: 'Check it with your kid', body: 'Look it over together and make sure they\'re excited about it. Nothing goes ahead unless your kid is a yes.' },
-  { img: '/images/step-do.svg',      title: 'Do it together', body: 'Head out and actually do the quest — build, explore, make, move. Kid and parent, in the real world, no screen.' },
-  { img: '/images/step-gems.svg',    title: 'Earn gems', body: 'Finishing the quest earns gems. Gems unlock rewards you set — screen time, treats, a day out, your call.' },
+  { img: '/images/step-do.svg',      title: 'Do it together', body: 'Head out and actually do the quest. Build, explore, make, move. Kid and parent, in the real world, no screen.' },
+  { img: '/images/step-gems.svg',    title: 'Earn gems', body: 'Finishing the quest earns gems. Gems unlock rewards you set: screen time, treats, a day out, your call.' },
 ];
 ---
 
-<BaseLayout title={`${SITE_TITLE} — Screen-free adventures & real-world quests for kids`} description={SITE_DESCRIPTION}>
+<BaseLayout title={`${SITE_TITLE}: Screen-free adventures & real-world quests for kids`} description={SITE_DESCRIPTION}>
   <!-- ===================== HERO ===================== -->
   <section class="hero section">
     <div class="container hero__grid">
@@ -26,7 +26,7 @@ const steps = [
         <span class="badge"><span class="badge__dot"></span> Coming soon to the App Store</span>
         <h1>Screen-free adventures your kids will actually want.</h1>
         <p class="hero__lead">
-          Questling lives on <strong>your</strong> phone — never your kid's. You pick
+          Questling lives on <strong>your</strong> phone, never your kid's. You pick
           a real-world quest, do it together, and they earn gems to trade for rewards
           <strong>you</strong> choose. Your child stays screen-free. That's the whole point.
         </p>
@@ -62,10 +62,10 @@ const steps = [
   <section class="section section--alt">
     <div class="container center">
       <span class="section__eyebrow">Why Questling</span>
-      <h2>Childhood moved indoors — and it's not on you.</h2>
+      <h2>Childhood moved indoors, and it's not on you.</h2>
       <p class="section__lead">
         Kids today spend more time on screens and less outside than their parents did.
-        It's not because they're lazy, and it's not because you're not trying — the
+        It's not because they're lazy, and it's not because you're not trying. The
         screen is just the easiest thing in the room. Questling makes outside the
         easy choice instead.
       </p>
@@ -84,7 +84,7 @@ const steps = [
           <span class="stat__label">all it takes to hand them something better to do</span>
         </div>
       </div>
-      <p class="stat-note">Questling doesn't fight screens or pile on the guilt — it just makes the outdoors the more exciting offer.</p>
+      <p class="stat-note">Questling doesn't fight screens or pile on the guilt. It just makes the outdoors the more exciting offer.</p>
     </div>
   </section>
 
@@ -94,7 +94,7 @@ const steps = [
       <span class="section__eyebrow">How it works</span>
       <h2>Four simple steps. You stay in control the whole way.</h2>
       <p class="section__lead">
-        Everything happens on <strong>your</strong> phone — the parent's. Your kid
+        Everything happens on <strong>your</strong> phone, the parent's. Your kid
         never needs a device, an app, or an account. You stay the gatekeeper for
         every quest and reward.
       </p>
@@ -121,18 +121,18 @@ const steps = [
         <span class="section__eyebrow">Memory journal</span>
         <h2>Every adventure, saved in one place.</h2>
         <p>
-          Questling isn't only about the next quest — it's about everything your kid
+          Questling isn't only about the next quest. It's about everything your kid
           has already done. As they finish quests, you snap a photo and save it to a
           private <strong>memory journal</strong> right in the app.
         </p>
         <p>
           Months from now you won't have screen time to look back on. You'll have a
-          scrapbook of forts built, bugs found, and places explored — proof the
+          scrapbook of forts built, bugs found, and places explored. Proof the
           adventures added up to something real.
         </p>
         <ul class="memory__list">
           <li>Add photos to any completed quest</li>
-          <li>Private to your family — yours to keep</li>
+          <li>Private to your family, yours to keep</li>
           <li>Watch the collection grow over time</li>
         </ul>
       </div>
@@ -175,7 +175,7 @@ const steps = [
       <div class="signup card">
         <div class="signup__copy">
           <h2>Get notified when we launch</h2>
-          <p>We'll email you once — the day Questling hits the App Store. No spam, ever.</p>
+          <p>We'll email you once, the day Questling hits the App Store. No spam, ever.</p>
         </div>
         <!--
           STATIC SITE: there is no server to receive a form, so "subscribing"

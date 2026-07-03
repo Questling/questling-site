@@ -1,14 +1,14 @@
 ---
 title: "25 Screen-Free Things Kids Can Actually Do Outside"
-description: "A grab-bag of 25 real outdoor activities for kids — quick ones, creative ones, active ones — most needing zero prep. Bookmark it for the next \"I'm bored.\""
+description: "A grab-bag of 25 real outdoor activities for kids (quick ones, creative ones, active ones), most needing zero prep. Bookmark it for the next \"I'm bored.\""
 pubDate: 2026-07-01
 heroImage: "/images/article-outdoors.svg"
 heroAlt: "A sunny outdoor scene with a tree, a ball, a kite, and a reward gem"
 ---
 
-Sometimes you don't need a parenting philosophy — you just need a *list.* When your
-kid is climbing the walls and your brain is empty, here are 25 screen-free outdoor
-ideas you can pull from. Most need nothing but a backyard, a park, or a sidewalk,
+Sometimes you don't need a parenting philosophy. You just need a *list.* So when
+your kid is climbing the walls and your brain is empty, here are 25 screen-free
+outdoor ideas to pull from. Most need nothing but a backyard, a park, or a sidewalk,
 and no prep at all.
 
 Save this page. Next time you hear "there's nothing to do," open it and pick one.
@@ -26,8 +26,8 @@ Save this page. Next time you hear "there's nothing to do," open it and pick one
 6. **Sidewalk chalk mural.** A dragon, a hopscotch course, a "road" for toy cars.
 7. **Fairy or bug house.** Build a tiny house out of twigs, leaves, and stones.
 8. **Nature faces.** Arrange leaves, petals, and pebbles into a funny face.
-9. **Mud kitchen.** Old bowls + dirt + water = an afternoon. (Yes, it's messy. Yes,
-   it's worth it.)
+9. **Mud kitchen.** Old bowls, dirt, and water add up to a whole afternoon. (Yes,
+   it's messy. Yes, it's worth it.)
 10. **Leaf or bark rubbings.** Paper over a leaf, rub a crayon, watch it appear.
 
 ## Get-the-wiggles-out active ideas
@@ -49,7 +49,7 @@ Save this page. Next time you hear "there's nothing to do," open it and pick one
 
 ## Bigger adventures for a free afternoon
 
-21. **Backyard fort.** Blankets, chairs, sticks — whatever's around.
+21. **Backyard fort.** Blankets, chairs, sticks, whatever's lying around.
 22. **Plant something.** A seed in a cup, a flower in the yard. Check it daily.
 23. **Scavenger hunt.** Write a list of 10 things to find and send them off.
 24. **Picnic they plan.** Let them pack it and pick the spot.
@@ -59,10 +59,10 @@ Save this page. Next time you hear "there's nothing to do," open it and pick one
 
 Bookmarking a list is great, but on the days you can't even face *choosing*, that's
 exactly what [Questling](/) is for. It lives on your phone and hands you one
-ready-to-go, screen-free quest at a time — a lot like the ideas above — so instead
-of scrolling for inspiration, you just get a "here's today's" and head out. Your kid
+ready-to-go, screen-free quest at a time, a lot like the ideas above. So instead of
+scrolling for inspiration, you just get a "here's today's" and head out. Your kid
 does it and earns gems toward rewards you set.
 
-You genuinely don't need most of these to be elaborate. The magic isn't in the
-activity being impressive — it's in the going-outside-and-doing-*something*. Pick one,
-head out the door, and let the afternoon take it from there.
+You really don't need most of these to be elaborate. The magic isn't in the activity
+being impressive. It's in the going-outside-and-doing-*something*. Pick one, head out
+the door, and let the afternoon take it from there.
