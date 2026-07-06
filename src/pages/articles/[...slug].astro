@@ -25,7 +25,7 @@ const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
 const imageUrl = new URL(data.heroImage, Astro.site).toString();
 const logoUrl = new URL('/questling-icon.png', Astro.site).toString();
 
-// Schema.org "Article" — this is what can earn a rich result in Google.
+// Schema.org "Article", which is what can earn a rich result in Google.
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -103,8 +103,8 @@ const articleSchema = {
   .prose :global(li) { margin-bottom: 0.5rem; }
   .prose :global(a) { color: var(--primary); text-decoration: underline; }
   .prose :global(blockquote) {
-    margin: 1.6rem 0; padding: 0.6rem 1.3rem; border-left: 4px solid var(--gem);
-    background: var(--gem-tint); border-radius: 0 12px 12px 0; color: var(--ink); font-style: italic;
+    margin: 1.6rem 0; padding: 1rem 1.4rem;
+    background: var(--gem-tint); border-radius: 14px; color: var(--ink); font-style: italic;
   }
   .prose :global(strong) { color: var(--ink); }
 

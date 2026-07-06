@@ -11,7 +11,7 @@ const { href, title, description, pubDate, heroImage, heroAlt } = Astro.props;
 const dateLabel = pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'short', day: 'numeric',
 });
-// <time datetime> uses a machine-readable date — good for SEO + accessibility.
+// <time datetime> uses a machine-readable date, good for SEO + accessibility.
 const dateISO = pubDate.toISOString();
 ---
 

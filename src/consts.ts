@@ -21,7 +21,7 @@ export const NAV_LINKS = [
 ];
 
 // Your social profiles. ⚠️ UPDATE these handles/URLs to your real ones if they
-// differ — I used "getquestling" as the assumed handle everywhere.
+// differ. I used "getquestling" as the assumed handle everywhere.
 export const SOCIAL_LINKS = [
   { name: 'Instagram', handle: '@getquestling', url: 'https://instagram.com/getquestling', icon: 'instagram' },
   { name: 'TikTok', handle: '@getquestling', url: 'https://tiktok.com/@getquestling', icon: 'tiktok' },

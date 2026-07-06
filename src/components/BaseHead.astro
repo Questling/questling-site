@@ -14,7 +14,7 @@ interface Props {
 const { title, description, image = SITE_OG_IMAGE, type = 'website' } = Astro.props;
 
 // Astro.site comes from `site:` in astro.config.mjs. Astro.url is the current page.
-// new URL(path, base) turns relative paths into absolute ones — social sites
+// new URL(path, base) turns relative paths into absolute ones, and social sites
 // require absolute image/URL paths to render a preview.
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site);

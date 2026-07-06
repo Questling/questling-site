@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import AppShowcase from '../components/AppShowcase.astro';
 import { SITE_TITLE, SITE_DESCRIPTION, CONTACT_EMAIL } from '../consts';
 
 // Grab every article, newest first, keep the latest 3 for the home strip.
@@ -88,6 +89,9 @@ const steps = [
     </div>
   </section>
 
+  <!-- ===================== APP SHOWCASE (scroll-driven, flat phone) ===================== -->
+  <AppShowcase />
+
   <!-- ===================== HOW IT WORKS ===================== -->
   <section id="how-it-works" class="section">
     <div class="container center">
@@ -147,7 +151,7 @@ const steps = [
     <section class="section">
       <div class="container">
         <div class="strip-head center">
-          <span class="section__eyebrow">From the blog</span>
+          <span class="section__eyebrow">Latest articles</span>
           <h2>Ideas for raising kids in a screen-heavy world</h2>
         </div>
         <div class="article-grid">
@@ -181,7 +185,7 @@ const steps = [
           STATIC SITE: there is no server to receive a form, so "subscribing"
           opens the visitor's email app pre-filled to you (mailto:). When you're
           ready for a real list, swap this <form> for a Buttondown / Mailchimp /
-          ConvertKit embed — all of those are no-backend, copy-paste snippets.
+          ConvertKit embed. All of those are no-backend, copy-paste snippets.
           TODO: replace mailto with a real email-capture embed before launch.
         -->
         <form
@@ -251,7 +255,8 @@ const steps = [
   .signup__copy h2 { margin-bottom: 0.3rem; }
   .signup__copy p { margin: 0; }
   .signup__form { display: flex; gap: 0.6rem; flex: 1; min-width: min(280px, 100%); max-width: 460px; }
-  .signup__form input { flex: 1; padding: 0.8rem 1rem; border-radius: 999px; border: 1px solid var(--line); font: inherit; background: #fff; }
+  .signup__form input { flex: 1; padding: 0.8rem 1rem; border-radius: 999px; border: 1px solid var(--line); font: inherit; background: #fff; color: var(--ink); }
+  .signup__form input::placeholder { color: var(--ink-soft); opacity: 1; }
   .signup__form input:focus-visible { outline-color: var(--gem); }
 
   /* Responsive */
@@ -263,7 +268,7 @@ const steps = [
   }
 
   /* Hero: once two columns no longer fit comfortably (~760px), stack into one
-     clean CENTERED column — copy first, then the phone — so it never looks
+     clean CENTERED column (copy first, then the phone) so it never looks
      marooned at split-screen / tablet widths. */
   @media (max-width: 760px) {
     .hero__grid { grid-template-columns: 1fr; justify-items: center; text-align: center; }
@@ -277,7 +282,7 @@ const steps = [
   @media (max-width: 640px) {
     .stat-grid { grid-template-columns: 1fr; }
     .steps { grid-template-columns: 1fr; }
-    /* Signup stacks on phones — center it so it matches the other sections. */
+    /* Signup stacks on phones. Center it so it matches the other sections. */
     .signup { text-align: center; justify-content: center; }
     .signup__form { margin-inline: auto; }
   }

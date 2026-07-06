@@ -2,12 +2,16 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { CONTACT_EMAIL } from '../consts';
 
+// NOTE FOR THE DEVELOPER (not shown on the page): this policy is written to be
+// accurate and honest, but it is not legal advice. Before you rely on it for the
+// App Store or for EU/UK traffic, have a real lawyer read it. See COMPLIANCE.md.
+
 const title = 'Privacy Policy | Questling';
 const description =
-  'Questling has no accounts and no servers. Everything the app saves stays on your phone. Nothing is collected, tracked, sold, or shared.';
+  'Questling has no accounts and no servers. Everything the app saves stays on your phone, and this site sets no cookies. Nothing personal is collected, tracked, sold, or shared.';
 
 // The date the policy was last actually changed (not auto-updated).
-const lastUpdated = 'June 30, 2026';
+const lastUpdated = 'July 6, 2026';
 ---
 
 <BaseLayout title={title} description={description}>
@@ -16,52 +20,135 @@ const lastUpdated = 'June 30, 2026';
       <h1>Privacy Policy</h1>
       <p class="updated">Last updated {lastUpdated}</p>
 
-      <p>
-        I'm the developer of Questling, and I made it so your stuff stays with you.
-        The app has no accounts and no servers behind it, so nothing it saves ever
-        leaves your phone.
+      <p class="lead">
+        I'm the developer of Questling, and I built it so your family's stuff stays
+        with your family. This policy covers two things: the Questling app on your
+        phone, and this website at getquestling.com. Neither one collects personal
+        information about you or your child. Here is exactly how each one works.
       </p>
 
-      <h2>What's kept on your phone</h2>
-      <p>While you use the app, it remembers a few things, all stored on your own device:</p>
+      <h2>What the app keeps on your phone</h2>
+      <p>
+        The Questling app has no accounts, no login, and no servers behind it.
+        Everything it saves lives only on your own device:
+      </p>
       <ul>
-        <li>your gems, the quests you've finished, and the quest you're currently on</li>
-        <li>the rewards you add in the Shop</li>
-        <li>any photos you attach in the Memory Journal</li>
+        <li>your gems, the quests you've finished, and the quest you're on now</li>
+        <li>the rewards you set up in the Shop</li>
+        <li>any photos you add to the Memory Journal</li>
       </ul>
-      <p>I never see any of it. There's nowhere for the app to send it, so it doesn't.</p>
+      <p>
+        I never see any of it. There is nowhere for the app to send it, so it doesn't.
+        Because there is no server in the middle, nothing syncs between devices either.
+      </p>
 
       <h2>Camera and photos</h2>
       <p>
-        Questling only asks for your camera or photos so you can save a picture with a
-        quest as a keepsake. Those pictures stay on your phone and aren't uploaded anywhere.
+        Questling asks for camera or photo access for one reason: so you can save a
+        picture alongside a quest as a keepsake in the Memory Journal. Those photos
+        stay on your phone and are never uploaded anywhere.
+      </p>
+
+      <h2>This website</h2>
+      <p>
+        The website you're reading is a set of static files served over Cloudflare's
+        network. It has no backend, no database, and no accounts. The Contact page is
+        just a mailto link that opens your own email app, so anything you send reaches
+        me the way an ordinary email would. Two things are worth naming plainly:
+      </p>
+      <ul>
+        <li>
+          <strong>Analytics.</strong> I use Cloudflare Web Analytics to see rough
+          traffic, like how many people visited a page, which sites linked here, and
+          which countries visitors came from. It is privacy-first and cookieless. It
+          sets no cookies, stores nothing on your device, and builds no profile of you.
+          The numbers are aggregate and cannot identify you.
+        </li>
+        <li>
+          <strong>Fonts.</strong> The site loads the Inter typeface from Google Fonts.
+          To deliver the font, Google may receive your IP address as part of that
+          request. That is standard for Google Fonts, and it is the only third-party
+          resource this site loads.
+        </li>
+      </ul>
+      <p>
+        No cookies. No advertising trackers. No third-party analytics beyond the
+        cookieless counting above.
+      </p>
+
+      <h2>Cookies and consent banners</h2>
+      <p>
+        You will not see a cookie-consent banner on this site, and that is on purpose.
+        The site sets no cookies and stores nothing on your device, and the analytics I
+        use is cookieless. Consent banners exist to cover cookies and similar tracking
+        storage, so with none of that here, there is nothing to ask your permission for.
       </p>
 
       <h2>What I collect</h2>
       <p>
-        Nothing. No tracking, no analytics, no ads, no accounts. I don't collect, sell,
-        or share any of your information, and nobody else does either, because none of it
-        leaves your device.
+        To put it plainly: I do not collect any personal information about you or your
+        child, from the app or from this website. The app keeps its data on your device
+        and sends me nothing. The website's traffic numbers are aggregate and anonymous.
+        I do not sell, rent, or share personal information, because I don't have any to
+        begin with.
       </p>
+
+      <h2>Children</h2>
+      <p>
+        Questling is made for a parent to run on their own phone. Children do not create
+        accounts, do not log in, and do not use the app on a device of their own. Because
+        nothing is collected from anyone, no personal information is ever gathered from a
+        child. This is how I keep Questling in step with children's privacy rules like
+        COPPA: the surest way to protect a kid's data is to never collect it. Questling is
+        written and positioned for parents. If you're a parent with a question about any of
+        this, please email me and I'll answer honestly.
+      </p>
+
+      <div class="callout">
+        <span class="badge"><span class="badge__dot"></span>Coming soon</span>
+        <h2>Subscriptions</h2>
+        <p>
+          Questling is free today. I'm planning to add an optional paid subscription,
+          handled through Apple's in-app purchase system (likely using a service called
+          RevenueCat to manage it). When that goes live:
+        </p>
+        <ul>
+          <li>
+            Apple processes the payment. I never see your card number or billing details.
+          </li>
+          <li>
+            Apple and RevenueCat may handle a small amount of purchase and
+            anonymous-identifier data needed to run the subscription, such as whether a
+            purchase is currently active.
+          </li>
+        </ul>
+        <p>
+          This section is a placeholder, and none of it is active yet. When the
+          subscription launches, I'll update this policy with the specifics and change the
+          date at the top before it turns on.
+        </p>
+      </div>
 
       <h2>Deleting your data</h2>
       <p>
-        You can remove individual photos and rewards right in the app. If you want all of
-        it gone, deleting the app takes everything with it.
-      </p>
-
-      <h2>Kids</h2>
-      <p>
-        Questling is meant for a parent to run on their own phone. Since nothing is
-        collected and nothing leaves the device, no personal information is gathered from
-        anyone, kids included.
+        In the app, you can remove individual photos and rewards whenever you like. If you
+        want everything gone at once, deleting the app takes all of it off your device with
+        it. There is nothing stored anywhere else for me to delete, because there is nowhere
+        else. On the website there is no account to close and nothing personal to erase.
       </p>
 
       <h2>Changes</h2>
-      <p>If I change this policy, I'll update the date at the top.</p>
+      <p>
+        If I change this policy, I'll update the "Last updated" date at the top. If a change
+        is significant, like the subscription going live, I'll make the update clear rather
+        than quiet.
+      </p>
 
       <h2>Questions</h2>
-      <p>Email me at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+      <p>
+        Email me at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A real person,
+        me, reads it.
+      </p>
     </div>
   </section>
 </BaseLayout>
@@ -70,9 +157,22 @@ const lastUpdated = 'June 30, 2026';
   .container--narrow { max-width: 720px; }
   h1 { margin-bottom: 0.25rem; }
   .updated { color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 2rem; }
+  .lead { font-size: 1.15rem; color: var(--ink); margin-bottom: 1.5rem; }
   h2 { font-size: 1.3rem; margin-top: 2.2rem; }
   p, li { color: var(--ink); }
   ul { margin: 0 0 1.1rem; padding-left: 1.3rem; }
   li { margin-bottom: 0.5rem; }
   a { color: var(--primary); text-decoration: underline; }
+
+  /* The subscription notice is a full-bordered callout, not a live section, so it
+     reads as "not active yet" at a glance. */
+  .callout {
+    margin-top: 2.4rem;
+    padding: 1.4rem 1.6rem;
+    background: var(--primary-tint);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .callout h2 { margin-top: 0.7rem; }
+  .callout p:last-child { margin-bottom: 0; }
 </style>

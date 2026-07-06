@@ -1,0 +1,584 @@
+---
+// Scroll-driven app showcase, the visual centerpiece of the home page.
+//
+// How it works, in one breath: the section is very tall, and a full-viewport
+// "pin" inside it sticks to the top of the screen while you scroll through
+// that height. Scroll progress becomes one number (0 to 4), and that number
+// drives which screenshot is visible, which feature in the list is lit up,
+// and how full the progress rail is. Same number, all outputs, so they can
+// never drift out of sync. The phone stays flat and readable the whole time.
+//
+// No libraries. Plain CSS plus one small script below.
+const steps = [
+  {
+    img: '/images/app-quests.png',
+    alt: "The Questling quest catalog, a scrollable list of real-world quests to pick from",
+    label: 'Pick a quest',
+    copy: '200+ real-world quests. Choose one that fits your kid, or tap Surprise Me.',
+    icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.6 8.4l-1.9 4.6-4.6 1.9 1.9-4.6z" fill="currentColor" stroke="none"/></svg>',
+  },
+  {
+    img: '/images/app-age.png',
+    alt: "Questling's age picker, which tunes every quest to the kid's age",
+    label: 'Tuned by age',
+    copy: "Every quest is matched to your kid's age, so it's never too easy or too hard.",
+    icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h7M17.5 7H20M4 12h2.5M11 12h9M4 17h9.5M19.5 17H20"/><circle cx="14.5" cy="7" r="2.2"/><circle cx="8.5" cy="12" r="2.2"/><circle cx="16.5" cy="17" r="2.2"/></svg>',
+  },
+  {
+    img: '/images/app-quest.png',
+    alt: 'A quest in progress, with step-by-step instructions to do in the real world',
+    label: 'Do it together',
+    copy: 'Head out and do it step by step. Your kid never needs a screen.',
+    icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8.5" r="3.2"/><path d="M3.2 19.5c.7-3.2 3-5 5.8-5s5.1 1.8 5.8 5"/><circle cx="16.8" cy="9.5" r="2.5"/><path d="M16.4 14.7c2.4.3 4 1.9 4.6 4.8"/></svg>',
+  },
+  {
+    img: '/images/app-done.png',
+    alt: 'The done list in Questling, showing completed quests stacking up',
+    label: 'Watch it add up',
+    copy: 'Check things off and see the done list grow. Little wins stack up fast.',
+    icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4.5"/><path d="M8.3 12.3l2.5 2.5 5-5.3"/></svg>',
+  },
+  {
+    img: '/images/app-home.jpg',
+    alt: "The Questling home screen with the family's gem balance and memory journal",
+    label: 'Gems & memories',
+    copy: 'They earn gems for rewards you set, and every adventure is saved to a memory journal.',
+    icon: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.2 4.5h9.6l3.7 4.8L12 20 3.5 9.3z"/><path d="M3.5 9.3h17M7.2 4.5L12 9.3l4.8-4.8"/></svg>',
+  },
+];
+---
+
+<section id="app-showcase" class="sc" aria-label="See the Questling app in action">
+  <!-- Pinned scroll experience: desktop widths, motion allowed -->
+  <div class="sc__pin">
+    <header class="container sc__head center">
+      <span class="section__eyebrow">See it in action</span>
+      <h2>Watch a quest come to life.</h2>
+      <p class="section__lead">
+        Scroll to walk the whole loop, from picking a quest to gems earned.
+        The app lives on your phone. Your kid just gets the adventure.
+      </p>
+    </header>
+
+    <div class="container sc__grid">
+      <div class="sc__features">
+        <span class="sc__rail" aria-hidden="true"><span class="sc__railfill"></span></span>
+        {steps.map((s, i) => (
+          <button
+            type="button"
+            class:list={['sc-item', { 'is-active': i === 0 }]}
+            aria-current={i === 0 ? 'step' : undefined}
+          >
+            <span class="sc-item__icon" set:html={s.icon} />
+            <span class="sc-item__text">
+              <strong class="sc-item__label">{s.label}</strong>
+              <span class="sc-item__copy">{s.copy}</span>
+            </span>
+          </button>
+        ))}
+      </div>
+
+      <div class="sc__rig">
+        <span class="sc__shadow" aria-hidden="true"></span>
+        <div class="sc__phone">
+          <span class="sc__btn sc__btn--volup" aria-hidden="true"></span>
+          <span class="sc__btn sc__btn--voldn" aria-hidden="true"></span>
+          <span class="sc__btn sc__btn--power" aria-hidden="true"></span>
+          <div class="sc__screens">
+            {steps.map((s, i) => (
+              <img
+                class:list={[{ 'is-on': i === 0 }]}
+                src={s.img}
+                alt={s.alt}
+                width="1206"
+                height="2622"
+                loading={i === 0 ? 'eager' : 'lazy'}
+                decoding="async"
+              />
+            ))}
+            <span class="sc__glare" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fallback: small screens get a swipeable card row, reduced motion gets
+       a calm vertical stack. Same content, no pinning, no 3D. -->
+  <div class="sc__cards">
+    <header class="container sc__head center">
+      <span class="section__eyebrow">See it in action</span>
+      <h2>Watch a quest come to life.</h2>
+      <p class="section__lead">
+        The whole loop, from picking a quest to gems earned.
+        The app lives on your phone. Your kid just gets the adventure.
+      </p>
+    </header>
+    <ol class="sc__track" role="list" aria-label="App screens, swipe to browse">
+      {steps.map((s) => (
+        <li class="sc-slide card">
+          <span class="sc-slide__icon" set:html={s.icon} />
+          <span class="sc-slide__phone">
+            <img src={s.img} alt={s.alt} width="1206" height="2622" loading="lazy" decoding="async" />
+          </span>
+          <strong class="sc-slide__label">{s.label}</strong>
+          <span class="sc-slide__copy">{s.copy}</span>
+        </li>
+      ))}
+    </ol>
+    <div class="sc__dots">
+      {steps.map((s, i) => (
+        <button
+          type="button"
+          class:list={['sc__dot', { 'is-on': i === 0 }]}
+          aria-label={`Go to step ${i + 1}: ${s.label}`}
+        ></button>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  /* The section only becomes tall when the script marks it "live". Without
+     JS it stays one calm, static viewport, so nothing breaks. */
+  .sc { position: relative; }
+  /* Total scroll height = one full-viewport pin + a scroll budget per screen
+     change. There are 4 changes across the 5 screens; the per-change distance
+     below is the main dial for "how much do I scroll to walk the loop". Lower
+     it to make the section shorter, raise it to make each step linger. */
+  .sc--live { height: calc(100vh + 4 * 65vh); }
+
+  .sc__pin {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    /* The site header is sticky and ~69px tall; stay out from under it. */
+    padding-top: 80px;
+    padding-bottom: 1.5rem;
+  }
+
+  .sc__head { margin-bottom: clamp(1.2rem, 3vh, 2.5rem); }
+  .sc__head h2 { margin-bottom: 0.4rem; }
+
+  .sc__grid {
+    display: grid;
+    grid-template-columns: minmax(320px, 430px) 1fr;
+    align-items: center;
+    gap: clamp(2rem, 5vw, 4.5rem);
+  }
+
+  /* ---- Feature list + progress rail ---- */
+  .sc__features {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  /* The rail is a thin track behind the icons; a green fill grows down it
+     with scroll progress. Its exact geometry is measured by the script. */
+  .sc__rail {
+    position: absolute;
+    width: 3px;
+    border-radius: 2px;
+    background: var(--highlight);
+    overflow: hidden;
+    opacity: 0;
+    z-index: 0;
+  }
+  .sc--live .sc__rail { opacity: 1; }
+  .sc__railfill {
+    position: absolute;
+    inset: 0;
+    background: var(--gem);
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+
+  .sc-item {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    border: 0;
+    background: transparent;
+    border-radius: 18px;
+    font: inherit;
+    text-align: left;
+    color: inherit;
+    cursor: pointer;
+    transition: opacity 0.35s ease, background 0.35s ease,
+      box-shadow 0.35s ease, transform 0.35s ease;
+  }
+  .sc--live .sc-item { opacity: 0.5; }
+  .sc--live .sc-item.is-active {
+    opacity: 1;
+    background: var(--surface);
+    box-shadow: var(--shadow-md);
+    transform: translateX(6px);
+  }
+
+  .sc-item__icon {
+    flex: none;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--surface);
+    border: 1.5px solid var(--line);
+    color: var(--primary);
+    transition: background 0.35s ease, color 0.35s ease,
+      border-color 0.35s ease, transform 0.35s ease, box-shadow 0.35s ease;
+  }
+  .sc-item.is-active .sc-item__icon {
+    background: var(--gem);
+    border-color: var(--gem);
+    color: #fff;
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(31, 157, 92, 0.35);
+  }
+
+  .sc-item__label { display: block; font-weight: 700; font-size: 1.02rem; color: var(--ink); }
+  .sc-item__copy { display: block; margin-top: 2px; font-size: 0.92rem; line-height: 1.45; color: var(--ink-soft); }
+
+  /* ---- The phone ---- */
+  .sc__rig {
+    position: relative;
+    justify-self: center;
+  }
+  .sc__phone {
+    position: relative;
+    height: min(58vh, 560px);
+    /* Screen ratio (1206x2622) plus the 11px frame on every side. */
+    aspect-ratio: 1228 / 2644;
+    padding: 11px;
+    border-radius: 48px;
+    background: linear-gradient(160deg, #2a2a48, #1b1b32);
+    box-shadow: inset 0 1px 1.5px rgba(255, 255, 255, 0.14);
+  }
+  .sc__btn {
+    position: absolute;
+    width: 4px;
+    border-radius: 2px;
+    background: #3d3d62;
+  }
+  .sc__btn--volup { left: -4px; top: 18%; height: 40px; }
+  .sc__btn--voldn { left: -4px; top: calc(18% + 52px); height: 40px; }
+  .sc__btn--power { right: -4px; top: 24%; height: 64px; }
+
+  .sc__screens {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 37px;
+    overflow: hidden;
+    background: #0e0e20;
+  }
+  .sc__screens img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    /* Incoming screen settles from a slight zoom to fully sharp. */
+    transform: scale(1.04);
+    transition: opacity 0.45s ease, transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .sc__screens img.is-on { opacity: 1; transform: scale(1); }
+  .sc__glare {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(112deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0) 45%);
+  }
+  .sc__shadow {
+    position: absolute;
+    left: 50%;
+    bottom: -44px;
+    width: 76%;
+    height: 32px;
+    border-radius: 50%;
+    background: #20203a;
+    filter: blur(18px);
+    opacity: 0.32;
+    transform: translateX(-50%);
+  }
+
+  /* ---- Fallback cards (hidden until a media query below shows them) ---- */
+  .sc__cards { display: none; }
+
+  .sc__track {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .sc-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.35rem;
+    padding: 1.5rem 1.4rem;
+  }
+  /* These cards sit in a row you swipe; the global hover-lift feels wrong here. */
+  .sc-slide:hover { transform: none; box-shadow: var(--shadow-sm); }
+
+  .sc-slide__icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--gem-tint);
+    color: var(--gem-dark);
+    margin-bottom: 0.6rem;
+  }
+  .sc-slide__phone {
+    width: min(190px, 56vw);
+    padding: 7px;
+    border-radius: 30px;
+    background: #20203a;
+    margin-bottom: 0.9rem;
+  }
+  .sc-slide__phone img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1206 / 2622;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+  .sc-slide__label { font-size: 1.05rem; color: var(--ink); }
+  .sc-slide__copy { font-size: 0.92rem; color: var(--ink-soft); line-height: 1.5; }
+
+  .sc__dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .sc__dot {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    background: var(--highlight);
+    cursor: pointer;
+    transition: width 0.25s ease, background 0.25s ease;
+  }
+  .sc__dot.is-on { width: 22px; background: var(--gem); }
+
+  /* Short laptop screens: tighten so five features + phone still fit. */
+  @media (max-height: 700px) {
+    .sc__pin { padding-top: 72px; }
+    .sc__head .section__lead { display: none; }
+    .sc-item { padding: 0.55rem 1rem; }
+    .sc__phone { height: 52vh; }
+  }
+
+  /* Small screens: no pin, no 3D. A snapping, swipeable card row instead. */
+  @media (max-width: 900px) {
+    .sc { height: auto; }
+    .sc__pin { display: none; }
+    .sc__cards { display: block; padding-block: clamp(3rem, 7vw, 5.5rem); }
+    .sc__cards .sc__head { margin-bottom: 1.6rem; }
+
+    .sc__track {
+      display: flex;
+      gap: 1rem;
+      /* Side padding centers a snapped slide in the viewport. */
+      padding: 0.5rem calc((100% - min(320px, 82%)) / 2) 1.5rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .sc__track::-webkit-scrollbar { display: none; }
+    .sc-slide {
+      flex: 0 0 min(320px, 82%);
+      scroll-snap-align: center;
+    }
+  }
+
+  /* Reduced motion, any width: everything static, stacked, and quiet.
+     Global CSS already disables the transitions themselves. */
+  @media (prefers-reduced-motion: reduce) {
+    .sc { height: auto; }
+    .sc__pin { display: none; }
+    .sc__cards { display: block; padding-block: clamp(3rem, 7vw, 5.5rem); }
+    .sc__cards .sc__head { margin-bottom: 1.6rem; }
+
+    .sc__track {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.2rem;
+      padding: 0 1.2rem;
+      overflow: visible;
+      scroll-snap-type: none;
+    }
+    .sc-slide { width: 100%; max-width: 560px; flex: none; }
+    .sc__dots { display: none; }
+  }
+</style>
+
+<script>
+  // Everything below is progressive enhancement on top of static markup.
+  // Scroll position becomes one number, `goal` (0..4). `pos` chases it with a
+  // small easing factor each frame, which keeps the rail fill and step
+  // switches feeling damped rather than jittery. Every frame renders the
+  // synced outputs (screen, active feature, rail fill) from `pos`.
+  const root = document.getElementById('app-showcase');
+
+  if (root) {
+    const screens = [...root.querySelectorAll('.sc__screens img')];
+    const items = [...root.querySelectorAll('.sc-item')];
+    const features = root.querySelector('.sc__features');
+    const rail = root.querySelector('.sc__rail');
+    const fill = root.querySelector('.sc__railfill');
+
+    const LAST = Math.max(1, screens.length - 1);
+
+    const mqSmall = matchMedia('(max-width: 900px)');
+    const mqReduce = matchMedia('(prefers-reduced-motion: reduce)');
+
+    let live = false;
+    let goal = 0;
+    let pos = 0;
+    let raf = 0;
+    let active = 0;
+
+    const setActive = (idx: number) => {
+      active = idx;
+      screens.forEach((el, k) => el.classList.toggle('is-on', k === idx));
+      items.forEach((el, k) => {
+        el.classList.toggle('is-active', k === idx);
+        if (k === idx) el.setAttribute('aria-current', 'step');
+        else el.removeAttribute('aria-current');
+      });
+    };
+
+    const render = (p: number) => {
+      if (fill instanceof HTMLElement) {
+        fill.style.transform = `scaleY(${(p / LAST).toFixed(4)})`;
+      }
+      const idx = Math.round(p);
+      if (idx !== active) setActive(idx);
+    };
+
+    const readScroll = () => {
+      const r = root.getBoundingClientRect();
+      const span = r.height - window.innerHeight;
+      goal = span > 0 ? Math.max(0, Math.min(1, -r.top / span)) * LAST : 0;
+    };
+
+    const stepFrame = () => {
+      pos += (goal - pos) * 0.16;
+      if (Math.abs(goal - pos) < 0.001) {
+        pos = goal;
+        render(pos);
+        raf = 0;
+        return;
+      }
+      render(pos);
+      raf = requestAnimationFrame(stepFrame);
+    };
+    const kick = () => {
+      if (!raf) raf = requestAnimationFrame(stepFrame);
+    };
+
+    // The rail should hug the icon column exactly, so measure it from the
+    // first and last icons rather than guessing with magic numbers.
+    const measure = () => {
+      if (!(rail instanceof HTMLElement) || !(features instanceof HTMLElement)) return;
+      const firstIcon = items[0]?.querySelector('.sc-item__icon');
+      const lastIcon = items[items.length - 1]?.querySelector('.sc-item__icon');
+      if (!firstIcon || !lastIcon) return;
+      const box = features.getBoundingClientRect();
+      const first = firstIcon.getBoundingClientRect();
+      const last = lastIcon.getBoundingClientRect();
+      rail.style.left = (first.left - box.left + first.width / 2 - 1.5).toFixed(1) + 'px';
+      rail.style.top = (first.top - box.top + first.height / 2).toFixed(1) + 'px';
+      rail.style.height = (last.top - first.top).toFixed(1) + 'px';
+    };
+
+    const syncMode = () => {
+      live = !mqSmall.matches && !mqReduce.matches;
+      root.classList.toggle('sc--live', live);
+      if (live) {
+        measure();
+        readScroll();
+        pos = goal; // land exactly where the scroll already is, no tween
+        render(pos);
+      }
+    };
+
+    addEventListener('scroll', () => { if (live) { readScroll(); kick(); } }, { passive: true });
+    addEventListener('resize', () => { if (live) { measure(); readScroll(); kick(); } });
+    mqSmall.addEventListener('change', syncMode);
+    mqReduce.addEventListener('change', syncMode);
+    syncMode();
+
+    // Clicking a feature scrolls the page to that step's exact spot.
+    items.forEach((el, k) => {
+      el.addEventListener('click', () => {
+        if (!live) return;
+        const r = root.getBoundingClientRect();
+        const span = r.height - window.innerHeight;
+        window.scrollTo({
+          top: window.scrollY + r.top + (span * k) / LAST + 2,
+          behavior: 'smooth',
+        });
+      });
+    });
+
+    // Warm the image cache just before the section arrives, so a fast
+    // scroller never crossfades onto a still-loading screenshot.
+    const warm = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          screens.forEach((im) => {
+            new Image().src = im.getAttribute('src') || '';
+          });
+          warm.disconnect();
+        }
+      },
+      { rootMargin: '150% 0px' }
+    );
+    warm.observe(root);
+
+    // Mobile carousel: dots follow the swipe; tapping a dot jumps to a slide.
+    const track = root.querySelector('.sc__track');
+    const slides = [...root.querySelectorAll('.sc-slide')];
+    const dots = [...root.querySelectorAll('.sc__dot')];
+    if (track instanceof HTMLElement && slides.length && dots.length) {
+      const dotIO = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (!e.isIntersecting) return;
+            const k = slides.indexOf(e.target);
+            dots.forEach((d, j) => d.classList.toggle('is-on', j === k));
+          });
+        },
+        { root: track, threshold: 0.6 }
+      );
+      slides.forEach((s) => dotIO.observe(s));
+      dots.forEach((d, k) => {
+        d.addEventListener('click', () => {
+          const sl = slides[k] as HTMLElement;
+          track.scrollTo({
+            left: sl.offsetLeft - (track.clientWidth - sl.clientWidth) / 2,
+            behavior: mqReduce.matches ? 'auto' : 'smooth',
+          });
+        });
+      });
+    }
+  }
+</script>
