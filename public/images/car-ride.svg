@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tcar">
+  <title id="tcar">A friendly rounded car driving on a road, with a sun, a hill, and a reward gem</title>
+  <defs>
+    <linearGradient id="carGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eaf3ff"/>
+
+  <!-- sun -->
+  <circle cx="165" cy="118" r="46" fill="#cfc7f7"/>
+  <circle cx="165" cy="118" r="30" fill="#b9aef0"/>
+
+  <!-- cloud -->
+  <g fill="#dfe6ff">
+    <circle cx="565" cy="120" r="24"/>
+    <circle cx="600" cy="118" r="32"/>
+    <circle cx="636" cy="122" r="22"/>
+    <rect x="562" y="120" width="78" height="26" rx="13"/>
+  </g>
+
+  <!-- rolling hill -->
+  <path d="M20 372 Q250 322 480 352 T780 360 V440 H20 Z" fill="#8fd0a6"/>
+
+  <!-- road -->
+  <path d="M20 415 Q400 385 780 415 V480 H20 Z" fill="#c6cbe8"/>
+  <line x1="70" y1="452" x2="730" y2="452" stroke="#f2c879" stroke-width="9" stroke-linecap="round" stroke-dasharray="34 34"/>
+
+  <!-- speed lines -->
+  <g stroke="#cfc7f7" stroke-width="8" stroke-linecap="round">
+    <line x1="150" y1="352" x2="212" y2="352"/>
+    <line x1="132" y1="382" x2="206" y2="382"/>
+  </g>
+
+  <!-- car -->
+  <circle cx="340" cy="430" r="36" fill="#2a2a48"/>
+  <circle cx="340" cy="430" r="16" fill="#cfc7f7"/>
+  <circle cx="500" cy="430" r="36" fill="#2a2a48"/>
+  <circle cx="500" cy="430" r="16" fill="#cfc7f7"/>
+  <path d="M348 366 Q360 318 410 316 L452 316 Q496 320 506 366 Z" fill="#5b52d6"/>
+  <rect x="286" y="360" width="270" height="76" rx="30" fill="#4f46c7"/>
+  <rect x="298" y="402" width="244" height="17" rx="8" fill="#1f9d5c"/>
+  <path d="M366 358 L372 332 L420 332 L420 358 Z" fill="#eaf3ff"/>
+  <path d="M438 358 L438 332 L448 332 Q484 334 490 358 Z" fill="#eaf3ff"/>
+  <circle cx="540" cy="386" r="10" fill="#f2c879"/>
+  <rect x="404" y="384" width="34" height="8" rx="4" fill="#3a32a0"/>
+
+  <!-- gem reward -->
+  <g transform="translate(660 300) scale(0.4)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#carGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M250 150 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M604 298 l6 13 13 6 -13 6 -6 13 -6 -13 -13 -6 13 -6 Z" fill="#4f46c7"/>
+</svg>
