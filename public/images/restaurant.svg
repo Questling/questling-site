@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="trest">
+  <title id="trest">A child at a restaurant table drawing on a placemat, with a cup, a plate, and a reward gem</title>
+  <defs>
+    <linearGradient id="restGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eaf3ff"/>
+
+  <!-- chair back -->
+  <rect x="250" y="176" width="118" height="182" rx="22" fill="#cbd0ec"/>
+
+  <!-- child torso -->
+  <path d="M266 262 q43 -30 86 0 v96 h-86 Z" fill="#4f46c7"/>
+  <!-- head + hair -->
+  <circle cx="309" cy="214" r="40" fill="#f3c9a1"/>
+  <path d="M270 214 a39 39 0 0 1 78 0 q-39 -30 -78 0 Z" fill="#6b5e4a"/>
+  <circle cx="298" cy="216" r="4" fill="#20203a"/>
+  <circle cx="320" cy="216" r="4" fill="#20203a"/>
+  <path d="M300 230 q9 8 18 0" fill="none" stroke="#c98a63" stroke-width="4" stroke-linecap="round"/>
+  <!-- arm reaching to draw -->
+  <path d="M340 302 q48 24 96 26" fill="none" stroke="#f3c9a1" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- table -->
+  <rect x="150" y="322" width="520" height="46" rx="14" fill="#b9aef0"/>
+  <rect x="150" y="322" width="520" height="20" rx="10" fill="#cfc7f7"/>
+  <rect x="184" y="368" width="16" height="92" rx="6" fill="#b9aef0"/>
+  <rect x="620" y="368" width="16" height="92" rx="6" fill="#b9aef0"/>
+
+  <!-- placemat with a crayon drawing -->
+  <rect x="372" y="308" width="152" height="40" rx="6" fill="#ffffff"/>
+  <circle cx="410" cy="328" r="10" fill="#f2c879"/>
+  <path d="M436 340 q22 -22 46 -2" fill="none" stroke="#57c8e6" stroke-width="4" stroke-linecap="round"/>
+  <!-- crayon in hand -->
+  <rect x="428" y="320" width="30" height="9" rx="4" transform="rotate(22 443 324)" fill="#1f9d5c"/>
+
+  <!-- cup with straw -->
+  <rect x="236" y="300" width="34" height="48" rx="8" fill="#1f9d5c"/>
+  <line x1="262" y1="294" x2="256" y2="326" stroke="#f2c879" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- plate with a little food -->
+  <ellipse cx="592" cy="340" rx="30" ry="14" fill="#ffffff"/>
+  <ellipse cx="592" cy="337" rx="18" ry="8" fill="#eaf3ff"/>
+  <rect x="580" y="331" width="9" height="4" rx="2" fill="#f2c879"/>
+  <rect x="592" y="333" width="9" height="4" rx="2" fill="#f2c879"/>
+
+  <!-- crayons on the table -->
+  <rect x="326" y="352" width="34" height="9" rx="4" fill="#f2c879"/>
+  <rect x="334" y="366" width="34" height="9" rx="4" fill="#e88a9a"/>
+
+  <!-- gem reward -->
+  <g transform="translate(650 152) scale(0.4)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#restGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+  <!-- sparkles -->
+  <path d="M556 120 l7 15 15 7 -15 7 -7 15 -7 -15 -15 -7 15 -7 Z" fill="#f2c879"/>
+  <path d="M702 252 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>
