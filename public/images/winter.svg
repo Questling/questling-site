@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="twin">
+  <title id="twin">A child in a scarf building a snowman as snow falls, with a reward gem</title>
+  <defs>
+    <linearGradient id="winGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eaf3ff"/>
+
+  <!-- snowy ground -->
+  <path d="M20 406 q200 -40 380 -18 t380 -4 V480 H20 Z" fill="#ffffff"/>
+  <path d="M20 446 q220 -18 400 -6 t340 -2 V480 H20 Z" fill="#eef1ff"/>
+
+  <!-- snowman -->
+  <circle cx="538" cy="394" r="58" fill="#ffffff"/>
+  <circle cx="538" cy="320" r="42" fill="#ffffff"/>
+  <circle cx="538" cy="258" r="31" fill="#ffffff"/>
+  <path d="M500 318 l-42 -16 m42 16 l-40 6" stroke="#6b5e4a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M576 318 l42 -16 m-42 16 l40 6" stroke="#6b5e4a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <circle cx="538" cy="306" r="5" fill="#20203a"/>
+  <circle cx="538" cy="328" r="5" fill="#20203a"/>
+  <circle cx="529" cy="252" r="4" fill="#20203a"/>
+  <circle cx="547" cy="252" r="4" fill="#20203a"/>
+  <path d="M526 264 l20 5 -20 6 Z" fill="#f2c879"/>
+  <rect x="510" y="284" width="56" height="13" rx="6" fill="#4f46c7"/>
+  <rect x="554" y="292" width="13" height="40" rx="6" fill="#4f46c7"/>
+  <rect x="508" y="232" width="60" height="13" rx="5" fill="#1f9d5c"/>
+  <rect x="518" y="204" width="40" height="32" rx="10" fill="#1f9d5c"/>
+
+  <!-- kid -->
+  <ellipse cx="252" cy="394" rx="46" ry="54" fill="#5b52d6"/>
+  <rect x="228" y="332" width="50" height="16" rx="8" fill="#1f9d5c"/>
+  <circle cx="252" cy="302" r="34" fill="#f3c9a1"/>
+  <path d="M218 302 a34 34 0 0 1 68 0 q-34 -24 -68 0 Z" fill="#3a32a0"/>
+  <rect x="216" y="282" width="72" height="20" rx="10" fill="#e88a9a"/>
+  <circle cx="252" cy="278" r="8" fill="#f7d7df"/>
+  <circle cx="243" cy="302" r="4" fill="#20203a"/>
+  <circle cx="261" cy="302" r="4" fill="#20203a"/>
+  <path d="M244 314 q8 7 16 0" fill="none" stroke="#c98a63" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- arm reaching to a snowball -->
+  <path d="M232 364 q-22 22 -34 42" fill="none" stroke="#5b52d6" stroke-width="17" stroke-linecap="round"/>
+  <circle cx="196" cy="408" r="11" fill="#e88a9a"/>
+  <circle cx="176" cy="422" r="20" fill="#ffffff" stroke="#dfe6ff" stroke-width="3"/>
+
+  <!-- falling snow -->
+  <g fill="#cfd8f5">
+    <circle cx="140" cy="120" r="6"/>
+    <circle cx="330" cy="92" r="5"/>
+    <circle cx="430" cy="150" r="6"/>
+    <circle cx="662" cy="120" r="5"/>
+    <circle cx="380" cy="232" r="5"/>
+    <circle cx="120" cy="250" r="5"/>
+    <circle cx="700" cy="262" r="6"/>
+  </g>
+
+  <!-- gem -->
+  <g transform="translate(676 158) scale(0.4)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#winGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+  <!-- sparkles -->
+  <path d="M258 148 l6 13 13 6 -13 6 -6 13 -6 -13 -13 -6 13 -6 Z" fill="#f2c879"/>
+  <path d="M700 350 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#57c8e6"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tbor">
+  <title id="tbor">A thoughtful child looking up as an idea sparks into a reward gem in a thought cloud</title>
+  <defs>
+    <linearGradient id="borGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#f0eefb"/>
+  <rect x="60" y="392" width="680" height="70" rx="20" fill="#e3dfff"/>
+
+  <!-- kid, thinking -->
+  <path d="M188 424 q60 -102 120 0 Z" fill="#4f46c7"/>
+  <circle cx="248" cy="302" r="44" fill="#f3c9a1"/>
+  <path d="M204 298 a44 44 0 0 1 88 0 q-44 -30 -88 0 Z" fill="#3a32a0"/>
+  <circle cx="238" cy="292" r="4.5" fill="#20203a"/>
+  <circle cx="262" cy="292" r="4.5" fill="#20203a"/>
+  <path d="M240 314 q9 8 18 0" fill="none" stroke="#c98a63" stroke-width="4" stroke-linecap="round"/>
+  <!-- arm up, hand under chin -->
+  <path d="M300 402 q8 -42 -30 -68" fill="none" stroke="#4f46c7" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="272" cy="334" r="13" fill="#f3c9a1"/>
+
+  <!-- thought bubbles rising -->
+  <circle cx="322" cy="252" r="9" fill="#dfe6ff"/>
+  <circle cx="350" cy="224" r="13" fill="#dfe6ff"/>
+  <!-- thought cloud -->
+  <g fill="#dfe6ff">
+    <circle cx="474" cy="180" r="46"/>
+    <circle cx="534" cy="162" r="56"/>
+    <circle cx="598" cy="184" r="44"/>
+    <circle cx="540" cy="216" r="46"/>
+    <rect x="470" y="152" width="150" height="80" rx="40"/>
+  </g>
+  <!-- idea rays -->
+  <g stroke="#f2c879" stroke-width="7" stroke-linecap="round">
+    <line x1="540" y1="118" x2="540" y2="136"/>
+    <line x1="600" y1="150" x2="616" y2="140"/>
+    <line x1="480" y1="150" x2="464" y2="140"/>
+    <line x1="512" y1="126" x2="504" y2="138"/>
+    <line x1="568" y1="126" x2="576" y2="138"/>
+  </g>
+  <!-- gem inside the cloud -->
+  <g transform="translate(540 190) scale(0.34)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#borGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M664 286 l6 13 13 6 -13 6 -6 13 -6 -13 -13 -6 13 -6 Z" fill="#f2c879"/>
+  <path d="M408 332 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

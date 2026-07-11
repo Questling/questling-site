@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tcho">
+  <title id="tcho">A cheerful child sweeping with a broom as a reward gem floats up</title>
+  <defs>
+    <linearGradient id="choGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eaf3ff"/>
+  <rect x="60" y="392" width="680" height="70" rx="20" fill="#e3dfff"/>
+
+  <!-- kid -->
+  <ellipse cx="302" cy="364" rx="48" ry="64" fill="#4f46c7"/>
+  <circle cx="302" cy="256" r="42" fill="#f3c9a1"/>
+  <path d="M258 252 a44 44 0 0 1 88 0 q-44 -30 -88 0 Z" fill="#6b5e4a"/>
+  <circle cx="290" cy="256" r="4.5" fill="#20203a"/>
+  <circle cx="314" cy="256" r="4.5" fill="#20203a"/>
+  <path d="M292 272 q10 9 20 0" fill="none" stroke="#c98a63" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- broom handle -->
+  <line x1="356" y1="312" x2="470" y2="430" stroke="#d3b48c" stroke-width="10" stroke-linecap="round"/>
+  <!-- broom head -->
+  <g transform="rotate(46 476 452)">
+    <rect x="452" y="430" width="48" height="16" rx="6" fill="#3a32a0"/>
+    <path d="M452 446 h48 l-6 40 q-18 8 -36 0 Z" fill="#f2c879"/>
+    <g stroke="#e0b45f" stroke-width="2.5" stroke-linecap="round">
+      <line x1="464" y1="450" x2="462" y2="482"/>
+      <line x1="476" y1="450" x2="476" y2="484"/>
+      <line x1="488" y1="450" x2="490" y2="482"/>
+    </g>
+  </g>
+
+  <!-- arms holding the handle -->
+  <path d="M332 322 q22 -8 40 2" fill="none" stroke="#4f46c7" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="372" cy="326" r="11" fill="#f3c9a1"/>
+  <path d="M340 356 q40 0 66 22" fill="none" stroke="#5b52d6" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="406" cy="380" r="11" fill="#f3c9a1"/>
+
+  <!-- dust being swept -->
+  <g fill="#cbd0ec">
+    <circle cx="406" cy="452" r="7"/>
+    <circle cx="422" cy="456" r="5"/>
+    <circle cx="390" cy="456" r="5"/>
+  </g>
+
+  <!-- gem floating up + trail -->
+  <path d="M300 176 v34" stroke="#cfc7f7" stroke-width="4" stroke-dasharray="2 11" stroke-linecap="round"/>
+  <g transform="translate(300 138) scale(0.4)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#choGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M224 176 l6 13 13 6 -13 6 -6 13 -6 -13 -13 -6 13 -6 Z" fill="#f2c879"/>
+  <path d="M372 166 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#34c77b"/>
+</svg>
