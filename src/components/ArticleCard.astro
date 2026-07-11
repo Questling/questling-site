@@ -8,8 +8,11 @@ interface Props {
   heroAlt: string;
 }
 const { href, title, description, pubDate, heroImage, heroAlt } = Astro.props;
+// Format in UTC so the displayed day matches the frontmatter pubDate exactly.
+// pubDate is a date-only value (UTC midnight); without this it can render a day
+// early on build machines behind UTC.
 const dateLabel = pubDate.toLocaleDateString('en-US', {
-  year: 'numeric', month: 'short', day: 'numeric',
+  year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC',
 });
 // <time datetime> uses a machine-readable date, good for SEO + accessibility.
 const dateISO = pubDate.toISOString();

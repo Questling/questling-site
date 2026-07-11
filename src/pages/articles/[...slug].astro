@@ -16,8 +16,10 @@ const { article } = Astro.props;
 const { data } = article;
 const { Content } = await render(article);
 
+// Format in UTC so the displayed day matches the frontmatter pubDate exactly
+// (pubDate is UTC midnight; local formatting can shift it a day earlier).
 const dateLabel = data.pubDate.toLocaleDateString('en-US', {
-  year: 'numeric', month: 'long', day: 'numeric',
+  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
 });
 
 // Absolute URLs for the structured data (Google wants absolute paths).
