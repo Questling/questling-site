@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tpre">
+  <title id="tpre">Crayons, a drawing, and a reward gem in a bright scene</title>
+  <defs><linearGradient id="preGem" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/></linearGradient></defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- paper with scribbles -->
+  <g transform="rotate(-6 330 255)">
+    <rect x="220" y="120" width="220" height="270" rx="10" fill="#ffffff"/>
+    <path d="M250 200 q40 -50 80 0 t80 0" fill="none" stroke="#f2c879" stroke-width="10" stroke-linecap="round"/>
+    <path d="M250 262 q40 -50 80 0 t80 0" fill="none" stroke="#5dcaa5" stroke-width="10" stroke-linecap="round"/>
+    <path d="M250 324 q40 -50 80 0 t80 0" fill="none" stroke="#8f88e6" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- crayons -->
+  <g transform="rotate(14 560 344)">
+    <g transform="translate(500 300)"><polygon points="0,-16 0,16 -18,0" fill="#c98a3f"/><rect x="0" y="-16" width="120" height="32" rx="6" fill="#f2c879"/></g>
+    <g transform="translate(500 344)"><polygon points="0,-16 0,16 -18,0" fill="#2f9e6b"/><rect x="0" y="-16" width="120" height="32" rx="6" fill="#5dcaa5"/></g>
+    <g transform="translate(500 388)"><polygon points="0,-16 0,16 -18,0" fill="#3a32a0"/><rect x="0" y="-16" width="120" height="32" rx="6" fill="#8f88e6"/></g>
+  </g>
+
+  <!-- gem -->
+  <g transform="translate(662 205) scale(0.4)"><polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#preGem)"/><polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/></g>
+
+  <!-- sparkles -->
+  <path d="M150 155 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M138 330 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

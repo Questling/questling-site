@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="topl">
+  <title id="topl">A leafy tree with a sun, grass, and a reward gem</title>
+  <defs><linearGradient id="oplGem" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/></linearGradient></defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- sun -->
+  <g stroke="#f2c879" stroke-width="8" stroke-linecap="round">
+    <line x1="628" y1="82" x2="628" y2="108"/><line x1="540" y1="162" x2="566" y2="162"/><line x1="690" y1="162" x2="716" y2="162"/><line x1="566" y1="100" x2="584" y2="118"/><line x1="690" y1="100" x2="672" y2="118"/>
+  </g>
+  <circle cx="628" cy="162" r="46" fill="#f7d99a"/><circle cx="628" cy="162" r="30" fill="#f2c879"/>
+
+  <!-- grass -->
+  <path d="M20 402 q380 -30 760 0 V480 H20 Z" fill="#8fd0a6"/>
+  <path d="M20 436 q400 -22 760 0 V480 H20 Z" fill="#5fb886"/>
+
+  <!-- tree -->
+  <g transform="translate(268 300)">
+    <rect x="-17" y="20" width="34" height="112" rx="4" fill="#c98a3f"/>
+    <circle cx="0" cy="-34" r="72" fill="#34c77b"/>
+    <circle cx="-54" cy="8" r="50" fill="#5dcaa5"/>
+    <circle cx="54" cy="8" r="50" fill="#5dcaa5"/>
+    <circle cx="0" cy="18" r="44" fill="#34c77b"/>
+  </g>
+
+  <!-- gem -->
+  <g transform="translate(628 350) scale(0.38)"><polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#oplGem)"/><polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/></g>
+
+  <!-- sparkles -->
+  <path d="M450 130 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M150 170 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

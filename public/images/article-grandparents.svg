@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tgra">
+  <title id="tgra">A large heart with two small hearts and a reward gem</title>
+  <defs><linearGradient id="graGem" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/></linearGradient></defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- big heart -->
+  <g transform="translate(370 240)">
+    <path d="M0 96 C-92 30 -140 -14 -140 -66 C-140 -108 -96 -128 -52 -102 C-26 -86 0 -54 0 -40 C0 -54 26 -86 52 -102 C96 -128 140 -108 140 -66 C140 -14 92 30 0 96 Z" fill="#e8749b"/>
+  </g>
+
+  <!-- small hearts -->
+  <g transform="translate(180 360) scale(0.32)"><path d="M0 96 C-92 30 -140 -14 -140 -66 C-140 -108 -96 -128 -52 -102 C-26 -86 0 -54 0 -40 C0 -54 26 -86 52 -102 C96 -128 140 -108 140 -66 C140 -14 92 30 0 96 Z" fill="#f2c879"/></g>
+  <g transform="translate(600 360) scale(0.32)"><path d="M0 96 C-92 30 -140 -14 -140 -66 C-140 -108 -96 -128 -52 -102 C-26 -86 0 -54 0 -40 C0 -54 26 -86 52 -102 C96 -128 140 -108 140 -66 C140 -14 92 30 0 96 Z" fill="#5dcaa5"/></g>
+
+  <!-- gem -->
+  <g transform="translate(640 180) scale(0.36)"><polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#graGem)"/><polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/></g>
+
+  <!-- sparkles -->
+  <path d="M150 170 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M540 130 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>
