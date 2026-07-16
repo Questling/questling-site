@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="ttrav">
+  <title id="ttrav">A friendly airplane above the clouds with a suitcase and a reward gem</title>
+  <defs>
+    <linearGradient id="travGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- clouds -->
+  <g fill="#dcd9f4">
+    <ellipse cx="160" cy="185" rx="70" ry="34"/>
+    <ellipse cx="210" cy="168" rx="52" ry="40"/>
+    <ellipse cx="640" cy="135" rx="80" ry="36"/>
+    <ellipse cx="592" cy="124" rx="48" ry="34"/>
+  </g>
+  <g fill="#c9c4ee">
+    <ellipse cx="250" cy="415" rx="120" ry="46"/>
+    <ellipse cx="560" cy="425" rx="130" ry="50"/>
+  </g>
+
+  <!-- airplane -->
+  <g transform="rotate(-12 430 250)">
+    <path d="M290 250 l-48 -54 26 -6 60 42 Z" fill="#3a32a0"/>
+    <ellipse cx="430" cy="250" rx="150" ry="46" fill="#4f46c7"/>
+    <path d="M440 254 l72 60 -30 6 -92 -42 Z" fill="#6b63d6"/>
+    <circle cx="566" cy="250" r="16" fill="#8f88e6"/>
+    <circle cx="380" cy="246" r="10" fill="#cfe0ff"/>
+    <circle cx="420" cy="246" r="10" fill="#cfe0ff"/>
+    <circle cx="460" cy="246" r="10" fill="#cfe0ff"/>
+  </g>
+
+  <!-- suitcase -->
+  <g transform="translate(155 335)">
+    <rect x="-46" y="-30" width="92" height="72" rx="12" fill="#f2c879"/>
+    <rect x="-46" y="-4" width="92" height="9" fill="#e2b45f"/>
+    <path d="M-18 -30 v-14 a18 10 0 0 1 36 0 v14" fill="none" stroke="#d3a24f" stroke-width="7"/>
+  </g>
+
+  <!-- gem -->
+  <g transform="translate(650 365) scale(0.42)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#travGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M330 105 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M712 225 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#34c77b"/>
+  <path d="M108 300 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>
