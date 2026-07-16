@@ -1,0 +1,16 @@
+# Security headers for every response. Cloudflare Pages reads this file at the
+# edge and applies it site-wide. (Astro copies public/ into dist/ untouched.)
+#
+# Note on 'unsafe-inline': Astro inlines its own small script/style blocks
+# (the nav toggle, the homepage showcase, scoped CSS). This site is fully
+# static with no user input reflected into pages, so inline is a low risk here.
+# A stricter hash-based CSP is a future hardening step, not a fix needed today.
+/*
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; form-action 'self' mailto:; upgrade-insecure-requests
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+  X-XSS-Protection: 1; mode=block
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-site
