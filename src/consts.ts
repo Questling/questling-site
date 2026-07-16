@@ -2,7 +2,7 @@
 export const SITE_TITLE = 'Questling';
 export const SITE_TAGLINE = 'Screen-free adventures.';
 export const SITE_DESCRIPTION =
-  'Questling lives on your phone and turns screen time into real-world quests for your kids. You approve the challenges, they earn gems, you pick the rewards. Your child stays device-free. Coming soon to the App Store.';
+  'Questling lives on your phone and turns screen time into real-world quests for your kids. You approve the challenges, they earn gems, you pick the rewards. Your child stays device-free. Free to play in your browser now.';
 
 export const CONTACT_EMAIL = 'hello@getquestling.com';
 export const PRIVACY_URL = '/privacy';
