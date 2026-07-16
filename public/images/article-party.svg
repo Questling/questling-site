@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tparty">
+  <title id="tparty">A birthday cake with a candle, a balloon, and a reward gem</title>
+  <defs>
+    <linearGradient id="partyGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- confetti -->
+  <rect x="150" y="90" width="16" height="16" rx="3" fill="#f2c879" transform="rotate(20 158 98)"/>
+  <rect x="620" y="110" width="16" height="16" rx="3" fill="#34c77b" transform="rotate(-15 628 118)"/>
+  <circle cx="540" cy="88" r="8" fill="#4f46c7"/>
+  <circle cx="250" cy="150" r="7" fill="#34c77b"/>
+
+  <!-- balloon -->
+  <g>
+    <ellipse cx="200" cy="200" rx="54" ry="64" fill="#4f46c7"/>
+    <ellipse cx="182" cy="180" rx="14" ry="20" fill="#6b63d6"/>
+    <path d="M200 264 l-8 12 h16 Z" fill="#4f46c7"/>
+    <path d="M200 276 q22 40 -6 82" fill="none" stroke="#8f88e6" stroke-width="4"/>
+  </g>
+
+  <!-- cake -->
+  <ellipse cx="430" cy="416" rx="160" ry="22" fill="#cfc7f7"/>
+  <rect x="320" y="336" width="220" height="84" rx="16" fill="#b9aef0"/>
+  <path d="M320 352 q22 24 44 0 t44 0 t44 0 t44 0 t44 0 V336 H320 Z" fill="#dcd6f5"/>
+  <rect x="352" y="286" width="156" height="58" rx="14" fill="#cfc7f7"/>
+  <!-- candle -->
+  <rect x="422" y="238" width="16" height="50" rx="4" fill="#5dcaa5"/>
+  <rect x="422" y="238" width="16" height="16" fill="#9fe1cb"/>
+  <path d="M430 208 q14 16 0 30 q-14 -14 0 -30 Z" fill="#f2c879"/>
+
+  <!-- gem -->
+  <g transform="translate(646 384) scale(0.38)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#partyGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M120 320 l6 13 13 6 -13 6 -6 13 -6 -13 -13 -6 13 -6 Z" fill="#f2c879"/>
+  <path d="M664 210 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

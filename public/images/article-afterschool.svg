@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="tafter">
+  <title id="tafter">A backpack and an apple beside a jump rope and a reward gem</title>
+  <defs>
+    <linearGradient id="afterGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- backpack -->
+  <g>
+    <rect x="252" y="212" width="176" height="176" rx="30" fill="#4f46c7"/>
+    <path d="M252 280 v-38 a30 30 0 0 1 30 -30 h116 a30 30 0 0 1 30 30 v38 Z" fill="#6b63d6"/>
+    <rect x="298" y="300" width="84" height="80" rx="16" fill="#6b63d6"/>
+    <rect x="326" y="332" width="28" height="12" rx="6" fill="#eef1ff"/>
+    <path d="M322 214 a18 18 0 0 1 36 0" fill="none" stroke="#3a33a0" stroke-width="12"/>
+  </g>
+
+  <!-- apple -->
+  <g transform="translate(610 300)">
+    <circle cx="0" cy="12" r="52" fill="#34c77b"/>
+    <circle cx="-18" cy="4" r="30" fill="#5fb886"/>
+    <rect x="-4" y="-44" width="8" height="24" rx="4" fill="#a06a3c"/>
+    <path d="M4 -36 q28 -14 40 4 q-28 10 -40 -4 Z" fill="#5be29a"/>
+  </g>
+
+  <!-- jump rope -->
+  <path d="M150 430 q80 -64 160 0 t160 0" fill="none" stroke="#f2c879" stroke-width="12" stroke-linecap="round"/>
+  <rect x="138" y="418" width="18" height="46" rx="9" fill="#4f46c7"/>
+  <rect x="474" y="418" width="18" height="46" rx="9" fill="#4f46c7"/>
+
+  <!-- gem -->
+  <g transform="translate(636 392) scale(0.38)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#afterGem)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M470 130 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M150 170 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+  <path d="M690 180 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#34c77b"/>
+</svg>
