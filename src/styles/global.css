@@ -146,6 +146,9 @@ p  { margin: 0 0 1rem; color: var(--ink-soft); text-wrap: pretty; }
 .btn--ghost { background: var(--surface); color: var(--primary); border-color: var(--line); box-shadow: var(--shadow-sm); }
 .btn--ghost:hover { border-color: var(--primary); }
 
+/* Larger call-to-action, e.g. the hero's "try the app" button. */
+.btn--lg { font-size: 1.1rem; padding: 1rem 1.9rem; }
+
 /* ---- 5. Cards ---- */
 .card {
   background: var(--surface);
