@@ -1,0 +1,229 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import {
+  QUESTS,
+  slug,
+  gemsFor,
+  categoryOf,
+  categoryLabel,
+  whyFor,
+  timeEstimate,
+  faqFor,
+  relatedArticleSlugs,
+  relatedQuests,
+} from '../../data/quest-utils';
+import { getCollection } from 'astro:content';
+
+// One static HTML page per quest.
+export async function getStaticPaths() {
+  return QUESTS.map((quest) => ({ params: { slug: slug(quest) }, props: { quest } }));
+}
+
+const { quest } = Astro.props;
+const gems = gemsFor(quest);
+const category = categoryOf(quest);
+const faqs = faqFor(quest);
+const related = relatedQuests(quest);
+const needsNothing = quest.materials.trim().toLowerCase().startsWith('none');
+
+// Pull the related articles' real titles for the interlink cards.
+const allArticles = await getCollection('articles');
+const relArticleSlugs = relatedArticleSlugs(quest);
+const relArticles = relArticleSlugs
+  .map((s) => allArticles.find((a) => a.id === s))
+  .filter((a): a is (typeof allArticles)[number] => Boolean(a));
+
+const appUrl = 'https://app.getquestling.com';
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+
+// A one-line meta description built from the quest.
+const metaDesc =
+  `${quest.title}: a screen-free, real-world quest for kids around ${quest.ageRange}. ` +
+  `Steps, what you need, and how to earn rewards. Free with Questling.`;
+
+// --- Structured data: HowTo (the steps) + FAQPage + Breadcrumbs ---
+const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: quest.title,
+  description: quest.details,
+  totalTime: 'PT30M',
+  ...(needsNothing
+    ? {}
+    : { supply: quest.materials.split(/,| and /).map((s) => ({ '@type': 'HowToSupply', name: s.trim() })) }),
+  step: quest.steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s, text: s })),
+};
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).toString() },
+    { '@type': 'ListItem', position: 2, name: 'Quests', item: new URL('/quests', Astro.site).toString() },
+    { '@type': 'ListItem', position: 3, name: quest.title, item: pageUrl },
+  ],
+};
+---
+
+<BaseLayout title={`${quest.title} | Screen-Free Quest for Kids | ${SITE_TITLE}`} description={metaDesc}>
+  <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <article class="quest">
+    <div class="container container--narrow">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a> <span>/</span> <a href="/quests">Quests</a> <span>/</span>
+        <span aria-current="page">{quest.title}</span>
+      </nav>
+
+      <header class="quest__head">
+        <div class="quest__tags">
+          <span class="pill pill--cat">{categoryLabel(category)}</span>
+          <span class="pill">Ages {quest.ageRange}</span>
+          <span class="pill pill--gem">◆ {gems} gems</span>
+        </div>
+        <h1>{quest.title}</h1>
+        <p class="quest__lead">{quest.details}</p>
+      </header>
+
+      <!-- Functional quest: what you need + the steps to actually do it -->
+      <div class="card quest__do">
+        <div class="quest__meta">
+          <div><strong>What you need</strong><span>{needsNothing ? 'Nothing, just what you have' : quest.materials}</span></div>
+          <div><strong>Time</strong><span>{timeEstimate(quest)}</span></div>
+          <div><strong>Best for</strong><span>Ages {quest.ageRange}</span></div>
+        </div>
+        {quest.parentPrep && quest.parentPrep.trim() && (
+          <p class="quest__prep"><strong>Before you start:</strong> {quest.parentPrep}</p>
+        )}
+        <h2>How to do it</h2>
+        <ol class="quest__steps">
+          {quest.steps.map((s) => <li>{s}</li>)}
+        </ol>
+        <a class="btn btn--gem btn--lg quest__cta" href={appUrl}>Do this quest &amp; earn gems, free &rarr;</a>
+        <p class="quest__cta-note">Track the steps, snap a memory photo, and earn {gems} gems in the free Questling app.</p>
+      </div>
+
+      <!-- Longform for SEO + real value -->
+      <div class="prose quest__prose">
+        <h2>Why "{quest.title}" is worth doing</h2>
+        <p>{whyFor(quest)}</p>
+        <p>
+          Best of all, it costs you almost nothing to set up{needsNothing ? ' and needs no special gear' : ''}. That
+          low bar matters: the easier a screen-free activity is to start, the more likely it actually happens on a
+          busy day, and the less tempting it is to hand over a tablet instead.
+        </p>
+
+        <h2>Make it easier or harder</h2>
+        <p>
+          <strong>For younger kids:</strong> shorten it, do it alongside them, and treat "good enough" as a win. The
+          point is the doing, not a perfect result.
+        </p>
+        <p>
+          <strong>For older kids:</strong> add a challenge, a time limit, a twist, or let them lead the whole thing
+          and teach a younger sibling. A little extra difficulty keeps a {quest.maxAge}-year-old interested.
+        </p>
+
+        <h2>Turn it into a habit, not a one-off</h2>
+        <p>
+          One good afternoon is great. A steady rhythm of them is what actually shifts a kid away from the screen.
+          That's the whole idea behind <a href={appUrl}>Questling</a>: it lives on your phone, hands you a
+          screen-free quest like this one whenever you need it, and lets your kid earn gems toward rewards you choose,
+          so "go do something real" comes with a little built-in momentum.
+        </p>
+      </div>
+
+      <!-- FAQ (matches the FAQ schema above) -->
+      <section class="quest__faq">
+        <h2>Questions parents ask</h2>
+        {faqs.map((f) => (
+          <details class="faq">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </section>
+
+      <!-- Interlink: related quests -->
+      {related.length > 0 && (
+        <section class="quest__related">
+          <h2>More {categoryLabel(category).toLowerCase()} quests to try</h2>
+          <ul class="quest__grid">
+            {related.map((r) => (
+              <li><a class="card quest__chip" href={`/quests/${slug(r)}`}>
+                <strong>{r.title}</strong><span>Ages {r.ageRange}</span>
+              </a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <!-- Interlink: related reading -->
+      {relArticles.length > 0 && (
+        <section class="quest__related">
+          <h2>Related reading</h2>
+          <ul class="quest__grid">
+            {relArticles.map((a) => (
+              <li><a class="card quest__chip" href={`/articles/${a.id}`}>
+                <strong>{a.data.title}</strong><span>Read the guide →</span>
+              </a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <!-- Final conversion CTA -->
+      <aside class="quest__final card">
+        <h2>Get a fresh screen-free quest whenever you need one</h2>
+        <p>Questling is free to play in your browser. Pick quests like this, your kid does them for real, and earns gems toward rewards you set.</p>
+        <a class="btn btn--gem btn--lg" href={appUrl}>Try Questling free &rarr;</a>
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .crumbs { font-size: 0.85rem; color: var(--muted); margin: 1.5rem 0 0.5rem; }
+  .crumbs a { color: var(--primary); }
+  .crumbs span { margin: 0 0.25rem; }
+  .quest__head { padding: 0.5rem 0 1.5rem; }
+  .quest__tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+  .pill { font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.7rem; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); color: var(--muted); }
+  .pill--cat { background: var(--primary); color: #fff; border-color: var(--primary); }
+  .pill--gem { background: var(--gem-tint); color: var(--gem-dark); border-color: #c5e8d4; }
+  .quest__lead { font-size: 1.15rem; line-height: 1.6; color: var(--ink); }
+  .quest__do { padding: 1.5rem; margin-bottom: 2rem; }
+  .quest__meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1rem; }
+  .quest__meta > div { display: flex; flex-direction: column; }
+  .quest__meta strong { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
+  .quest__meta span { font-size: 0.95rem; color: var(--ink); }
+  .quest__prep { background: var(--gem-tint); border-radius: 12px; padding: 0.75rem 1rem; font-size: 0.95rem; color: var(--gem-dark); }
+  .quest__steps { padding-left: 1.2rem; }
+  .quest__steps li { margin-bottom: 0.5rem; line-height: 1.5; }
+  .quest__cta { display: inline-flex; margin-top: 1rem; }
+  .quest__cta-note { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+  .quest__prose { margin-bottom: 2rem; }
+  .quest__faq { margin-bottom: 2rem; }
+  .faq { border-bottom: 1px solid var(--line); padding: 0.25rem 0; }
+  .faq summary { font-weight: 600; padding: 0.75rem 0; cursor: pointer; }
+  .faq p { padding: 0 0 0.75rem; color: var(--muted); line-height: 1.6; }
+  .quest__related { margin-bottom: 2rem; }
+  .quest__grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 0.75rem; }
+  .quest__chip { display: flex; flex-direction: column; gap: 0.25rem; padding: 1rem; text-decoration: none; }
+  .quest__chip strong { color: var(--ink); line-height: 1.3; }
+  .quest__chip span { font-size: 0.8rem; color: var(--muted); }
+  .quest__final { padding: 2rem; text-align: center; background: var(--surface); }
+  .quest__final h2 { margin-bottom: 0.5rem; }
+  .quest__final p { color: var(--muted); max-width: 42ch; margin: 0 auto 1.25rem; }
+  @media (max-width: 560px) { .quest__meta { grid-template-columns: 1fr; gap: 0.5rem; } }
+</style>

@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { QUESTS, slug, categoryOf, categoryLabel, type Category } from '../../data/quest-utils';
+
+// Group the catalog by category for a browsable hub.
+const ORDER: Category[] = ['outdoor', 'nature', 'active', 'creative', 'quiet'];
+const grouped = ORDER.map((cat) => ({
+  cat,
+  quests: QUESTS.filter((q) => categoryOf(q) === cat).sort((a, b) => a.minAge - b.minAge),
+})).filter((g) => g.quests.length > 0);
+
+const desc =
+  'Browse 200 screen-free, real-world quests for kids, from outdoor adventures to nature hunts, active games, and creative projects. Free with Questling.';
+
+const appUrl = 'https://app.getquestling.com';
+
+const listSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Screen-Free Quests for Kids',
+  description: desc,
+  url: new URL('/quests', Astro.site).toString(),
+};
+---
+
+<BaseLayout title={`200 Screen-Free Activities for Kids | Quests | ${SITE_TITLE}`} description={desc}>
+  <script type="application/ld+json" set:html={JSON.stringify(listSchema)} />
+
+  <section class="section">
+    <div class="container center">
+      <span class="section__eyebrow">Quest catalog</span>
+      <h1>200 screen-free things for kids to actually do</h1>
+      <p class="section__lead">
+        Real-world quests for kids, no screen required: outdoor adventures, nature hunts, active
+        games, and creative projects. Pick one, your kid does it for real, and earns gems toward
+        rewards you set. All free in your browser.
+      </p>
+      <a class="btn btn--gem btn--lg" href={appUrl}>Try Questling free &rarr;</a>
+    </div>
+  </section>
+
+  {grouped.map((group) => (
+    <section class="section quests-group">
+      <div class="container">
+        <h2>{categoryLabel(group.cat)} quests</h2>
+        <ul class="quests-list">
+          {group.quests.map((q) => (
+            <li>
+              <a class="card quest-card" href={`/quests/${slug(q)}`}>
+                <strong>{q.title}</strong>
+                <span>Ages {q.ageRange}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  ))}
+</BaseLayout>
+
+<style>
+  .quests-group { padding-top: 1rem; padding-bottom: 1rem; }
+  .quests-group h2 { margin-bottom: 1rem; }
+  .quests-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 0.75rem; }
+  .quest-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem 1.1rem; text-decoration: none; }
+  .quest-card strong { color: var(--ink); line-height: 1.3; }
+  .quest-card span { font-size: 0.8rem; color: var(--muted); }
+</style>

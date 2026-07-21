@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { SITE_TITLE } from '../../consts';
+import { QUESTS, slug as questSlug, categoryOf, type Category } from '../../data/quest-utils';
 
 // One static page per Markdown file in src/content/articles/.
 export async function getStaticPaths() {
@@ -44,6 +45,15 @@ const articleSchema = {
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
 };
+
+// Interlink to a few quests that fit this article's topic (keyword match).
+const at = `${data.title} ${data.description}`.toLowerCase();
+let questCat: Category = 'outdoor';
+if (/nature|scavenger|bug|leaf|garden|outdoor/.test(at)) questCat = 'nature';
+else if (/sleep|bedtime|calm|quiet|wind.?down/.test(at)) questCat = 'quiet';
+else if (/tween|active|energy|sport|older/.test(at)) questCat = 'active';
+else if (/bored|boredom|creativ|indoor|rainy|play space|toddler|preschool|sibling/.test(at)) questCat = 'creative';
+const questPicks = QUESTS.filter((q) => categoryOf(q) === questCat).slice(0, 3);
 ---
 
 <BaseLayout
@@ -74,6 +84,22 @@ const articleSchema = {
         <Content />
       </div>
 
+      <!-- Interlink: quests that fit this article -->
+      <aside class="post__quests">
+        <h2>Quests to try with your kid</h2>
+        <ul>
+          {questPicks.map((q) => (
+            <li>
+              <a href={`/quests/${questSlug(q)}`}>
+                <strong>{q.title}</strong>
+                <span>Ages {q.ageRange}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <a class="post__quests-all" href="/quests">Browse all 200 screen-free quests →</a>
+      </aside>
+
       <!-- Soft CTA at the end of every article -->
       <aside class="post__cta card">
         <img src="/questling-icon.png" alt="" width="48" height="48" />
@@ -89,6 +115,14 @@ const articleSchema = {
 
 <style>
   .container--narrow { max-width: 760px; }
+  .post__quests { margin: 2.5rem 0; }
+  .post__quests h2 { font-size: 1.3rem; margin-bottom: 1rem; }
+  .post__quests ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 0.75rem; margin-bottom: 1rem; }
+  .post__quests li a { display: flex; flex-direction: column; gap: 0.25rem; padding: 0.9rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); text-decoration: none; }
+  .post__quests li a:hover { border-color: var(--primary); }
+  .post__quests strong { color: var(--ink); line-height: 1.3; }
+  .post__quests span { font-size: 0.8rem; color: var(--muted); }
+  .post__quests-all { font-weight: 600; }
   .post { padding-block: clamp(2rem, 5vw, 3.2rem); }
   .post__back { display: inline-block; margin-bottom: 1.4rem; font-weight: 600; font-size: 0.92rem; }
   .post__head time { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary); }
