@@ -51,7 +51,18 @@ const ogImage = new URL(image, Astro.site);
 <!-- Fonts: Inter, with preconnect so it loads fast -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<!-- Load the font stylesheet without blocking render: fetch as low-priority
+     "print", then flip to "all" once it arrives. The metric-matched Inter
+     fallback keeps layout shift tiny during the swap. -->
 <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  media="print"
+  onload="this.media='all'"
 />
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  />
+</noscript>

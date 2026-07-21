@@ -14,3 +14,12 @@
   X-XSS-Protection: 1; mode=block
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-site
+
+# Astro fingerprints these filenames with a content hash, so they can be
+# cached forever. Cache lifetimes fix from PageSpeed.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images/fonts aren't hashed, so cache a week (still cuts repeat-visit loads).
+/images/*
+  Cache-Control: public, max-age=604800
