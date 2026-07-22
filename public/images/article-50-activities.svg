@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t"><title id="t">A colorful collage of activity icons with a reward gem</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/></linearGradient></defs>
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- ball -->
+  <g>
+    <circle cx="180" cy="185" r="46" fill="#34c77b"/>
+    <circle cx="180" cy="185" r="46" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <polygon points="180,169 195,180 189,198 171,198 165,180" fill="#ffffff"/>
+  </g>
+
+  <!-- crayon -->
+  <g transform="translate(430 165) rotate(-15)">
+    <rect x="-14" y="-50" width="28" height="82" rx="5" fill="#8f88e6"/>
+    <polygon points="-14,-50 14,-50 0,-82" fill="#4F46C7"/>
+    <rect x="-14" y="-28" width="28" height="10" fill="#cfc7f7"/>
+    <rect x="-14" y="14" width="28" height="8" fill="#cfc7f7"/>
+  </g>
+
+  <!-- leaf -->
+  <g transform="translate(560 250) rotate(25)">
+    <path d="M0 -36 C 28 -20 28 22 0 36 C -28 22 -28 -20 0 -36 Z" fill="#5dcaa5"/>
+    <path d="M0 -34 L 0 34" stroke="#1f9d5c" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- kite -->
+  <g transform="translate(615 135)">
+    <polygon points="0,-46 35,10 0,56 -35,10" fill="#cfc7f7"/>
+    <path d="M0 -46 L 0 56 M -35 10 L 35 10" stroke="#4F46C7" stroke-width="3" fill="none"/>
+    <path d="M0 56 q 12 22 -6 36 q -14 12 4 32" stroke="#f2c879" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- book -->
+  <g transform="translate(240 360)">
+    <path d="M0 -8 L -82 -22 L -82 30 L 0 44 Z" fill="#4F46C7"/>
+    <path d="M0 -8 L 82 -22 L 82 30 L 0 44 Z" fill="#4F46C7"/>
+    <path d="M-6 -8 L -74 -19 L -74 26 L -6 37 Z" fill="#eef1ff"/>
+    <path d="M6 -8 L 74 -19 L 74 26 L 6 37 Z" fill="#eef1ff"/>
+    <path d="M-16 -8 L -66 -16 M-16 2 L -66 -6 M-16 12 L -66 4" stroke="#8f88e6" stroke-width="3" fill="none"/>
+    <path d="M16 -8 L 66 -16 M16 2 L 66 -6 M16 12 L 66 4" stroke="#8f88e6" stroke-width="3" fill="none"/>
+    <rect x="-4" y="-10" width="8" height="56" rx="3" fill="#c98a3f"/>
+  </g>
+
+  <!-- reward gem -->
+  <g transform="translate(650 360) scale(0.4)"><polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#g)"/><polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/></g>
+
+  <!-- sparkles -->
+  <path d="M340 120 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M150 320 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

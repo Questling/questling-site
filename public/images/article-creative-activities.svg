@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t"><title id="t">Crayons, paper, and scissors with a reward gem</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/>
+      <stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- Sheet of paper with a scribble -->
+  <g transform="rotate(-6 300 270)">
+    <rect x="150" y="150" width="300" height="240" rx="10" fill="#ffffff" stroke="#cfc7f7" stroke-width="4"/>
+    <path d="M195 230 q40 -55 80 0 q40 55 80 0" fill="none" stroke="#8f88e6" stroke-width="8" stroke-linecap="round"/>
+    <path d="M195 300 h150" stroke="#cfc7f7" stroke-width="8" stroke-linecap="round"/>
+    <path d="M195 335 h110" stroke="#cfc7f7" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Crayons fanned out (bottom left) -->
+  <g transform="translate(120 400)">
+    <g transform="rotate(-30)">
+      <rect x="0" y="-14" width="150" height="28" rx="6" fill="#4f46c7"/>
+      <polygon points="150,-14 178,0 150,14" fill="#8f88e6"/>
+    </g>
+    <g transform="rotate(-12)">
+      <rect x="0" y="-14" width="150" height="28" rx="6" fill="#34c77b"/>
+      <polygon points="150,-14 178,0 150,14" fill="#5dcaa5"/>
+    </g>
+    <g transform="rotate(6)">
+      <rect x="0" y="-14" width="150" height="28" rx="6" fill="#f2c879"/>
+      <polygon points="150,-14 178,0 150,14" fill="#c98a3f"/>
+    </g>
+  </g>
+
+  <!-- Paintbrush (upper right) -->
+  <g transform="rotate(38 560 200)">
+    <rect x="480" y="188" width="150" height="24" rx="8" fill="#c98a3f"/>
+    <rect x="628" y="184" width="26" height="32" rx="4" fill="#8f88e6"/>
+    <polygon points="654,184 700,200 654,216" fill="#4f46c7"/>
+  </g>
+
+  <!-- Reward gem (bottom right) -->
+  <g transform="translate(650 360) scale(0.4)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#g)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- Sparkle stars -->
+  <path d="M340 120 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M150 320 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>

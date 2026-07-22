@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t"><title id="t">Stacking blocks and a ball with a reward gem</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34c77b"/><stop offset="1" stop-color="#1f9d5c"/></linearGradient></defs>
+<rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+<!-- ground line -->
+<rect x="120" y="392" width="560" height="10" rx="5" fill="#cfc7f7"/>
+
+<!-- stack of blocks (left) -->
+<rect x="210" y="332" width="120" height="60" rx="10" fill="#4F46C7"/>
+<rect x="222" y="272" width="96" height="60" rx="10" fill="#f2c879"/>
+<rect x="234" y="212" width="72" height="60" rx="10" fill="#34c77b"/>
+<rect x="246" y="152" width="48" height="60" rx="10" fill="#8f88e6"/>
+
+<!-- single tilted block resting on ground -->
+<rect x="360" y="342" width="66" height="50" rx="9" fill="#5dcaa5"/>
+
+<!-- ball (center-right) -->
+<circle cx="500" cy="352" r="52" fill="#c98a3f"/>
+<path d="M448 352 a52 52 0 0 1 104 0 Z" fill="#f2c879"/>
+<circle cx="500" cy="352" r="52" fill="none" stroke="#4F46C7" stroke-width="4"/>
+<line x1="448" y1="352" x2="552" y2="352" stroke="#4F46C7" stroke-width="4"/>
+
+<!-- sparkle stars -->
+<path d="M340 120 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+<path d="M150 320 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+
+<!-- reward gem (bottom-right) -->
+<g transform="translate(650 360) scale(0.4)"><polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#g)"/><polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/></g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="t"><title id="t">A stopwatch and a spark with a reward gem</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34c77b"/>
+      <stop offset="1" stop-color="#1f9d5c"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="20" width="760" height="460" rx="40" fill="#eef1ff"/>
+
+  <!-- speed lines behind the stopwatch -->
+  <rect x="150" y="215" width="120" height="16" rx="8" fill="#cfc7f7"/>
+  <rect x="130" y="250" width="150" height="16" rx="8" fill="#8f88e6"/>
+  <rect x="160" y="285" width="100" height="16" rx="8" fill="#cfc7f7"/>
+
+  <!-- stopwatch stem and top button -->
+  <rect x="378" y="118" width="44" height="34" rx="8" fill="#8f88e6"/>
+  <rect x="368" y="98" width="64" height="26" rx="13" fill="#4F46C7"/>
+
+  <!-- side buttons -->
+  <rect x="300" y="150" width="30" height="20" rx="8" fill="#8f88e6" transform="rotate(-40 315 160)"/>
+  <rect x="470" y="150" width="30" height="20" rx="8" fill="#8f88e6" transform="rotate(40 485 160)"/>
+
+  <!-- stopwatch body -->
+  <circle cx="400" cy="290" r="140" fill="#4F46C7"/>
+  <circle cx="400" cy="290" r="118" fill="#f6f5ff"/>
+
+  <!-- tick marks -->
+  <rect x="396" y="182" width="8" height="20" rx="4" fill="#cfc7f7"/>
+  <rect x="396" y="378" width="8" height="20" rx="4" fill="#cfc7f7"/>
+  <rect x="292" y="286" width="20" height="8" rx="4" fill="#cfc7f7"/>
+  <rect x="488" y="286" width="20" height="8" rx="4" fill="#cfc7f7"/>
+
+  <!-- lightning bolt / spark on the dial -->
+  <path d="M430 218 L360 302 L398 302 L372 372 L448 278 L406 278 Z" fill="#f2c879"/>
+
+  <!-- center hub -->
+  <circle cx="400" cy="290" r="12" fill="#4F46C7"/>
+
+  <!-- gem near bottom-right -->
+  <g transform="translate(650 360) scale(0.4)">
+    <polygon points="-70,-44 70,-44 110,0 0,120 -110,0" fill="url(#g)"/>
+    <polygon points="-70,-44 70,-44 0,8" fill="#5be29a"/>
+  </g>
+
+  <!-- sparkle stars -->
+  <path d="M340 120 l7 16 16 7 -16 7 -7 16 -7 -16 -16 -7 16 -7 Z" fill="#f2c879"/>
+  <path d="M150 320 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 Z" fill="#4f46c7"/>
+</svg>
