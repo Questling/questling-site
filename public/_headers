@@ -1,25 +1,27 @@
-# Security headers for every response. Cloudflare Pages reads this file at the
-# edge and applies it site-wide. (Astro copies public/ into dist/ untouched.)
+# Security headers for every response. Cloudflare Pages reads this at the edge.
 #
-# Note on 'unsafe-inline': Astro inlines its own small script/style blocks
-# (the nav toggle, the homepage showcase, scoped CSS). This site is fully
-# static with no user input reflected into pages, so inline is a low risk here.
-# A stricter hash-based CSP is a future hardening step, not a fix needed today.
+# One CSP covers the whole site: the marketing pages (Google Fonts, cookieless
+# analytics) AND the Questling app under /app (Firebase auth + Firestore, Google
+# sign-in). Cloudflare _headers combines path rules rather than letting a more
+# specific one replace a header, so a single permissive-but-scoped CSP is the
+# reliable approach. It's still an allowlist: default-src 'self', object-src
+# none, frame-ancestors none. Allowing a source doesn't force a page to use it.
 /*
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; form-action 'self' mailto:; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: blob: https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://apis.google.com https://www.gstatic.com https://static.cloudflareinsights.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebaseapp.com https://www.googleapis.com https://cloudflareinsights.com; frame-src 'self' https://*.firebaseapp.com https://accounts.google.com; form-action 'self' mailto:; upgrade-insecure-requests
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
   X-XSS-Protection: 1; mode=block
-  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
   Cross-Origin-Resource-Policy: same-site
 
-# Astro fingerprints these filenames with a content hash, so they can be
-# cached forever. Cache lifetimes fix from PageSpeed.
+# Content-hashed bundles can be cached forever.
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
+/app/_expo/*
+  Cache-Control: public, max-age=31536000, immutable
 
-# Images/fonts aren't hashed, so cache a week (still cuts repeat-visit loads).
+# Not hashed, so cache a week.
 /images/*
   Cache-Control: public, max-age=604800

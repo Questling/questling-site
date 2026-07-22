@@ -37,7 +37,7 @@ const relArticles = relArticleSlugs
   .map((s) => allArticles.find((a) => a.id === s))
   .filter((a): a is (typeof allArticles)[number] => Boolean(a));
 
-const appUrl = 'https://app.getquestling.com';
+const appUrl = '/app';
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
 
 // A one-line meta description built from the quest.
