@@ -50,7 +50,7 @@ Some games never needed batteries. These work with two kids or ten:
 
 Some afternoons you have the energy to invent a scavenger hunt on the spot. Plenty of afternoons you do not, and that is exactly the gap Questling fills.
 
-[Questling](/) lives on your phone, not your kid's. When you need something for them to do, you open it and it hands you a ready-to-go screen-free quest, no planning required. Many of them are backyard-sized: build a fort, find five kinds of leaves, invent an obstacle course. There are [200 screen-free quests](/quests) to pull from, so you are not reaching for the same three ideas every weekend.
+[Questling](/) lives on your phone, not your kid's. When you need something for them to do, you open it and it hands you a ready-to-go screen-free quest, no planning required. Many of them are backyard-sized: build a fort, find five kinds of leaves, invent an obstacle course. There are [200 screen-free quests](/app/quests) to pull from, so you are not reaching for the same three ideas every weekend.
 
 When your kid finishes a quest, they earn gems toward rewards that you set yourself, whether that is extra story time, a trip to the park, or picking dinner. You stay in control, they get the little burst of "I did it," and it is all free in the browser.
 

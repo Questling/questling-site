@@ -72,7 +72,7 @@ You don't need equipment to send kids outside with something to actually do.
   square, a road for toy cars, and a giant drawing all in one.
 
 If you want a bigger stack of these sorted by age and mood, our [200 screen-free
-quests](/quests) are all built to run on stuff you already have around.
+quests](/app/quests) are all built to run on stuff you already have around.
 
 ## Where Questling fits
 

@@ -78,7 +78,7 @@ estimating are math you can feel in your hands.
 Sorting the laundry by color, matching the socks, counting how many red cars pass the
 window: these are patterns and quantities, the quiet foundation everything else in
 math is built on. And there is a whole world of ideas in a good list of
-[200 screen-free quests](/quests) if you would rather not invent one from scratch.
+[200 screen-free quests](/app/quests) if you would rather not invent one from scratch.
 
 ## Where Questling fits
 

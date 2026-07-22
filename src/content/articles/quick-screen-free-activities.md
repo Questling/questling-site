@@ -78,7 +78,7 @@ tired, at 5:45, with a kid melting down at your feet. That is the exact gap
 [Questling](/) is built for. It lives on your phone and hands you a ready-to-go
 screen-free quest whenever you need one, so you are not brainstorming under
 pressure. Your kid does the quest, earns gems, and cashes them in for rewards
-*you* set. There are already [200 screen-free quests](/quests) to pull from, most
+*you* set. There are already [200 screen-free quests](/app/quests) to pull from, most
 of them quick, and it is free to try right in your browser. Think of it as the
 idea you did not have to think of.
 

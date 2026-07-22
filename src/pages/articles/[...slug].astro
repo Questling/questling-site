@@ -90,14 +90,14 @@ const questPicks = QUESTS.filter((q) => categoryOf(q) === questCat).slice(0, 3);
         <ul>
           {questPicks.map((q) => (
             <li>
-              <a href={`/quests/${questSlug(q)}`}>
+              <a href={`/app/quest/${questSlug(q)}`}>
                 <strong>{q.title}</strong>
                 <span>Ages {q.ageRange}</span>
               </a>
             </li>
           ))}
         </ul>
-        <a class="post__quests-all" href="/quests">Browse all 200 screen-free quests →</a>
+        <a class="post__quests-all" href="/app/quests">Browse all 200 screen-free quests →</a>
       </aside>
 
       <!-- Soft CTA at the end of every article -->

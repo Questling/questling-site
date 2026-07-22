@@ -2,13 +2,13 @@
 
 > Questling turns screen time into real-world, screen-free quests for kids. It runs on the parent's phone (the child never needs a device or account): the parent picks a quest, the kid does it in the real world, earns gems, and trades them for rewards the parent sets. Free to play in the browser now, with iOS and Android apps coming.
 
-Questling is a parenting product. The audience is parents. The tone is warm, practical, and no-guilt. The website (getquestling.com) is a static Astro site: a marketing home page, a library of screen-free parenting articles, and a catalog of 200 quests, each on its own page.
+Questling is a parenting product. The audience is parents. The tone is warm, practical, and no-guilt. The website (getquestling.com) pairs a static Astro marketing site (home page + a library of screen-free parenting articles) with the free web app at getquestling.com/app. Every one of the 200 quests has its own page under /app that you can both read (materials, steps, FAQ) and actually play.
 
 ## Try the app
-- [Questling web app](https://app.getquestling.com): the live, free web app. Pick quests, track steps, earn gems.
+- [Questling web app](https://getquestling.com/app): the live, free web app. Pick quests, track steps, earn gems.
 
 ## Quests
-- [All quests](https://getquestling.com/quests): browse 200 screen-free, real-world activities for kids, grouped by outdoor, nature, active, creative, and calm. Each quest has its own page with steps, materials, age range, an FAQ, and a link to do it in the app.
+- [All quests](https://getquestling.com/app/quests): browse 200 screen-free, real-world activities for kids, grouped by outdoor, nature, active, creative, and calm. Each quest has its own page at getquestling.com/app/quest/<name> with steps, materials, age range, and an FAQ, and it's playable right there.
 
 ## Articles
 - [All articles](https://getquestling.com/articles): 35+ practical, no-guilt guides on screen time, outdoor play, boredom, routines, and raising curious kids.

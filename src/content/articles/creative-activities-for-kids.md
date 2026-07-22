@@ -52,6 +52,6 @@ Couch cushions, a few blankets, some clothespins, and the dining chairs become a
 
 ## Where Questling fits
 
-The catch with all of this is decision fatigue. You know open-ended play is good, but at 4pm on a gray Tuesday, thinking up the idea is the hard part. That's the gap [Questling](/) fills. It lives on your phone and hands you a ready-to-go, screen-free quest the moment you need one, so you're not inventing the afternoon from scratch. Many of them are exactly this kind of open-ended making, pulled from a catalog of [200 screen-free quests](/quests). Your kid does the quest, earns gems toward rewards you set yourself, and it's free to try right in your browser.
+The catch with all of this is decision fatigue. You know open-ended play is good, but at 4pm on a gray Tuesday, thinking up the idea is the hard part. That's the gap [Questling](/) fills. It lives on your phone and hands you a ready-to-go, screen-free quest the moment you need one, so you're not inventing the afternoon from scratch. Many of them are exactly this kind of open-ended making, pulled from a catalog of [200 screen-free quests](/app/quests). Your kid does the quest, earns gems toward rewards you set yourself, and it's free to try right in your browser.
 
 None of this has to be elaborate. A box, some tape, a squiggle to finish, a story passed back and forth. Give a kid a little raw material and a little room, and the imagination does the rest, no charging cable required.

@@ -48,7 +48,7 @@ Let them wash unbreakable dishes at the sink, sort laundry by color, rinse veget
 
 Even with a hundred good ideas, the hard part at 5pm is remembering any of them and having the energy to start. That's the gap [Questling](/) is built for.
 
-Questling lives on your phone, not your kid's. When you need a screen-free activity right now, it hands you a ready-to-go quest matched to a young child, no prep and no planning on your part. Your five-year-old does the quest in the real world and earns gems, which build up toward rewards you set yourself (an extra bedtime story, a trip to the park, whatever fits your family). You can browse the full library of [200 screen-free quests](/quests) any time, and the whole thing is free to try right in your browser before you ever install anything.
+Questling lives on your phone, not your kid's. When you need a screen-free activity right now, it hands you a ready-to-go quest matched to a young child, no prep and no planning on your part. Your five-year-old does the quest in the real world and earns gems, which build up toward rewards you set yourself (an extra bedtime story, a trip to the park, whatever fits your family). You can browse the full library of [200 screen-free quests](/app/quests) any time, and the whole thing is free to try right in your browser before you ever install anything.
 
 You already know the screen-free version is better for both of you. Questling just removes the part where you have to think it up while exhausted.
 

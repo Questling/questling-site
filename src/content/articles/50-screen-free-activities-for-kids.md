@@ -45,7 +45,7 @@ When the weather cooperates, outside does most of the parenting for you.
 - **Ages 6 to 9.** They want a mission and a little challenge. Obstacle courses, scavenger hunts, forts with "rooms," a kite, a marble run built out of cardboard tubes.
 - **Ages 10 and up.** Give them ownership. Let them plan and make a simple snack, start a real project like a birdhouse, learn a card trick, map the neighborhood, or teach a younger sibling one of the games above.
 
-If you want the whole menu, we keep a running catalog of [200 screen-free quests](/quests) you can browse anytime.
+If you want the whole menu, we keep a running catalog of [200 screen-free quests](/app/quests) you can browse anytime.
 
 ## Where Questling fits
 

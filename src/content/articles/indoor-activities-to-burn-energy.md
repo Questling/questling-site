@@ -88,7 +88,7 @@ Questling lives on your phone. When the walls are closing in, you open it and it
 you a ready-to-go screen-free quest, no planning required, and plenty of them work
 indoors. Your kid does the quest, earns gems, and cashes those gems in toward rewards
 *you* set. It's free in the browser, so you can try it the very next rainy morning.
-And if you want a head start, there's a catalog of [200 screen-free quests](/quests)
+And if you want a head start, there's a catalog of [200 screen-free quests](/app/quests)
 to browse.
 
 A four-walls day doesn't have to end in screens and frayed nerves. A pile of cushions,

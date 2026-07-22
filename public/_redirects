@@ -1,0 +1,5 @@
+# Quests moved into the app. Each quest is now its own page under /app.
+# 301s preserve any indexed /quests URLs and inbound links.
+/quests            /app/quests            301
+/quests/           /app/quests            301
+/quests/*          /app/quest/:splat      301

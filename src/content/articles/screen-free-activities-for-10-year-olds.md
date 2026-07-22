@@ -50,7 +50,7 @@ They plan the family walk and pick the route. They design an obstacle course in 
 
 The catch with all of this is the moment itself. It is 4pm on a Tuesday, they are bored and prickly, and you cannot summon a good "biking to the park" idea on command. That gap, between knowing the right kind of activity and having one ready, is where most good intentions die.
 
-[Questling](/) lives on your phone, not theirs. When you need one, it hands you a ready-to-go screen-free quest pitched at exactly this age, real challenge and real independence, nothing babyish. Your kid does it in the real world and earns gems toward rewards that you set, extra time with a friend, a trip to the skate park, whatever motivates yours. You stay in charge of what counts and what it unlocks. There are [200 screen-free quests](/quests) to pull from, and it is free to use in your browser, so you can try it this afternoon without signing up for anything.
+[Questling](/) lives on your phone, not theirs. When you need one, it hands you a ready-to-go screen-free quest pitched at exactly this age, real challenge and real independence, nothing babyish. Your kid does it in the real world and earns gems toward rewards that you set, extra time with a friend, a trip to the skate park, whatever motivates yours. You stay in charge of what counts and what it unlocks. There are [200 screen-free quests](/app/quests) to pull from, and it is free to use in your browser, so you can try it this afternoon without signing up for anything.
 
 Think of it as the thing that closes the gap between "I know I should get them off the screen" and actually having a good idea in hand when the mood turns.
 
