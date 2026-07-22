@@ -66,6 +66,7 @@ import { SITE_TITLE, NAV_LINKS } from '../consts';
     color: var(--ink);
     font-weight: 500;
     font-size: 0.98rem;
+    white-space: nowrap; /* never let a label wrap to two lines */
   }
   .site-nav a:hover { color: var(--primary); text-decoration: none; }
   .site-nav__cta, .site-nav__cta:hover { color: #fff; }
@@ -96,8 +97,10 @@ import { SITE_TITLE, NAV_LINKS } from '../consts';
   .nav-toggle[aria-expanded='true'] .nav-toggle__bar:nth-child(2) { opacity: 0; }
   .nav-toggle[aria-expanded='true'] .nav-toggle__bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-  /* ---- Mobile ---- */
-  @media (max-width: 820px) {
+  /* ---- Mobile / narrow ---- */
+  /* Switch to the hamburger before the 7-item nav gets squished and wraps
+     (which used to happen in a laptop split-screen around 820-900px). */
+  @media (max-width: 960px) {
     .nav-toggle { display: flex; }
     .site-nav {
       position: absolute;
