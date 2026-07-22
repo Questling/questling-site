@@ -10,6 +10,7 @@ import {
   whyFor,
   timeEstimate,
   faqFor,
+  isFree,
   relatedArticleSlugs,
   relatedQuests,
 } from '../../data/quest-utils';
@@ -26,6 +27,8 @@ const category = categoryOf(quest);
 const faqs = faqFor(quest);
 const related = relatedQuests(quest);
 const needsNothing = quest.materials.trim().toLowerCase().startsWith('none');
+const free = isFree(quest);
+const stepCount = quest.steps.length;
 
 // Pull the related articles' real titles for the interlink cards.
 const allArticles = await getCollection('articles');
@@ -40,20 +43,10 @@ const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
 // A one-line meta description built from the quest.
 const metaDesc =
   `${quest.title}: a screen-free, real-world quest for kids around ${quest.ageRange}. ` +
-  `Steps, what you need, and how to earn rewards. Free with Questling.`;
+  `What you need, the ages it suits, and how to do it and earn rewards in the Questling app.`;
 
-// --- Structured data: HowTo (the steps) + FAQPage + Breadcrumbs ---
-const howToSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: quest.title,
-  description: quest.details,
-  totalTime: 'PT30M',
-  ...(needsNothing
-    ? {}
-    : { supply: quest.materials.split(/,| and /).map((s) => ({ '@type': 'HowToSupply', name: s.trim() })) }),
-  step: quest.steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: s, text: s })),
-};
+// --- Structured data: FAQPage + Breadcrumbs (no HowTo, since the actual
+// steps live in the app, not on this page, so we never mark up hidden content). ---
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -75,7 +68,6 @@ const breadcrumbSchema = {
 ---
 
 <BaseLayout title={`${quest.title} | Screen-Free Quest for Kids | ${SITE_TITLE}`} description={metaDesc}>
-  <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
@@ -106,12 +98,18 @@ const breadcrumbSchema = {
         {quest.parentPrep && quest.parentPrep.trim() && (
           <p class="quest__prep"><strong>Before you start:</strong> {quest.parentPrep}</p>
         )}
-        <h2>How to do it</h2>
-        <ol class="quest__steps">
-          {quest.steps.map((s) => <li>{s}</li>)}
-        </ol>
-        <a class="btn btn--gem btn--lg quest__cta" href={appUrl}>Do this quest &amp; earn gems, free &rarr;</a>
-        <p class="quest__cta-note">Track the steps, snap a memory photo, and earn {gems} gems in the free Questling app.</p>
+        <div class="quest__gate">
+          <span class="quest__gate-tag">{free ? 'Free in the app' : 'Quest Plus'}</span>
+          <h2>{free ? 'Do this quest, free' : 'Unlock the full quest'}</h2>
+          <p>
+            {free
+              ? `The full ${stepCount}-step guide, a checklist your kid ticks off, a memory photo, and ${gems} gems are all in the free Questling app.`
+              : `The full ${stepCount}-step guide plus ${gems} gems unlocks with Quest Plus. Or get started with 50 quests free in the Questling app.`}
+          </p>
+          <a class="btn btn--gem btn--lg quest__cta" href={appUrl}>
+            {free ? 'Get the steps in the app' : 'Open it in the app'} &rarr;
+          </a>
+        </div>
       </div>
 
       <!-- Longform for SEO + real value -->
@@ -208,10 +206,11 @@ const breadcrumbSchema = {
   .quest__meta strong { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
   .quest__meta span { font-size: 0.95rem; color: var(--ink); }
   .quest__prep { background: var(--gem-tint); border-radius: 12px; padding: 0.75rem 1rem; font-size: 0.95rem; color: var(--gem-dark); }
-  .quest__steps { padding-left: 1.2rem; }
-  .quest__steps li { margin-bottom: 0.5rem; line-height: 1.5; }
-  .quest__cta { display: inline-flex; margin-top: 1rem; }
-  .quest__cta-note { font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem; }
+  .quest__gate { text-align: center; padding: 0.75rem 0 0.25rem; }
+  .quest__gate-tag { display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary); background: var(--surface); border: 1px solid var(--line); padding: 0.25rem 0.7rem; border-radius: 999px; margin-bottom: 0.6rem; }
+  .quest__gate h2 { margin: 0.25rem 0 0.5rem; }
+  .quest__gate p { color: var(--muted); max-width: 48ch; margin: 0 auto 1rem; line-height: 1.6; }
+  .quest__cta { display: inline-flex; }
   .quest__prose { margin-bottom: 2rem; }
   .quest__faq { margin-bottom: 2rem; }
   .faq { border-bottom: 1px solid var(--line); padding: 0.25rem 0; }

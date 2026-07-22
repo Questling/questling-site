@@ -21,6 +21,13 @@ export function gemsFor(q: Quest): number {
   return gems;
 }
 
+// The first FREE_COUNT quests are free in the app; the rest need Quest Plus.
+// Used to frame the "open in the app" gate on each quest page.
+export const FREE_COUNT = 50;
+export function isFree(q: Quest): boolean {
+  return q.id <= FREE_COUNT;
+}
+
 export type Category = 'outdoor' | 'nature' | 'active' | 'creative' | 'quiet';
 
 // A simple category from the quest's own words. Drives grouping, interlinking,
