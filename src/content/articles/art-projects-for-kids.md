@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Art Projects for Kids"
 description: "Screen-free, creative art projects for kids using stuff you already have, from rock painting to outdoor murals, mess encouraged."
-pubDate: 2026-05-09
+pubDate: 2026-07-19
 heroImage: "/images/article-playspace.svg"
 heroAlt: "A child painting a rock during a screen-free art project"
 ---

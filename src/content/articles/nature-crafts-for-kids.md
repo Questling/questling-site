@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Nature Crafts for Kids"
 description: "Screen-free nature crafts made from leaves, rocks, and sticks kids collect themselves, where the hunt is half the fun."
-pubDate: 2026-04-25
+pubDate: 2026-07-19
 heroImage: "/images/article-gifts.svg"
 heroAlt: "A child making a craft from leaves and sticks they collected"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Spring Activities for Kids (Screen-Free)"
 description: "Screen-free spring activities for kids, from puddle science to first-bug hunts, that get them outside the moment the weather turns."
-pubDate: 2026-06-20
+pubDate: 2026-07-21
 heroImage: "/images/article-outdoors.svg"
 heroAlt: "A child splashing in a puddle on a bright spring day"
 ---

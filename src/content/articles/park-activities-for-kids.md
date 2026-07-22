@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Things to Do at the Park With Kids"
 description: "Screen-free park activities that go beyond the playground, games and missions that turn a normal park trip into an adventure."
-pubDate: 2026-06-13
+pubDate: 2026-07-21
 heroImage: "/images/article-backyard.svg"
 heroAlt: "Kids exploring a park beyond the playground equipment"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities for 9-Year-Olds"
 description: "Screen-free activity ideas for nine-year-olds who want a real, active challenge, from building projects to outdoor missions they can mostly run themselves."
-pubDate: 2026-07-09
+pubDate: 2026-07-17
 heroImage: "/images/article-10-year-old.svg"
 heroAlt: "A nine-year-old building an ambitious outdoor project"
 ---

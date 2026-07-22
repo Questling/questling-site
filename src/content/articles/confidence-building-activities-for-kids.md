@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities That Build Confidence in Kids"
 description: "Screen-free activities that grow real confidence, small challenges a kid can conquer alone and feel genuinely proud of."
-pubDate: 2026-04-22
+pubDate: 2026-07-19
 heroImage: "/images/article-rewards.svg"
 heroAlt: "A proud child who just finished a real challenge"
 ---

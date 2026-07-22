@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Teamwork Activities for Kids"
 description: "Screen-free activities for two or more kids that build teamwork and cooperation, from group builds to relay games."
-pubDate: 2026-04-15
+pubDate: 2026-07-18
 heroImage: "/images/article-siblings.svg"
 heroAlt: "Two kids working together on a shared outdoor project"
 ---

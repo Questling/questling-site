@@ -1,7 +1,7 @@
 ---
 title: "Fun Things to Do With Kids That Don't Involve a Screen"
 description: "A big list of genuinely fun, screen-free things to do with your kids today, from backyard missions to rainy-day builds, with no elaborate prep required."
-pubDate: 2026-07-21
+pubDate: 2026-07-17
 heroImage: "/images/article-50-activities.svg"
 heroAlt: "A happy child mid-adventure outside with a reward gem sparkling above"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free No-Prep Activities for Kids"
 description: "Screen-free activities that need zero setup, no supplies and no planning, just one good idea you can start this second."
-pubDate: 2026-03-28
+pubDate: 2026-07-18
 heroImage: "/images/article-quick-activities.svg"
 heroAlt: "A parent giving a kid a quick no-prep challenge on the spot"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Calm-Down Activities for Kids (Screen-Free)"
 description: "Screen-free calm-down activities that help an overstimulated kid reset, quiet games and slow, absorbing things to do that settle a busy afternoon."
-pubDate: 2026-07-07
+pubDate: 2026-07-17
 heroImage: "/images/article-bedtime.svg"
 heroAlt: "A child lying in the grass calmly watching the clouds"
 ---

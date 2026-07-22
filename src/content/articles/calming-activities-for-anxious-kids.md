@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Calming Activities for Anxious Kids"
 description: "Gentle, screen-free calming activities that help an anxious or overwhelmed kid settle, slow and grounding things to do together."
-pubDate: 2026-04-11
+pubDate: 2026-07-18
 heroImage: "/images/article-detox.svg"
 heroAlt: "A parent and child doing a calm, grounding activity together outside"
 ---

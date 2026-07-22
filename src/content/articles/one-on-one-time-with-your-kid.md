@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free One-on-One Time Ideas With Your Kid"
 description: "Simple, screen-free ways to spend real one-on-one time with your child, small shared missions that mean more than they look."
-pubDate: 2026-04-08
+pubDate: 2026-07-18
 heroImage: "/images/article-grandparents.svg"
 heroAlt: "A parent and child sharing a quiet one-on-one moment outside"
 ---

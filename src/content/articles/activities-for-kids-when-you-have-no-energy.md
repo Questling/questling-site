@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities for When You Have No Energy"
 description: "Low-effort, screen-free ideas for exhausted parents, ways to get your kid busy and happy without getting up off the couch."
-pubDate: 2026-03-25
+pubDate: 2026-07-18
 heroImage: "/images/article-work.svg"
 heroAlt: "A tired parent setting a kid up with a simple self-directed activity"
 ---

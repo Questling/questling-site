@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities for 12-Year-Olds"
 description: "Screen-free activities that respect a twelve-year-old's growing independence, active and creative challenges that never feel babyish."
-pubDate: 2026-06-24
+pubDate: 2026-07-21
 heroImage: "/images/article-10-year-old.svg"
 heroAlt: "A twelve-year-old taking on a real outdoor challenge"
 ---

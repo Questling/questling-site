@@ -25,3 +25,15 @@
 # Not hashed, so cache a week.
 /images/*
   Cache-Control: public, max-age=604800
+
+# App HTML shells: always revalidate. A long-cached shell would point at
+# hashed JS chunks that stop existing after the next deploy and hard-break
+# the app. (Scoped to the quest pages + entry pages, NOT /app/* -- that would
+# stack a second Cache-Control onto /app/_expo/* above, since Cloudflare
+# combines matching rules instead of overriding.)
+/app/quest/*
+  Cache-Control: public, max-age=0, must-revalidate
+/app/quests
+  Cache-Control: public, max-age=0, must-revalidate
+/app
+  Cache-Control: public, max-age=0, must-revalidate

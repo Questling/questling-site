@@ -1,0 +1,61 @@
+---
+// /quest-ideas: the directory of hub pages, by theme and by age.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { HUBS, hubQuests } from '../../data/hubs';
+
+const desc =
+  'Browse screen-free quest ideas for kids by theme and age: outdoor, nature, active, creative, and calm quests for ages 5 to 13. All playable free in your browser.';
+
+const themed = HUBS.filter((h) => !h.slug.startsWith('quests-for-ages'));
+const byAge = HUBS.filter((h) => h.slug.startsWith('quests-for-ages'));
+---
+
+<BaseLayout title={`Quest Ideas for Kids, by Theme and Age | ${SITE_TITLE}`} description={desc}>
+  <section class="section">
+    <div class="container center">
+      <span class="section__eyebrow">Quest ideas</span>
+      <h1>Find the right quest for your kid</h1>
+      <p class="section__lead">
+        200 screen-free, real-world quests, grouped so you can jump straight to what fits:
+        by the kind of kid you have, or by how old they are.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>By theme</h2>
+      <ul class="hub-grid">
+        {themed.map((h) => (
+          <li>
+            <a class="card hub-card" href={`/quest-ideas/${h.slug}`}>
+              <strong>{h.title}</strong>
+              <span>{hubQuests(h).length} quests</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <h2 class="hub-age-head">By age</h2>
+      <ul class="hub-grid">
+        {byAge.map((h) => (
+          <li>
+            <a class="card hub-card" href={`/quest-ideas/${h.slug}`}>
+              <strong>{h.title}</strong>
+              <span>{hubQuests(h).length} quests</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hub-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 0.75rem; margin-bottom: 1.5rem; }
+  .hub-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 1.2rem 1.3rem; text-decoration: none; }
+  .hub-card strong { color: var(--ink); }
+  .hub-card span { font-size: 0.8rem; color: var(--muted); }
+  .hub-age-head { margin-top: 0.5rem; margin-bottom: 0; }
+  .container h2 { margin-bottom: 1rem; }
+</style>

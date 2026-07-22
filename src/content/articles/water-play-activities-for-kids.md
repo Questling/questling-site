@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Water Play Activities for Kids"
 description: "Screen-free water play ideas for hot days, from puddle science to backyard water games, that cool kids down and wear them out."
-pubDate: 2026-04-29
+pubDate: 2026-07-19
 heroImage: "/images/article-rain.svg"
 heroAlt: "Kids playing in water outside on a hot day"
 ---

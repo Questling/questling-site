@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Snow Day Activities for Kids"
 description: "Screen-free snow day ideas that get kids outside in the cold and cozy inside after, making the most of a day off."
-pubDate: 2026-03-21
+pubDate: 2026-07-18
 heroImage: "/images/article-morning.svg"
 heroAlt: "Kids playing outside in fresh snow on a day off"
 ---

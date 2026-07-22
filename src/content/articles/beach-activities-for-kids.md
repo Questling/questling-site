@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Beach Activities for Kids"
 description: "Screen-free beach activities for kids, from sandcastle engineering to tide-pool hunts, that fill a beach day without a single screen."
-pubDate: 2026-06-10
+pubDate: 2026-07-20
 heroImage: "/images/article-summer.svg"
 heroAlt: "A child building an elaborate sandcastle at the beach"
 ---

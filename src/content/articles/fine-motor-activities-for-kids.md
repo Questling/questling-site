@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Fine Motor Activities for Kids"
 description: "Screen-free fine motor activities that quietly build hand strength and control, from threading to building, disguised as creative fun."
-pubDate: 2026-05-27
+pubDate: 2026-07-20
 heroImage: "/images/article-independent-play.svg"
 heroAlt: "A child carefully working on a hands-on fine motor activity"
 ---

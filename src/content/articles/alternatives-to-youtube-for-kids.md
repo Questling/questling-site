@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Alternatives to YouTube for Kids"
 description: "Real-world, screen-free alternatives to YouTube that give kids the novelty and reward they crave, without the endless scroll."
-pubDate: 2026-04-01
+pubDate: 2026-07-18
 heroImage: "/images/article-devices.svg"
 heroAlt: "A child turning away from a screen toward a real-world adventure"
 ---

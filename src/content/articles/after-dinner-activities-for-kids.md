@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free After-Dinner Activities for Kids"
 description: "Calm, screen-free things to do in that tricky stretch between dinner and bed, so the evening winds down instead of ramping up."
-pubDate: 2026-06-03
+pubDate: 2026-07-20
 heroImage: "/images/article-bedtime.svg"
 heroAlt: "A family spending a calm screen-free evening together"
 ---

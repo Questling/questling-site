@@ -1,7 +1,7 @@
 ---
 title: "Things to Do With Kids on the Weekend, Screen-Free"
 description: "Screen-free weekend ideas for families, from morning outdoor missions to afternoon builds, that fill the day without defaulting to a screen."
-pubDate: 2026-07-04
+pubDate: 2026-07-21
 heroImage: "/images/article-family-night.svg"
 heroAlt: "A family spending a screen-free weekend outdoors together"
 ---

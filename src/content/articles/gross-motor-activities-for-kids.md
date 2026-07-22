@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Gross Motor Activities for Kids"
 description: "Screen-free gross motor activities that build coordination, balance, and strength through active outdoor play kids actually want to do."
-pubDate: 2026-05-23
+pubDate: 2026-07-20
 heroImage: "/images/article-outdoorplay.svg"
 heroAlt: "A child balancing and climbing during active outdoor play"
 ---

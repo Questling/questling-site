@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities for 8-Year-Olds"
 description: "Screen-free activities pitched right for an eight-year-old, real challenges with a bit of independence and plenty to keep an active kid busy, never babyish."
-pubDate: 2026-07-11
+pubDate: 2026-07-17
 heroImage: "/images/article-7-year-old.svg"
 heroAlt: "An eight-year-old proudly finishing an outdoor challenge"
 ---

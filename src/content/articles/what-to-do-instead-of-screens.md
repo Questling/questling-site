@@ -1,7 +1,7 @@
 ---
 title: "What to Do Instead of Screens: Screen-Free Ideas for Kids"
 description: "A go-to list of screen-free things to do instead of handing over a device, sorted by energy level and how much time you have."
-pubDate: 2026-04-04
+pubDate: 2026-07-18
 heroImage: "/images/article-videogames.svg"
 heroAlt: "A child choosing a real-world activity over a device"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Sensory Activities for Kids"
 description: "Screen-free sensory activities for kids, from texture trails to smell hunts, that engage every sense and calm a busy mind."
-pubDate: 2026-05-20
+pubDate: 2026-07-20
 heroImage: "/images/article-toddlers.svg"
 heroAlt: "A child exploring different textures with their hands outdoors"
 ---

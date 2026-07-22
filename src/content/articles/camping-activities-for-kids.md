@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Camping Activities for Kids"
 description: "Screen-free camping activities that make the trip magic for kids, night-sky watching, fort building, and real outdoor missions."
-pubDate: 2026-06-06
+pubDate: 2026-07-20
 heroImage: "/images/article-holiday.svg"
 heroAlt: "A family around a campfire under the stars"
 ---

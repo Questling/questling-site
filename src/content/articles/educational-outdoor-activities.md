@@ -1,7 +1,7 @@
 ---
 title: "Educational Outdoor Activities That Don't Feel Like School"
 description: "Screen-free outdoor activities that quietly teach science, observation, and problem-solving, so kids learn something real without a worksheet in sight."
-pubDate: 2026-07-02
+pubDate: 2026-07-21
 heroImage: "/images/article-educational.svg"
 heroAlt: "A child doing a hands-on outdoor science experiment"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities to Improve Focus in Kids"
 description: "Screen-free activities that quietly build attention and focus, calm, absorbing challenges that are the opposite of fast-twitch screens."
-pubDate: 2026-04-18
+pubDate: 2026-07-19
 heroImage: "/images/article-screen-time.svg"
 heroAlt: "A child deeply focused on a single absorbing task"
 ---

@@ -1,0 +1,92 @@
+---
+// Hub pages: /quest-ideas/<hub>. The "middle layer" between the article
+// cluster and the 200 app quest pages. Each hub targets a mid-tail search
+// ("outdoor quests for kids"), gives Google a crawl path into the quest pages
+// that isn't one flat list, and links across into related articles.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { isFree } from '../../data/quest-utils';
+import { HUBS, hubQuests, questSlug } from '../../data/hubs';
+
+export function getStaticPaths() {
+  return HUBS.map((hub) => ({ params: { hub: hub.slug }, props: { hub } }));
+}
+
+const { hub } = Astro.props;
+const quests = hubQuests(hub);
+const pageUrl = new URL(`/quest-ideas/${hub.slug}`, Astro.site).toString();
+
+const listSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: hub.title,
+  description: hub.description,
+  url: pageUrl,
+};
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Questling', item: new URL('/', Astro.site).toString() },
+    { '@type': 'ListItem', position: 2, name: 'Quest ideas', item: new URL('/quest-ideas', Astro.site).toString() },
+    { '@type': 'ListItem', position: 3, name: hub.title, item: pageUrl },
+  ],
+};
+---
+
+<BaseLayout title={`${hub.title}: Screen-Free Ideas | ${SITE_TITLE}`} description={hub.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(listSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="section">
+    <div class="container container--narrow">
+      <nav class="hub-crumbs" aria-label="Breadcrumb">
+        <a href="/quest-ideas">Quest ideas</a> <span>&rsaquo;</span> {hub.title}
+      </nav>
+      <h1>{hub.title}</h1>
+      {hub.intro.map((p) => <p class="hub-intro">{p}</p>)}
+      <a class="btn btn--gem" href="/app/quests">Browse all 200 quests free &rarr;</a>
+    </div>
+  </section>
+
+  <section class="section hub-quests">
+    <div class="container">
+      <h2>The quests</h2>
+      <ul class="quests-list">
+        {quests.map((q) => (
+          <li>
+            <a class="card quest-card" href={`/app/quest/${questSlug(q)}`}>
+              <strong>{q.title}{isFree(q) ? '' : ' \u{1F451}'}</strong>
+              <span>Ages {q.ageRange}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p class="hub-note">&#x1F451; = part of Quest Plus (coming soon). Everything else is free to play right now.</p>
+    </div>
+  </section>
+
+  <section class="section hub-reading">
+    <div class="container container--narrow">
+      <h2>Keep reading</h2>
+      <ul class="hub-articles">
+        {hub.articles.map((a) => (
+          <li><a href={`/articles/${a.slug}`}>{a.title} &rarr;</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hub-crumbs { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.8rem; }
+  .hub-crumbs span { margin: 0 0.3rem; }
+  .hub-intro { color: var(--ink-soft, var(--ink)); max-width: 60ch; margin-bottom: 0.9rem; }
+  .hub-quests h2, .hub-reading h2 { margin-bottom: 1rem; }
+  .quests-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 0.75rem; }
+  .quest-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem 1.1rem; text-decoration: none; }
+  .quest-card strong { color: var(--ink); line-height: 1.3; }
+  .quest-card span { font-size: 0.8rem; color: var(--muted); }
+  .hub-note { margin-top: 1rem; font-size: 0.85rem; color: var(--muted); }
+  .hub-articles { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+</style>

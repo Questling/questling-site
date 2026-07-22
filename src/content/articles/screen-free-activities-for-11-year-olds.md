@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities for 11-Year-Olds"
 description: "Screen-free ideas for eleven-year-olds who want real independence and a challenge, from outdoor missions to projects they can run themselves."
-pubDate: 2026-06-27
+pubDate: 2026-07-21
 heroImage: "/images/article-tweens.svg"
 heroAlt: "An eleven-year-old absorbed in an ambitious outdoor project"
 ---

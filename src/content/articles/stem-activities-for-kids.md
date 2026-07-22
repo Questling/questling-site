@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free STEM Activities for Kids"
 description: "Screen-free STEM activities that teach real science and engineering through hands-on outdoor challenges, no kit required."
-pubDate: 2026-05-16
+pubDate: 2026-07-20
 heroImage: "/images/article-educational.svg"
 heroAlt: "A child running a hands-on outdoor science experiment"
 ---

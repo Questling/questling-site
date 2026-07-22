@@ -1,7 +1,7 @@
 ---
 title: "Outdoor Games for Kids to Burn Energy"
 description: "Screen-free outdoor games that wear kids out in the best way and build coordination and confidence, using almost nothing but a backyard or a park."
-pubDate: 2026-07-19
+pubDate: 2026-07-17
 heroImage: "/images/article-outdoorplay.svg"
 heroAlt: "Kids racing and laughing across a grassy yard"
 ---

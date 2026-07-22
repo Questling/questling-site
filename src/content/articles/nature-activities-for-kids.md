@@ -1,7 +1,7 @@
 ---
 title: "Nature Activities for Kids: Simple Ways to Get Them Curious"
 description: "Screen-free nature activities for kids, from bug safaris to cloud watching, that turn a walk or a backyard into an afternoon of real curiosity."
-pubDate: 2026-07-14
+pubDate: 2026-07-17
 heroImage: "/images/article-outdoors.svg"
 heroAlt: "A child crouched in the grass examining a bug up close"
 ---

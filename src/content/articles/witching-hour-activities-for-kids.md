@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Ideas for the 4pm Witching Hour"
 description: "The late-afternoon meltdown window is real. Here are screen-free activities that get everyone through 4 to 6pm without the tablet."
-pubDate: 2026-05-30
+pubDate: 2026-07-20
 heroImage: "/images/article-afterschool.svg"
 heroAlt: "A parent and child getting through the late-afternoon slump together"
 ---

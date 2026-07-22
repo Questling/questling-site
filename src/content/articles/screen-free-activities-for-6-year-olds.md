@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Activities for 6-Year-Olds"
 description: "Screen-free activities that fit a six-year-old just right, active, imaginative, and doable on their own, so you always have a good answer ready."
-pubDate: 2026-06-30
+pubDate: 2026-07-21
 heroImage: "/images/article-5-year-old.svg"
 heroAlt: "A six-year-old happily busy with a hands-on activity outdoors"
 ---

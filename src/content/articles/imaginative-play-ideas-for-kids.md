@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Imaginative Play Ideas for Kids"
 description: "Screen-free imaginative play ideas that spark pretend worlds and invented games, the creative muscle screens let go slack."
-pubDate: 2026-05-02
+pubDate: 2026-07-19
 heroImage: "/images/article-preschool.svg"
 heroAlt: "A child deep in a pretend-play adventure outdoors"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Things to Do With Kids at Home Without a Screen"
 description: "Screen-free, low-prep indoor ideas for busy days at home, so you have a ready answer the next time your kid says there is nothing to do."
-pubDate: 2026-07-16
+pubDate: 2026-07-17
 heroImage: "/images/article-independent-play.svg"
 heroAlt: "A child happily playing on their own at home with simple materials"
 ---

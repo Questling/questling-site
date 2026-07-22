@@ -1,7 +1,7 @@
 ---
 title: "Screen-Free Building Activities for Kids"
 description: "Screen-free building activities, indoor and out, that turn blocks, sticks, and cushions into forts, towers, and machines."
-pubDate: 2026-05-06
+pubDate: 2026-07-19
 heroImage: "/images/article-family-night.svg"
 heroAlt: "A child building a tall tower out of blocks and household objects"
 ---

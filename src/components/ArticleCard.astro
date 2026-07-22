@@ -20,7 +20,7 @@ const dateISO = pubDate.toISOString();
 
 <a class="card article-card" href={href}>
   <div class="article-card__media">
-    <img src={heroImage} alt={heroAlt} loading="lazy" width="800" height="500" />
+    <img src={heroImage} alt={heroAlt} loading="lazy" decoding="async" width="800" height="500" />
   </div>
   <div class="article-card__body">
     <time class="article-card__date" datetime={dateISO}>{dateLabel}</time>

@@ -1,7 +1,7 @@
 ---
 title: "Easy Science Experiments for Kids at Home (Screen-Free)"
 description: "Simple, screen-free science experiments kids can do at home with things from the kitchen, real wow moments and real learning."
-pubDate: 2026-05-13
+pubDate: 2026-07-19
 heroImage: "/images/article-creative-activities.svg"
 heroAlt: "A child doing a simple kitchen science experiment at home"
 ---

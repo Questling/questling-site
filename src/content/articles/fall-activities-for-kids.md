@@ -1,7 +1,7 @@
 ---
 title: "Fall Activities for Kids (Screen-Free)"
 description: "Screen-free fall activities for kids, leaf piles, acorn hunts, and crisp-air missions that make the most of the season."
-pubDate: 2026-06-17
+pubDate: 2026-07-21
 heroImage: "/images/article-outdoorplay.svg"
 heroAlt: "A child jumping into a big pile of autumn leaves"
 ---
