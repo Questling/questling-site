@@ -124,3 +124,12 @@ export function relatedQuests(q: Quest, n = 6): Quest[] {
     .sort((a, b) => Math.abs(a.minAge - q.minAge) - Math.abs(b.minAge - q.minAge))
     .slice(0, n);
 }
+
+// Free quests to funnel a paid quest's visitors toward (same category first,
+// then any free quest), so a locked page still offers something to do now.
+export function freeQuests(q: Quest, n = 6): Quest[] {
+  const cat = categoryOf(q);
+  const sameCat = QUESTS.filter((x) => isFree(x) && x.id !== q.id && categoryOf(x) === cat);
+  const rest = QUESTS.filter((x) => isFree(x) && x.id !== q.id && categoryOf(x) !== cat);
+  return [...sameCat, ...rest].slice(0, n);
+}
