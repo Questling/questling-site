@@ -6,9 +6,9 @@ heroImage: "/images/article-independent-play.svg"
 heroAlt: "A child carefully working on a hands-on fine motor activity"
 ---
 
-Watch a toddler try to pick up a single Cheerio and you're watching serious work: the thumb and finger negotiating, the wrist steadying, the whole hand learning a job it'll use for life. Buttoning a coat, holding a pencil, zipping a backpack, tying a shoe. None of it is automatic. It all gets built slowly, through countless small grips and pinches and squeezes.
+The best screen-free fine motor activities for kids are the ordinary, slightly fiddly ones: threading pasta or beads onto a lace, picking up small objects with tweezers or a pincer grip, stacking blocks or stones, sorting buttons and beans, squeezing spray bottles and sponges, and drawing, painting, and cutting with kid-safe scissors. No special program or pricey kit required, just small grips, pinches, and squeezes, repeated through play.
 
-Here's the part worth noticing: **a screen asks almost nothing of the hands.** A finger taps and swipes on flat glass, and that's the whole range of motion. The muscles that do the real work of childhood, the ones in the palm and fingers and the soft web of the thumb, rarely get called on. The good news is that the fix isn't a special program or a pricey kit. It's the ordinary, slightly fiddly stuff kids already love, once you point them at it.
+Why it matters: **a screen asks almost nothing of the hands.** A finger taps and swipes on flat glass, and that's the whole range of motion. Meanwhile buttoning a coat, holding a pencil, and tying a shoe all depend on the muscles in the palm, the fingers, and the soft web of the thumb, and none of it is automatic. It gets built slowly, through the kind of hands-on play below.
 
 ## Start with threading and lacing
 

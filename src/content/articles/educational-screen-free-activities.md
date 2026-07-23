@@ -6,16 +6,17 @@ heroImage: "/images/article-educational.svg"
 heroAlt: "A magnifying glass over a leaf with a reward gem"
 ---
 
-There is a particular flavor of guilt that hits around 4pm on a long day. Your kid
-has been on the tablet for a while, you know it, and some voice in your head says the
-afternoon should have been more *enriching.* You are too tired to run a craft project
-with three steps and a glue gun, so the guilt just sits there next to the dishes.
+The best educational screen-free activities are ones kids read as play: backyard
+bug and leaf hunts with a magnifying glass (real observation and classification),
+cooking together (fractions and measuring with dessert on the line), building
+towers from blocks or cardboard (engineering and the try-fail-adjust loop), and
+made-up storytelling games (narrative and vocabulary). None of them need a
+worksheet, a curriculum, or a craft project with a glue gun.
 
-Here is the good news, and it is genuinely good news: the most educational things a
-kid can do rarely look like school. They look like playing. A kid poking at a bug, a
-kid stirring a bowl, a kid stacking blocks until they topple. That is real learning,
-the kind that sticks, and it does not need a worksheet or a lecture from you. It just
-needs a nudge in the right direction.
+And if that 4pm guilt about tablet time is what brought you here, here is the
+genuinely good news: the most educational things a kid can do rarely look like
+school. A kid poking at a bug or stirring a bowl is doing real learning, the kind
+that sticks. It just needs a nudge in the right direction.
 
 ## Turn the backyard into a science lab
 

@@ -6,15 +6,16 @@ heroImage: "/images/article-detox.svg"
 heroAlt: "A powered-down phone with a small green sprout and a reward gem"
 ---
 
-The phrase "digital detox" sounds intense, like you have to lock the tablets in a safe and
-survive a week of a furious kid. It doesn't have to be that. A detox is really just a reset: a
-stretch of deliberately less screen time to break the autopilot habit and remind everyone that
-the world off the screen is still fun. Done gently, it's less of a punishment and more of a
-reset button.
+To do a digital detox for kids without a meltdown, keep it small and planned: pick a scope you
+can actually finish (a screen-free Saturday, not a month), tell your kid ahead of time instead
+of springing it on them, and line up real-world activities to fill the gap before the screens
+go away. Expect a whiny first day, then it usually gets easier. That's the whole method, no
+cold turkey required.
 
-The reason to bother isn't guilt. It's that screen habits creep. The tablet quietly becomes the
-default answer to every empty minute, and kids forget how to fill their own time. A short reset
-loosens that grip. Here's how to do one without it turning into a battle.
+The phrase "digital detox" sounds intense, like you have to lock the tablets in a safe and
+survive a week of a furious kid. It doesn't have to be that. A detox is really just a reset, a
+stretch of deliberately less screen time to break the autopilot habit before the tablet becomes
+the default answer to every empty minute. Here's how to do one without it turning into a battle.
 
 ## Pick a realistic scope
 

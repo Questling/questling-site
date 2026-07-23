@@ -6,9 +6,9 @@ heroImage: "/images/article-creative-activities.svg"
 heroAlt: "Crayons, paper, and scissors with a reward gem"
 ---
 
-There's a particular kind of afternoon where the light is gray, the day is only half over, and your kid is draped over the couch announcing that there is nothing, absolutely nothing, to do. The tablet is right there. It always is. And handing it over would buy you twenty quiet minutes, which some days is worth more than gold.
+The creative activities that reliably beat the tablet are open-ended ones built from stuff you already have: a cardboard box with no instructions, junk models from the recycling bin, drawing challenges like the scribble game, back-and-forth storytelling, homemade playdough, and a blanket fort that gets to stay up. No Pinterest craft station, no bin of expensive supplies, almost no prep from you.
 
-But you don't actually need a Pinterest craft station or a bin of expensive supplies to break that spell. The stuff that lights kids up the most is usually open-ended, a little messy, and made from things you already have. Here are the ones that reliably beat the tablet, with almost no prep from you.
+Because there's always that afternoon where the light is gray, the day is only half over, and your kid is draped over the couch announcing there is nothing, absolutely nothing, to do. The tablet is right there. Here's what to reach for instead.
 
 ## Hand them a box, not a plan
 

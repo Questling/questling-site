@@ -6,9 +6,9 @@ heroImage: "/images/article-detox.svg"
 heroAlt: "A family on a walk with kids running ahead to explore"
 ---
 
-You announce a family walk with all the enthusiasm you can fake, and the whining starts before the front door even closes. "How faaar?" "My legs hurt." "Can I bring the tablet?" Ten minutes in, someone is dragging their feet like they're crossing a desert, and you're wondering why you bothered.
+The fastest way to make a family walk fun is to give it a mission instead of a distance: a spotting challenge ("first to find a red mailbox"), finger-count bingo with five things to hunt, a secret destination revealed clue by clue, or letting your kid lead as Navigator. Kids don't actually hate walking, they hate walking with no *point*, and any one of these flips it.
 
-Here's the thing, though: kids don't actually hate walking. Watch the same child at a playground and they'll happily cover three miles in loops. What they hate is walking with no *point*. So here's the reframe that fixes almost everything: **a walk isn't exercise you're dragging them through. It's a mission they haven't been given yet.** Hand them the mission and the whole thing flips.
+You know the alternative. You announce the walk with all the enthusiasm you can fake, and the whining starts before the front door closes: "How faaar?" "My legs hurt." "Can I bring the tablet?" So here's the reframe that fixes almost everything: **a walk isn't exercise you're dragging them through. It's a mission they haven't been given yet.**
 
 ## Give the walk a job, not a distance
 

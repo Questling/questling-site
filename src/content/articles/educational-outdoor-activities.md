@@ -6,11 +6,15 @@ heroImage: "/images/article-educational.svg"
 heroAlt: "A child doing a hands-on outdoor science experiment"
 ---
 
-The best learning almost never looks like learning. It looks like a kid crouched
-over a puddle, or arguing about which cloud is going to rain first, or so absorbed
-in following one ant that they forget you exist. No worksheet, no lecture, no "okay,
-now we are going to study weather." Just a kid outside, paying very close attention
-to something real.
+The best educational outdoor activities are built on observation and good questions:
+puddle and weather experiments that sneak in evaporation and estimation, bug hunts
+with a magnifying glass that are secretly biology, and tape-measure challenges that
+make math physical. They teach measurement, classification, and cause and effect,
+and none of them requires a worksheet or a single "now we are going to study" moment.
+
+Because the best learning almost never looks like learning. It looks like a kid
+crouched over a puddle, or so absorbed in following one ant that they forget you
+exist. Just a kid outside, paying very close attention to something real.
 
 Here is the reframe worth holding onto: **the backyard is the best-stocked science
 lab you will ever have, and it is already paid for.** You do not need kits or a

@@ -6,10 +6,15 @@ heroImage: "/images/article-rewards.svg"
 heroAlt: "A proud child who just finished a real challenge"
 ---
 
-There's a particular look on a kid's face right after they do something they weren't
-sure they could do. Climbed a little higher than last time. Poured the pancake batter
-without spilling a drop. Finally landed the jump they'd been chickening out of all week.
-It's part surprise, part pride, and it's the exact thing a screen can never hand them.
+The screen-free activities that build real confidence in kids are small challenges just
+past their reach: physical feats like balancing along a curb or beating their own long-jump
+record, real jobs the family actually depends on like feeding the dog every morning, and
+chances to teach a skill to someone else. The trick is picking something they can just
+barely pull off on their own.
+
+You know the look that follows. It's the face a kid makes right after doing something they
+weren't sure they could do, part surprise, part pride, and it's the exact thing a screen
+can never hand them.
 
 **Confidence isn't something you can talk a kid into. It's something they build, one hard
 thing at a time, out in the real world.** A game can make them feel powerful for an

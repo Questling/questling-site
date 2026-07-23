@@ -6,9 +6,9 @@ heroImage: "/images/article-outdoorplay.svg"
 heroAlt: "A child jumping into a big pile of autumn leaves"
 ---
 
-The light turns golden a little earlier every day now. There is a crispness to the air that practically begs for a jacket, leaves are letting go of the trees, and your kid is... asking for the tablet. Again. The couch is warm, the screen is easy, and the pull to just stay in is real for everyone, you included.
+The best screen-free fall activities for kids are the ones the season hands you for free: building and jumping in a giant leaf pile, turning a neighborhood walk into an acorn-and-leaf scavenger hunt, catching the early sunset together, and ending it all with a cozy warm-drink landing back inside. No craft-store run required, and every one of them works with whatever is already in your yard.
 
-Here is the thing worth remembering, though: **fall might be the easiest season of all to get kids outside.** The world does half the work for you. It literally changes color, drops piles of new toys on the ground, and hands you cool, comfortable weather that beats a sweaty July afternoon any day. You just have to point your kid at it. Here are some genuinely good ways to do that, no craft-store run required.
+Which is lucky, because your kid is probably... asking for the tablet. Again. The couch is warm and the screen is easy, but **fall might be the easiest season of all to get kids outside.** The world does half the work for you: it changes color, drops piles of new toys on the ground, and hands you cool, comfortable weather. You just have to point your kid at it.
 
 ## Let the leaf pile eat the whole afternoon
 
