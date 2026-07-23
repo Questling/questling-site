@@ -21,9 +21,10 @@ export function gemsFor(q: Quest): number {
   return gems;
 }
 
-// The first FREE_COUNT quests are free in the app; the rest need Quest Plus.
-// Used to frame the "open in the app" gate on each quest page.
-export const FREE_COUNT = 50;
+// Which quests are free. Right now EVERYTHING is free (pre-launch). Set this
+// back to 50 to bring back a Quest Plus paid tier later - keep it in sync with
+// FREE_COUNT in the app's src/data/quests.ts.
+export const FREE_COUNT = 999;
 export function isFree(q: Quest): boolean {
   return q.id <= FREE_COUNT;
 }
