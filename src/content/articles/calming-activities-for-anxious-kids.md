@@ -6,18 +6,19 @@ heroImage: "/images/article-detox.svg"
 heroAlt: "A parent and child doing a calm, grounding activity together outside"
 ---
 
-You know the look. The clenched shoulders, the "I don't want to" that isn't really
-about the thing they're refusing, the meltdown that's three sizes too big for
-whatever set it off. When your kid is wound up or worried, the fastest-looking fix
-is right there in your pocket: hand over the tablet, let the noise and color take
-over, and buy everyone a few quiet minutes. And it does go quiet. For a while.
+The calming activities that actually settle an anxious kid are slow, sensory, and
+screen-free: naming things you can hear and see right now, a smell hunt outside,
+lying on the grass watching clouds, and quiet, repetitive hands-on busywork done
+side by side with you. A worried mind needs less input, not more, and something
+real to hold onto in the present moment.
 
-But here's the catch. **A screen is very good at grabbing a kid's attention. It is
-not very good at settling one.** The worry doesn't actually go anywhere. It just
-waits underneath the bright, fast content, and when the screen switches off it is
-often right back, sometimes bigger. What a keyed-up kid usually needs isn't more
-input. It's less. Something slow, something they can feel in their hands and their
-feet, something that gently pulls them back into the actual room they are standing in.
+You know the look, though. The clenched shoulders, the meltdown three sizes too big
+for whatever set it off, and the tempting fix right there in your pocket. The tablet
+does go quiet, for a while. But **a screen is very good at grabbing a kid's attention.
+It is not very good at settling one.** The worry just waits underneath the bright,
+fast content, often coming back bigger. What a keyed-up kid needs is something slow
+they can feel in their hands and feet, something that gently pulls them back into
+the actual room they are standing in.
 
 ## Start with the senses
 

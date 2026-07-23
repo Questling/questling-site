@@ -6,9 +6,9 @@ heroImage: "/images/article-summer.svg"
 heroAlt: "A child building an elaborate sandcastle at the beach"
 ---
 
-A beach day sounds like a dream right up until about hour three. The first splash-around is over, the snacks are gone, and someone is whining that they are hot and bored while standing in front of an entire ocean. You packed the towels, the sunscreen, and the cooler. What you did not pack was a list of things to actually do, and now the tablet is calling from the beach bag.
+The best screen-free beach activities for kids are the ones the beach hands you for free: engineering sandcastles with drip towers and moats, hunting for creatures in tide pools at low tide, long-jump and footprint-tracking games in the soft sand, and treasure hunts for shells, sea glass, and driftwood. **Sand, water, shells, and wide-open space turn into hours of play with almost nothing from you.**
 
-Here is the good news. **The beach is the best free activity kit ever built, and it does not need a single screen to hold a kid's attention all day.** Sand, water, shells, and wide-open space turn into hours of play with almost nothing from you. Below are real ideas you can hand your kids the next time you are all digging your toes into the sand.
+Because let's be honest, a beach day sounds like a dream right up until about hour three. The first splash-around is over, the snacks are gone, and someone is whining that they are bored in front of an entire ocean while the tablet calls from the beach bag. Below are real ideas you can hand your kids the next time you are all digging your toes into the sand.
 
 ## Engineer a sandcastle worth defending
 

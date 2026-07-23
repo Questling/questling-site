@@ -6,9 +6,9 @@ heroImage: "/images/article-backyard.svg"
 heroAlt: "A sunny backyard with a ball, a tree, and a reward gem"
 ---
 
-It is a Saturday afternoon, the kids have already asked for the tablet twice, and you are staring out the window at a perfectly good backyard that nobody is using. You know there is fun out there somewhere. You just do not have the energy to invent it on the spot.
+The best screen-free backyard activities for kids need almost no setup: an obstacle course built from pool noodles and laundry baskets, a nature scavenger hunt, simple water play like sponge toss or "painting" the fence with water, a bedsheet fort, and classic running games like shadow tag and red light, green light. Everything below uses stuff you already own, no shopping trip required.
 
-Here is the good news. Your backyard is already an adventure kit. The grass, a stick, a bucket, a patch of shade under a tree, all of it can turn into a game with almost no setup and no shopping trip. Below are real ideas you can hand your kids today, sorted by how much effort they take from you (usually very little).
+Because we have all been there: it is Saturday afternoon, the kids have asked for the tablet twice, and a perfectly good backyard sits empty outside the window. You do not have to invent the fun on the spot. Here are real ideas you can hand your kids today, sorted by how much effort they take from you (usually very little).
 
 ## Build an obstacle course from what you already own
 

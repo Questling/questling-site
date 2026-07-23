@@ -6,15 +6,14 @@ heroImage: "/images/article-cheap-activities.svg"
 heroAlt: "A cardboard box fort with a reward gem"
 ---
 
-It usually hits on a slow afternoon. The kids are restless, you're tired, and the
-easy fix would be to order something, sign up for something, or drive somewhere that
-costs money you'd rather not spend. There's a quiet little pressure that says keeping
-kids happy has to come with a price tag.
+The cheapest screen-free activities for kids use things you already own: cardboard
+boxes turned into forts and rockets, backyard games like color hunts and sink-or-float,
+and household objects like laundry baskets, painter's tape, and muffin tins turned
+into brand-new games. All of it costs nothing, and none of it needs a trip to the store.
 
-It doesn't. Some of the best play your kid will ever do costs exactly nothing, and it's
-usually sitting in your recycling bin or growing in your backyard right now. Here's a
-pile of screen-free ideas that lean on what you already have, with zero budget and
-zero trip to the store.
+That matters on the slow afternoons when the kids are restless, you're tired, and the
+easy fix would be to buy or sign up for something. Some of the best play your kid will
+ever do is sitting in your recycling bin or growing in your backyard right now.
 
 ## Cardboard is the best toy in the house
 

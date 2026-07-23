@@ -6,9 +6,9 @@ heroImage: "/images/article-backyard.svg"
 heroAlt: "A tent set up in the backyard at dusk"
 ---
 
-There is a version of camping you keep meaning to do. The tent, the marshmallows, kids drifting off to cricket sounds instead of a fan. And then there is the version you actually picture when you think about booking it: two hours of packing, a long drive, the one forgotten thing that ruins everything, and the very real possibility of a 2am meltdown forty minutes from the nearest real bed.
+A backyard campout with kids works like this: pitch the tent together in the late afternoon, eat dinner outside at camp, run a flashlight mission or two after dark, sleep under the stars, and finish with breakfast outside the next morning. No booking, no packing list, no drive, and the bathroom is twenty steps away. It works especially well for kids under 10.
 
-Backyard camping skips every bit of that. Same tent, same stars, same marshmallows, and the bathroom is twenty steps away. Here is the reframe worth holding onto: **a backyard campout is not a lesser version of camping. It is camping with the difficulty turned down and the magic left at full volume.** For a lot of families, especially with kids under 10, it is honestly the better trip.
+It also skips everything that makes real camping daunting: the two hours of packing, the long drive, the 2am meltdown forty minutes from the nearest real bed. Here is the reframe worth holding onto: **a backyard campout is not a lesser version of camping. It is camping with the difficulty turned down and the magic left at full volume.** For a lot of families, it is honestly the better trip.
 
 ## Make the setup part of the adventure
 

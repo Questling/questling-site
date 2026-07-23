@@ -6,9 +6,9 @@ heroImage: "/images/article-holiday.svg"
 heroAlt: "A family around a campfire under the stars"
 ---
 
-You pictured the camping trip a certain way. Kids wide-eyed under a sky full of stars, marshmallows going gold over the fire, everyone the good kind of tired by the end of the night. Then you actually arrive, the tent is half up, and someone is already asking if they can watch something on your phone. The magic you drove all that way for feels like it is slipping away before the fire is even lit.
+The best screen-free camping activities for kids are the ones the campsite hands you for free: stargazing and made-up constellations after dark, building a fort or den from tarps and fallen branches, treasure hunts on every walk across the site, a one-minute listening game around the fire, and creek play like stone skipping and leaf races. You do not need to be a wilderness expert or plan out every hour, just a handful of these missions ready to go.
 
-Here is the good news. A campsite is one of the easiest places in the world to go screen-free, because nature has already packed it with better stuff than any app. You do not need to be a wilderness expert or plan out every hour. You just need a handful of real missions ready to go, so the "can I have the phone" question never gets room to grow. These are the ones that actually work.
+Because you know how it goes otherwise. You pictured kids wide-eyed under the stars and marshmallows going gold, and then you arrive, the tent is half up, and someone is already asking to watch something on your phone. Here is how to keep that question from ever getting room to grow.
 
 ## Let the night sky put on the show
 

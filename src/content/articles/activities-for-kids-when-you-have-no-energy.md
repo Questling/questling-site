@@ -6,9 +6,9 @@ heroImage: "/images/article-work.svg"
 heroAlt: "A tired parent setting a kid up with a simple self-directed activity"
 ---
 
-Some days you've got nothing left. You're flat on the couch, your brain is TV static, and the only thing between you and twenty minutes of quiet is a small person who wants to *do something right now*. The tablet is right there. It's the easy button, and some days you press it. That doesn't make you a bad parent. It just makes you a human one who ran out of gas. Every parent has pressed that button. The goal isn't to never press it; it's to have a couple of easier options within arm's reach.
+The best screen-free activities for a no-energy day are the ones that run without you: fort building with blankets and couch cushions, a rock-painting station you set out and walk away from, cloud watching from the window or the grass, a tallest-tower dare, or a bin of dry pasta and a cup. Two minutes of setup buys you thirty of quiet, and none of it requires getting up.
 
-Here's the good news: **keeping a kid happy when you're wiped out isn't about doing more. It's about setting up one thing that runs without you.** The best low-energy activities aren't the ones where you lead. They're the ones where you point your kid at a mission and let your head fall back onto the cushion. Here are a few that genuinely work, no getting up required. None of them ask you to be the fun one. They just ask you to point.
+Because some days you've got nothing left. You're flat on the couch, your brain is TV static, and the only thing between you and twenty minutes of quiet is a small person who wants to *do something right now*. The tablet is right there, and some days you press that button. That doesn't make you a bad parent. Here's the good news: **keeping a kid happy when you're wiped out isn't about doing more. It's about setting up one thing that runs without you.** Point your kid at a mission and let your head fall back onto the cushion. None of these ask you to be the fun one. They just ask you to point.
 
 ## Let them build something and disappear into it
 

@@ -6,9 +6,9 @@ heroImage: "/images/article-50-activities.svg"
 heroAlt: "A colorful collage of activity icons with a reward gem"
 ---
 
-It's 4:47 on a Tuesday. Dinner is not started, you have answered nineteen emails, and a small person is standing in the doorway announcing, with real despair, that there is "nothing to do." The tablet is right there. You can feel yourself reaching for it.
+The best screen-free activities for kids fall into three buckets: quiet indoor ones (blanket forts, sorting collections, drawing comics), high-energy small-space ones (obstacle courses, balloon keep-up, dance freeze), and outdoor missions (scavenger hunts, bug safaris, chalk art). Below are 50 of them, sorted by age and energy level so you can grab the right one fast.
 
-That is the moment this list is for. Not a lecture about screens, just a stack of real things a kid can actually go do, sorted so you can grab one fast. Low energy or high, little kid or big, indoors when it's raining or outside when it's finally nice. Pick one, point them at it, get back to the potatoes.
+Because we both know the real moment this list is for: 4:47 on a Tuesday, dinner not started, and a small person in the doorway announcing there is "nothing to do." No lecture about screens here. Pick one, point them at it, get back to the potatoes.
 
 ## Quiet, low-energy ideas (good for indoors)
 

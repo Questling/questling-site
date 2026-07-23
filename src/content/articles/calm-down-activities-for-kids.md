@@ -6,17 +6,19 @@ heroImage: "/images/article-bedtime.svg"
 heroAlt: "A child lying in the grass calmly watching the clouds"
 ---
 
-Every parent knows the state before they're even in the room. The voice has gone
-loud and sharp, every little thing is a yes-or-no emergency, and your kid is somehow
-exhausted and bouncing off the walls at the same time. They got too much of a big
-day, the good kind and the hard kind all at once, and now the whole system is jammed.
-In that moment, a screen looks like the obvious off-switch.
+The calm-down activities that actually work for kids are slow, low-input, and a
+little bit boring on purpose: watching one slow-moving thing (clouds, a snail, a leaf
+in water), repetitive hand work like sorting buttons or squeezing playdough, quiet
+listening games, and gentle water play. What they share is that they give an
+overstimulated kid less to process, not more, so the wound-up engine can actually
+wind down.
 
-Here's what a screen actually does to a wound-up kid, though: it hands them even more
-to process. Fast cuts, bright light, one more thing to react to. It can pin them in
-place for a while, which reads as calm, but the engine underneath is still running
-hot. That's usually why the real meltdown lands the second you try to take the tablet
-back. **An overstimulated kid doesn't need more input. They need less.** Everything
+You know the state before you're even in the room: the voice gone loud and sharp,
+your kid somehow exhausted and bouncing off the walls at once. A screen looks like
+the obvious off-switch, but it hands them even more to react to. It can pin them in
+place, which reads as calm, but the engine underneath is still running hot, which is
+why the meltdown lands the second the tablet goes away.
+**An overstimulated kid doesn't need more input. They need less.** Everything
 below is a way to give them less, gently.
 
 ## Give their eyes one slow thing to watch

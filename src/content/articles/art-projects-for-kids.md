@@ -6,9 +6,9 @@ heroImage: "/images/article-playspace.svg"
 heroAlt: "A child painting a rock during a screen-free art project"
 ---
 
-There's a drawing app for that. There's always a drawing app. It has infinite colors, an undo button, and it never spills. Your kid taps a screen, a tidy little picture appears, and nothing gets on the table. It is, honestly, kind of a miracle of tidiness.
+The best screen-free art projects for kids use stuff you already have: painting rocks from the yard, arranging leaves and petals into a nature rainbow, drawing giant chalk murals on the driveway, and making one keepable thing like a pressed-flower bookmark. No craft store run required, and most work for ages 4 and up with zero setup beyond handing over the supplies.
 
-But watch a kid actually make something with their hands. Paint on their fingers, a smear of glue, a rock they will not stop talking about. That is a different kind of focused. **The mess isn't the price of real art. The mess is the point.** A screen can hand your kid a perfect picture. It can't hand them the feeling of having made a real thing that exists in the world.
+Yes, there's a drawing app for all of this, with infinite colors, an undo button, and no spills. But watch a kid actually make something with their hands, paint on their fingers, a rock they will not stop talking about. **The mess isn't the price of real art. The mess is the point.**
 
 Here are art projects that lean into that, using stuff you almost certainly already have.
 

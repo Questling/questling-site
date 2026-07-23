@@ -6,9 +6,9 @@ heroImage: "/images/article-playspace.svg"
 heroAlt: "A kid playing happily in a small apartment space"
 ---
 
-Almost every screen-free activity list seems to open the same way: "send them out to the backyard!" Build a mud kitchen. Hang a rope swing. Camp under the stars, twelve feet from your kitchen. Lovely advice, if you have a backyard. If you're raising kids in an apartment, those lists can quietly make you feel like real, wild, screen-free childhood is something other families get to have.
+The best screen-free activities for apartment kids use the spaces you already have: masking-tape floor games, blanket forts, and sock-ball sports in the living room; ribbon wind tests and bean-in-a-jar science on a balcony or windowsill; and chalk courses, puddle studies, and scavenger missions on the courtyard or sidewalk. Pick quiet-footed indoor games (balancing, building, tossing soft things) to keep downstairs neighbors happy, and treat going outside as a mission with a goal rather than a vague airing-out.
 
-It isn't. Here's the reframe worth holding onto: **a backyard is a convenience, not a requirement.** Apartment kids have hallways, balconies, windowsills, stairwells, courtyards, and sidewalks, and every one of those can hold a real adventure. The trick is matching the activity to the space you actually have, so nothing on the list makes you sigh and reach for the tablet instead.
+Because here's the thing most activity lists get wrong: they open with "send them out to the backyard!" as if everyone has one. They don't, and it doesn't matter. **A backyard is a convenience, not a requirement.** Hallways, windowsills, stairwells, and sidewalks can all hold a real adventure; the trick is matching the activity to the space you actually have, so nothing on the list makes you sigh and reach for the tablet instead.
 
 ## The living room is bigger than you think
 

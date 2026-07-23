@@ -6,12 +6,16 @@ heroImage: "/images/article-devices.svg"
 heroAlt: "A child turning away from a screen toward a real-world adventure"
 ---
 
-One video ends and the next one is already playing. Your kid didn't pick it, didn't
-even reach for anything, it just appeared, and somehow it's exactly the kind of thing
-they like. That's not luck. YouTube is designed, very deliberately, to never hand a
-kid a reason to stop. If your child's screen time is basically one long YouTube
-session, you're in extremely normal company, and it doesn't mean you've done anything
-wrong.
+The best screen-free alternatives to YouTube give kids the same three things the
+app does: novelty, an obvious "what's next," and quick rewards. In practice that
+means scavenger-style hunts with lots of little finds, beat-your-own-record
+challenges like stacking or jumping, and hands-on missions where your kid is the
+star instead of the audience. Here's how each one works.
+
+First, why YouTube wins so easily. One video ends and the next one is already
+playing. Your kid didn't pick it, it just appeared, and somehow it's exactly the
+kind of thing they like. That's not luck, and if your child's screen time is
+basically one long YouTube session, you're in extremely normal company.
 
 Three things make it this sticky. Novelty: every video is new, so there's always a
 fresh little surprise waiting. Autoplay: they never have to choose what's next, the

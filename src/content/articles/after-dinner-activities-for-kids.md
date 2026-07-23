@@ -6,18 +6,18 @@ heroImage: "/images/article-bedtime.svg"
 heroAlt: "A family spending a calm screen-free evening together"
 ---
 
-Dinner's done, the dishes are stacked, and there's still an hour or so before bed.
-It's the trickiest stretch of the whole day. Everyone's a little tired, a little
-restless, and the fastest way to buy yourself twenty quiet minutes is to hand over a
-screen. If that's been your default, you're in good company. It's the easy button,
-and after a long day you've earned an easy button.
+The best screen-free after-dinner activities for kids are calm, hands-busy ones
+that bring the energy down instead of up: painting rocks or coloring at the table,
+building a blanket fort and reading inside it, or a slow walk outside to watch the
+sky change. Anything quiet, sit-down, and a little absorbing fills the
+dinner-to-bed gap without winding anyone back up.
 
-Here's the catch, though. A screen in that after-dinner window tends to rev kids up
-right when the day is supposed to be slowing down. The bright light and the
-fast-moving content quietly tell a busy brain it's still go-time, and then bedtime
-turns into a battle you didn't sign up for. **The after-dinner hour isn't dead time
-to survive. It's the on-ramp to an easy bedtime**, and what you fill it with mostly
-decides how lights-out goes.
+If handing over a screen has been your default in that stretch, you're in good
+company. It's the easy button, and after a long day you've earned one. The catch is
+that a screen in that window tends to rev kids up right when the day is supposed to
+be slowing down, and bedtime turns into a battle you didn't sign up for. **The
+after-dinner hour isn't dead time to survive. It's the on-ramp to an easy
+bedtime**, and what you fill it with mostly decides how lights-out goes.
 
 ## Trade the screen for something they make with their hands
 

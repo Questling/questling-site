@@ -6,16 +6,17 @@ heroImage: "/images/article-screen-time.svg"
 heroAlt: "A child deeply focused on a single absorbing task"
 ---
 
-Think about what a screen actually does to a kid's attention. One video ends and the
-next autoplays. A game hands out a little reward every few seconds. A feed refreshes
-the moment things get slow. Nothing on there asks a child to wait, to look closely, or
-to stay with one thing longer than a breath. It quietly trains the opposite of focus:
-a brain that expects a fresh jolt the second the last one fades.
+The activities that improve focus in kids are slow, absorbing, real-world challenges
+that ask for one thing at a time: finishing a single task with a clear end (stacking a
+pebble tower), slow observation (watching a snail, cloud hunting, tracking an ant), and
+open-ended hands-on projects a child can get lost in. What they share is a built-in
+reason to slow down and no reward for rushing.
 
-Here's the reframe worth keeping: **attention isn't a fixed trait your kid either has
-or doesn't. It's more like a muscle, and muscles rebuild.** The way you do it is almost
-funny in how low-tech it is. Slow, absorbing, real-world challenges that ask for one
-thing at a time. Here are a few that genuinely work, no screen required.
+That matters because screens train the opposite. One video ends and the next autoplays,
+a game hands out a reward every few seconds, and nothing asks a child to wait or look
+closely. But **attention isn't a fixed trait your kid either has or doesn't. It's more
+like a muscle, and muscles rebuild.** Here are the activities that genuinely rebuild it,
+no screen required.
 
 ## Start with one task, all the way through
 

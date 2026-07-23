@@ -6,16 +6,16 @@ heroImage: "/images/article-afterschool.svg"
 heroAlt: "A backpack and an apple beside a jump rope and a reward gem"
 ---
 
-There's a specific kind of tired that hits kids right after school. They've held it together
-all day, followed the rules, sat still, and by the time they walk through the door they are
-completely spent. So they flop onto the couch, the tablet comes out, and it does not go back
-until dinner turns into a fight. If that's your afternoon, you're not doing anything wrong.
-That after-school crash is real.
+The way to end the after-school screen battle is to give the afternoon a gentle shape
+instead of a rule: let your kid decompress for the first twenty minutes (snack, quiet, no
+questions), then make one screen-free activity easier to start than the tablet by leaving it
+out and ready. A ban with nothing in its place just leaves a wiped-out kid with nothing to
+do, which lasts about four minutes.
 
-The mistake most of us make is trying to fix it with a rule ("no screens after school") and
-nothing to put in its place. That just leaves a wiped-out kid with nothing to do, which lasts
-about four minutes. What actually works is giving the afternoon a gentle shape that respects
-how drained they are while quietly steering them away from the screen.
+Because there's a specific kind of tired that hits kids right after school. They've held it
+together all day, followed the rules, sat still, and by the time they walk in they are
+completely spent. So the tablet comes out and does not go back until dinner turns into a
+fight. If that's your afternoon, you're not doing anything wrong. That crash is real.
 
 ## Let them decompress first, on purpose
 

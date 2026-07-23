@@ -6,9 +6,9 @@ heroImage: "/images/article-family-night.svg"
 heroAlt: "A child building a tall tower out of blocks and household objects"
 ---
 
-There's a specific look a kid gets when they are deep in building something. The tongue pokes out a little, the shoulders hunch, the whole room goes quiet, and a stack of blocks or a wobbling couch-cushion fort becomes the single most important project on earth. You can say their name twice and get nothing back. **That tuned-out, lost-in-it focus is the good stuff**, the kind of concentration a screen only rents for a while, but building actually grows.
+The best screen-free building activities for kids are couch-cushion or cardboard-box forts, tower-stacking with blocks, cups, or stones, outdoor builds like stick dens, dams, and chalk obstacle courses, and simple contraptions like marble runs, ramps, and craft-stick catapults. All of them run on stuff you already own. Your kid brings the imagination, you just supply the raw material.
 
-Building is one of the easiest screen-free wins you can set up, because your kid brings the imagination and you just supply the raw material. Blocks, sticks, cushions, cardboard, a handful of smooth stones. Here are the ones worth reaching for first, indoors and out.
+And they earn that lost-in-it look a kid gets when they are deep in a build. The tongue pokes out, the room goes quiet, and you can say their name twice and get nothing back. **That tuned-out focus is the good stuff**, the kind a screen only rents but building actually grows. Here are the ones worth reaching for first, indoors and out.
 
 ## Start with a fort
 

@@ -6,16 +6,16 @@ heroImage: "/images/article-sleep.svg"
 heroAlt: "A child patiently watching something slow unfold outside"
 ---
 
-Tap, and the video starts. Tap again, and a new one loads before the first is even
-over. Screens have quietly trained kids to expect everything right now, and it works
-so well that waiting, real waiting, barely gets practiced anymore. Then we ask them
-to sit through a long car ride or hold on while a sibling takes a turn, and we wonder
-why it goes sideways.
+The activities that teach kids patience best are slow-observation games (snail races,
+watching a full sunset, timing an ice cube as it melts), multi-day projects like
+growing a plant or building something big in stages, and simple waiting games where
+holding on IS the game. What they share: the payoff only arrives if the kid sticks
+with it, so waiting gets real practice instead of a lecture.
 
-Here's the reframe that takes the pressure off: **patience isn't a personality trait
-some kids are born with. It's a skill, and skills grow with practice.** A squirmy,
-instant-everything kid isn't broken. They're just short on reps. The activities below
-are the reps, and none of them involve a screen.
+And here's the reframe that takes the pressure off: **patience isn't a personality
+trait some kids are born with. It's a skill, and skills grow with practice.** A
+squirmy, instant-everything kid isn't broken. They're just short on reps. The
+activities below are the reps, and none of them involve a screen.
 
 ## Start with slow observation
 

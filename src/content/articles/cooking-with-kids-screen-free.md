@@ -6,17 +6,19 @@ heroImage: "/images/article-cheap-activities.svg"
 heroAlt: "A kid helping cook a real meal in the kitchen"
 ---
 
-Dinner has to get made either way. That's the quietly wonderful thing about cooking
-with kids: it isn't one more activity you have to invent, schedule, and clean up
-after. You're already standing at the counter. The only real question is whether
-your kid spends that half hour on the couch with a tablet, or next to you with
-their sleeves pushed up, stirring something that actually matters.
+Cooking with kids is one of the best screen-free activities in the house,
+disguised as your to-do list. It has everything kids crave: real tools, a little
+danger, something to smell and taste, and a finished thing everyone eats at the
+end. The recipe is simple: give your kid one real, age-matched job that dinner
+genuinely depends on, from washing produce at 2 to working the stovetop at 12.
 
-Handing over the screen is easier in the moment. Nobody's judging you for that.
-But here's the reframe worth holding onto: **cooking isn't a chore to shield your
-kid from. It's one of the best screen-free activities in the house, disguised as
-your to-do list.** It has everything kids crave: real tools, a little danger,
-something to smell and taste, and a finished thing everyone eats at the end.
+And here's the quietly wonderful part: dinner has to get made either way, so it
+isn't one more activity you have to invent, schedule, and clean up after. You're
+already standing at the counter. The only real question is whether your kid spends
+that half hour on the couch with a tablet, or next to you with their sleeves
+pushed up, stirring something that actually matters. Handing over the screen is
+easier in the moment. Nobody's judging you for that. But cooking isn't a chore to
+shield your kid from.
 
 ## Give them a real job, not a pretend one
 
