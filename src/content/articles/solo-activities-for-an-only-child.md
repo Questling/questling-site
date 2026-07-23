@@ -6,12 +6,18 @@ heroImage: "/images/article-independent-play.svg"
 heroAlt: "An only child happily absorbed in a solo adventure"
 ---
 
+The best solo activities for an only child are self-directed missions with a clear
+goal, a little challenge, and total ownership: building projects, backyard scavenger
+hunts, imaginative worlds, drawing and making, and hands-on collections. An only
+child doesn't need a playmate to stay absorbed. They need a specific thing to do that
+belongs entirely to them, so open time turns into an adventure instead of a stall.
+
 "There's no one to play with." If you're raising an only child, that sentence has
-probably found you at the exact moment you sat down. And when there's no sibling to
-send them off with, the screen starts looking like the world's most convenient
-playmate: always available, never argues, never gets tired. If you've handed it over
-more times than you'd like, you're not failing. You're outnumbered by a device that
-never needs a nap.
+probably found you at the exact moment you sat down. When there's no sibling to send
+them off with, the screen starts looking like the world's most convenient playmate:
+always available, never argues, never gets tired. If you've handed it over more times
+than you'd like, you're not failing. You're outnumbered by a device that never needs
+a nap.
 
 But here's the reframe worth holding onto: **an only child isn't missing a playmate.
 They're holding something most kids rarely get, whole stretches of time that belong

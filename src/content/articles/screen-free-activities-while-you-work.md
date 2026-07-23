@@ -6,15 +6,9 @@ heroImage: "/images/article-work.svg"
 heroAlt: "A laptop and a coffee mug beside a child's building blocks and a reward gem"
 ---
 
-Working from home with a kid around is its own special challenge. You've got a call in
-ten minutes, an inbox that won't quit, and a small person who wants you *right now*. The
-tablet is right there, and it works, so it becomes the default. No judgment, that's just
-what happens when you're trying to do two full-time jobs in the same room.
+The screen-free activities that keep kids busy while you work are the ones set up and ready before your work block starts: an "invitation to play" scene, a rotating box of toys saved just for call time, a real job with a clear finish (sort the recycling, build the tallest tower), or a longer multi-step mission for the two-hour stretches. The key is matching the activity to how long you need and lining your hardest work up with your kid's best independent-play window.
 
-But screens all day, every workday adds up fast, and you can feel it in how the evenings
-go. So the goal here isn't to never use one. It's to have a few reliable, screen-free
-things you can set your kid up with that actually buy you a real stretch of focus, so the
-tablet stops being the only tool in the box.
+You've got a call in ten minutes, an inbox that won't quit, and a small person who wants you *right now*. The tablet is right there, and it works, so it becomes the default. No judgment, that's just what happens when you're doing two full-time jobs in one room. But screens all workday adds up, so the goal isn't to never use one. It's to have a few reliable things that buy you a real stretch of focus, so the tablet stops being the only tool in the box.
 
 ## Set up "invitations to play" before you start
 

@@ -6,12 +6,12 @@ heroImage: "/images/article-grandparents.svg"
 heroAlt: "A parent and child sharing a quiet one-on-one moment outside"
 ---
 
+The best screen-free one-on-one time with your kid is small, frequent, and shared: a walk with a simple goal like finding a stick shaped like a sword, building one thing together such as a blanket fort or a pebble tower, or teaching them a single skill you already have, like skipping a stone or folding a paper airplane. None of it needs a big outing or any money. Ten focused minutes where you are both fully present beats hours where you are half checked out.
+
 Think about the last time you had your kid all to yourself. Not in the same room
-while you answered one more email, not in the car with the radio filling the
-silence, but genuinely one-on-one, both of you pointed at the same thing at the
-same time. For most of us that moment is rarer than we'd like to admit. There's a
-sibling, a phone, a sink full of dishes, a dozen small things tugging at the edges
-of it.
+while you answered one more email, but genuinely one-on-one, both of you pointed at
+the same thing at the same time. For most of us that moment is rarer than we'd like
+to admit.
 
 The instinct, once we notice the gap, is to plan something big to make up for it. A
 whole day out, a special trip, the outing that finally counts. But here's the

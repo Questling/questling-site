@@ -6,13 +6,14 @@ heroImage: "/images/car-ride.svg"
 heroAlt: "A friendly rounded car driving on a road, with a sun, a hill, and a reward gem"
 ---
 
-Some kids can happily stare out a car window for an hour. Most cannot. Somewhere
-around the twenty-minute mark the wiggling starts, then the "are we there yet," and
-the easiest fix in the world is sitting right there in the cup holder: a tablet. If
-that's your current car strategy, no judgment. A screen buys quiet, and quiet is
-precious when you're the one driving.
+The screen-free car activities kids actually stick with fall into four buckets: classic
+talking games like I Spy, twenty questions, and the license-plate hunt; audio like
+audiobooks, story podcasts, and singalong playlists; low-mess busy items like sticker
+books, magnetic games, and water-reveal coloring; and "make the drive the game" missions
+like spotting challenges and story chains. All of them need zero screens and most need
+zero gear.
 
-But screens in the car have a way of becoming the *only* thing that works, and then
+Because here's the thing: screens in the car have a way of becoming the *only* thing that works, and then
 every drive turns into a negotiation. The good news is that car time is secretly great
 for the kind of play a screen crushes the rest of the day: talking, noticing,
 imagining, being a little bored together. Here are the things that genuinely hold up,

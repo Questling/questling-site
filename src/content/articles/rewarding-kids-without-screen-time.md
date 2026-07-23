@@ -6,11 +6,16 @@ heroImage: "/images/article-rewards.svg"
 heroAlt: "A reward jar filling up with gems instead of candy or a screen"
 ---
 
+The rewards that motivate kids just as well as candy or screen time are mostly
+experiences and privileges, not things: extra one-on-one time, a say in a small
+decision, a slightly later bedtime, a small outing like ice cream or a bike ride,
+and tokens or points that build toward a bigger prize. They cost little, don't add
+sugar or screens, and tend to feel bigger to a kid than a treat does.
+
 At some point almost every parent lands on the same two rewards: a treat, or a
 little extra screen time. They're quick, they work in the moment, and your kid
 lights up every time. The trouble shows up later, when "one gummy" turns into a
-whole negotiation, or "ten more minutes" somehow becomes an hour and a fight
-about turning it off.
+whole negotiation, or "ten more minutes" somehow becomes an hour.
 
 None of that makes you a bad parent. Candy and screens are just the two rewards
 sitting closest to hand. The good news is there are plenty of others that work

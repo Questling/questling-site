@@ -6,7 +6,9 @@ heroImage: "/images/article-backyard.svg"
 heroAlt: "Kids exploring a park beyond the playground equipment"
 ---
 
-You promised the kids the park, so everyone piles into the car, you find parking, and you walk over to the playground. For about ten glorious minutes, the slide is the greatest invention on earth. Then it is not. Someone is bored, someone is hot, and someone is already asking how long until you go home. You just got here.
+The best screen-free things to do at the park go beyond the playground: send kids on a scavenger hunt for a feather or a Y-shaped twig, give them a stick-finding quest, roll down the biggest hill, walk the whole edge of the park counting benches, or race across the open grass. The trick is handing them a mission with a goal, because a job to figure out lasts far longer than "go play."
+
+You promised the kids the park, so everyone piles into the car, you find parking, and you walk over to the playground. For ten glorious minutes the slide is the greatest invention on earth. Then it is not. Someone is bored, someone is hot, and someone is already asking how long until you go home.
 
 Here is the thing most park trips miss. **A park is not a playground with some grass around it. It is the biggest free adventure kit your kid will ever get, and the playground is only the front door.** The slide is fine. The rest of the park is where the afternoon actually lives.
 

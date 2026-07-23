@@ -6,9 +6,9 @@ heroImage: "/images/article-toddlers.svg"
 heroAlt: "A child exploring different textures with their hands outdoors"
 ---
 
-Watch a kid on a tablet and notice how still they get. The eyes lock, the hands go quiet, and the whole body switches off except for one thumb. A screen pours light and sound into two senses while the other three sit idle. It is stimulating, but it is also strangely flat, and it is a big reason kids feel wound-up and restless the second the screen goes away.
+Screen-free sensory activities for kids are simple, gear-free games that wake up one sense at a time: a texture trail of moss, bark, and river stones for touch, a smell hunt through crushed mint and rain-soaked dirt, a one-minute listening game that counts every faraway sound. These outdoor missions engage the touch, smell, and hearing that screens ignore, and they are one of the oldest ways to settle a wound-up, restless kid. Most cost nothing but a little time outside.
 
-Real sensory play does the opposite. When a child digs bare hands into cool mud, sniffs a fistful of crushed mint, or goes quiet to catch a faraway bird, the whole nervous system finally has something real to chew on. **Engaging the senses is one of the oldest, simplest ways to settle a busy mind**, and it costs nothing but a little time outside. Here is how to hand your kid the sensory world back, one sense at a time.
+Watch a kid on a tablet and notice how still they get. The eyes lock, the hands go quiet, and the whole body switches off except for one thumb. A screen pours light and sound into two senses while the other three sit idle, which is a big reason kids feel restless the second it goes away. Real sensory play does the opposite. When a child digs bare hands into cool mud, sniffs a fistful of crushed mint, or goes quiet to catch a faraway bird, the whole nervous system finally has something real to chew on. **Engaging the senses is one of the oldest, simplest ways to settle a busy mind**, and it costs nothing but a little time outside. Here is how to hand your kid the sensory world back, one sense at a time.
 
 ## Start with what they can touch
 

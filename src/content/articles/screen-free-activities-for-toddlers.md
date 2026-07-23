@@ -6,11 +6,9 @@ heroImage: "/images/article-toddlers.svg"
 heroAlt: "A stack of colorful blocks, a ball, and a reward gem in a soft scene"
 ---
 
-Toddlers are a special kind of hard. They have the attention span of a goldfish, the
-energy of a small storm, and absolutely no interest in the elaborate activity you
-spent twenty minutes setting up. So a screen starts to feel like the only thing that
-buys you five quiet minutes. That's not a character flaw. Little kids are genuinely
-relentless, and you are allowed to be tired.
+The best screen-free activities for toddlers (ages 1 to 3) are simple, repeatable, whole-body ones: fill-and-dump games, stacking and knocking down towers, posting objects through a slot, sensory play with water or dry pasta, helping with real chores, and plenty of movement to burn off energy. Toddlers don't need clever crafts. They need a small set of easy wins they'll happily repeat forty times without you setting up anything elaborate.
+
+Because toddlers are a special kind of hard. They have the attention span of a goldfish, the energy of a small storm, and no interest in the activity you spent twenty minutes setting up. So a screen starts to feel like the only thing that buys you five quiet minutes. That's not a character flaw. Little kids are relentless, and you are allowed to be tired.
 
 The good news is that toddlers don't actually need clever activities. They need simple,
 repeatable things they can do with their whole body, and they'll happily do the same

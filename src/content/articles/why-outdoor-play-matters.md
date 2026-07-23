@@ -6,9 +6,14 @@ heroImage: "/images/article-outdoorplay.svg"
 heroAlt: "A leafy tree with a sun, grass, and a reward gem"
 ---
 
+Outdoor play matters because it builds four things at once that screens can't touch: physical
+strength and coordination, sharper focus and attention, a steadier mood, and the confidence and
+risk-judgment that come from climbing, balancing, and testing limits. It's less of a treat and
+more of a nutrient, and it barely takes any setup to get.
+
 We tend to file "go play outside" under nice-to-have, a pleasant bonus if the weather's good and
 nobody's too busy. But outdoor play does real, measurable work for kids, the kind of development
-that's hard to get any other way. It's less of a treat and more of a nutrient.
+that's hard to get any other way.
 
 The catch is that it competes with the easiest thing in the house: a screen. So it helps to know
 exactly what your kid gains from time outside, because once you see it, "just twenty minutes in

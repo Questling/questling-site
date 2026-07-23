@@ -6,15 +6,16 @@ heroImage: "/images/winter.svg"
 heroAlt: "A child in a scarf building a snowman as snow falls, with a reward gem"
 ---
 
+The best screen-free winter activities split into two piles: bundled-up outdoor play for
+the days you can get out (building a snow anything, footprint hunts, spray-bottle snow
+painting) and low-effort indoor projects for the days you truly cannot (blanket forts,
+kitchen science, board games, cozy building challenges). None of it needs elaborate
+supplies or a craft you'll abandon by dinner.
+
 Winter has a way of shrinking the day and your options at the same time. It's dark by
 five, it's too cold to just send everyone out the door, and the couch plus a screen
 starts looking like the only reasonable plan by mid-afternoon. If your screen time
-creeps up every winter, you're not doing anything wrong. The season genuinely makes the
-easy outdoor default disappear.
-
-So here's a loose stash of ideas for the cold months. Some for the days you can bundle
-up and get out, and plenty for the days you truly cannot. No guilt, and no elaborate
-crafts you'll abandon by dinner.
+creeps up every winter, you're not doing anything wrong.
 
 ## When you can get outside
 

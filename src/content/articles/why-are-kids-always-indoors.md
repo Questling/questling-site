@@ -6,12 +6,16 @@ heroImage: "/images/article-indoors.svg"
 heroAlt: "A child standing at a window, looking out at a sunny yard with a tree"
 ---
 
-If it feels like kids spend way more time indoors than you did at their age, you're
-not imagining it. But here's the first thing worth saying, and the most important
-one: **you're not doing anything wrong.** The world changed. Screens got really good
-at holding attention, and in almost any room, the glowing thing quietly became the
-easy thing. That's a lot to be up against, and you're already doing more than you
-give yourself credit for.
+Kids spend more time indoors than past generations for three big reasons: screens
+got really good at holding attention, getting outside now takes planning instead of
+just opening the door, and boredom (which used to push kids outside to invent games)
+disappears the second a phone comes out. None of it is a parenting failure. The
+world shifted, and the fix isn't trying harder, it's making outside a little easier
+to reach.
+
+If it feels like your kid is inside way more than you were at their age, you're not
+imagining it, and **you're not doing anything wrong.** That's a lot to be up against,
+and you're already doing more than you give yourself credit for.
 
 The good news? It doesn't take much to tip the balance back. A little outside time
 goes a long way, and honestly, it can be fun for the whole family.

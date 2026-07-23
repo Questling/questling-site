@@ -6,11 +6,15 @@ heroImage: "/images/article-independent-play.svg"
 heroAlt: "A child happily stacking building blocks on their own"
 ---
 
-Let's clear the air first. Wanting your kid to play by themselves for a bit so you
-can breathe, work, or just drink a coffee while it's still hot **is not selfish.**
-It's normal, it's healthy, and (here's the part nobody tells you) it's genuinely
-*good for your child too.* Independent play isn't you checking out. It's a skill
-you're helping them build.
+Getting your kid to play independently comes down to a gentle build-up: set them up
+with open-ended toys in a safe, familiar spot, stay nearby but let them lead the
+play, and stretch the solo time a few minutes longer each day. Praise the effort
+instead of the result, and resist swooping in the moment they get stuck. It's a
+skill you're helping them build, not a switch you flip.
+
+And let's clear the air first. Wanting your kid to play alone so you can breathe,
+work, or drink a coffee while it's still hot **is not selfish.** It's normal, it's
+healthy, and it's genuinely *good for your child too.*
 
 ## Why independent play matters (for them, not just you)
 

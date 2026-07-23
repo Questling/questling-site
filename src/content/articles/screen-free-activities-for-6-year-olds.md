@@ -6,9 +6,9 @@ heroImage: "/images/article-5-year-old.svg"
 heroAlt: "A six-year-old happily busy with a hands-on activity outdoors"
 ---
 
-Somewhere around six, the rules quietly change. Your kid is not a preschooler anymore. They can follow a few steps in a row, they want to do things "by myself," and they light up when something is actually a little hard and they manage it anyway. But six is also not old enough to hand a blank afternoon and a vague "go find something to do." Too open and they stall. Too babyish and they are bored in a minute.
+The best screen-free activities for a six-year-old are simple, winnable challenges: physical goals with a number to beat (long jumps, balancing lines, obstacle courses they design), open-ended pretend play sparked by a stick or a cardboard box, and small missions they can run mostly on their own. Six-year-olds are ready to work at something a little hard and love it when they manage it anyway, so pick activities with a clear goal, a little stretch, and room to do it their own way.
 
-The sweet spot is a challenge that is real but simple: a clear goal, a little stretch, and enough room to do it their own way. **A good six-year-old activity is not about filling time. It is about handing them a small, winnable challenge and then stepping back.** Here are the kinds that fit this age just right.
+Somewhere around six, the rules quietly change. Your kid can follow a few steps in a row and wants to do things "by myself," but six is not old enough for a blank afternoon and a vague "go find something to do." **A good six-year-old activity is not about filling time. It is about handing them a small, winnable challenge and then stepping back.** Here are the kinds that fit this age just right.
 
 ## Give them a challenge they can win
 

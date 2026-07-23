@@ -6,18 +6,18 @@ heroImage: "/images/article-party.svg"
 heroAlt: "A group of kids playing together on a screen-free playdate"
 ---
 
-Every parent knows the arc of the modern playdate. The kids arrive buzzing, there's a
-glorious burst of running and shrieking, and then, somewhere around minute twenty, it
-happens: someone finds a tablet. Suddenly four kids are stacked on a couch watching one
-screen, the house goes quiet in the wrong way, and you're left wondering why you
-coordinated three family calendars for this.
+The best screen-free playdate ideas give a group of kids one shared mission instead of a
+room full of toys: building a blanket fort big enough for everyone, running a backyard
+obstacle course, staging a scavenger hunt, or putting on a quick show. One clear goal with
+a job for every kid keeps the whole group busy and happy for an hour, no tablet required.
 
-If that's how your last playdate went, nothing is wrong with your kid or their friends.
-But here's the reframe worth holding onto: **a playdate doesn't drift to screens because
-kids run out of energy. It drifts because they run out of shared direction.** A group of
-kids with one clear mission will entertain themselves for an hour. A group left to
-negotiate "so, what do you want to do?" ends up at the tablet by default, because it's
-the only option nobody has to argue for.
+Every parent knows the arc: the kids arrive buzzing, and somewhere around minute twenty
+someone finds a tablet and four of them end up stacked on a couch watching one screen. If
+that's how your last playdate went, nothing is wrong with your kid or their friends.
+Here's the reframe worth holding onto: **a playdate doesn't drift to screens because kids
+run out of energy. It drifts because they run out of shared direction.** A group left to
+negotiate "so, what do you want to do?" ends up at the tablet by default, because it's the
+only option nobody has to argue for.
 
 ## Start with a mission, not a room full of toys
 

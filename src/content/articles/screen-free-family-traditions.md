@@ -6,17 +6,20 @@ heroImage: "/images/article-holiday.svg"
 heroAlt: "A family enjoying a simple screen-free tradition together"
 ---
 
+The best screen-free family traditions are small, repeatable rituals you attach
+to something already on your calendar: a **Friday floor picnic**, a **Sunday walk
+to the same tree**, **Saturday pancake shapes**, a **seasonal ritual** tied to
+the first snow or first warm evening, or a **memory jar** you read together once
+a year. A tradition is not a big production you have to invent. It's just a small
+thing you do twice, then keep doing.
+
 Ask a grown-up what they remember about being a kid and you almost never hear
 about a specific episode of anything. You hear about pancake Saturdays, the
 first-snow walk, the uncle who always lost at cards on purpose. Kids' memories
-are built out of repetition: the things that happened the same way, at the same
-time, over and over. Shows blur together. Traditions stick.
-
-And here's the part that surprises most parents: **a tradition is not a big
-production you have to invent. It's just a small thing you do twice.** Do
-something once and it's an activity. Do it again the next week, and it quietly
-becomes "a thing we do." That's the entire trick. You don't need a Pinterest
-board. You need a repeat.
+are built out of repetition. Shows blur together, traditions stick. Do something
+once and it's an activity. Do it again the next week, and it quietly becomes "a
+thing we do." That's the entire trick. You don't need a Pinterest board. You
+need a repeat.
 
 ## Start with one weekly ritual (tiny is the point)
 

@@ -6,10 +6,14 @@ heroImage: "/images/chores.svg"
 heroAlt: "A cheerful child sweeping with a broom as a reward gem floats up"
 ---
 
-Getting a kid to do a chore can feel like negotiating with a tiny, very stubborn union
-rep. Ask them to tidy up and you get a slow-motion collapse onto the floor. Ask again
-and now you're the villain. It's one of the most reliably annoying parts of the day,
-and it's tempting to either do it yourself or bribe your way out with a screen.
+To turn chores into games kids actually want to do, wrap the same task in a playful
+frame: race a timer, sort by rules like "all the red things first," run a cleanup hunt
+for things that don't belong, or have them beat their own high score. Give the finished
+job a small reward or point. You aren't making them love cleaning, you're changing the
+frame the task comes in.
+
+Otherwise, getting a kid to do a chore feels like negotiating with a tiny, stubborn
+union rep. Ask them to tidy up and you get a slow-motion collapse onto the floor.
 
 Here's the reframe that changes it: kids will cheerfully do almost anything that feels
 like a game, and resist almost anything that feels like a chore, even when it's the

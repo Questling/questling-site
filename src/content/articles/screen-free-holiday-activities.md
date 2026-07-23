@@ -6,13 +6,12 @@ heroImage: "/images/article-holiday.svg"
 heroAlt: "A small decorated tree with a star and a reward gem"
 ---
 
+The best screen-free holiday activities lean on what the season already gives you: baking, decorating, making cards and gifts by hand, wrapping presents, family game nights, and driving around to look at lights. Give the long days a loose rhythm (out in the morning, quiet or creative in the afternoon, together in the evening), keep a few no-prep go-to ideas ready, and the tablet stops eating the whole break. You don't need a packed activity camp, just a loose shape.
+
 The holiday break starts magical and, somewhere around day four, turns into long empty days,
 overtired kids, and a tablet quietly running the whole afternoon. It's not a failure. Unstructured
 time plus excitement plus no school routine is genuinely hard to fill, and the screen is the path
 of least resistance when you're worn out too.
-
-You don't need to turn the break into a packed activity camp. You just need a loose shape and a
-few go-to ideas so the screens don't eat the whole holiday. Here's a relaxed plan.
 
 ## Give the days a loose rhythm
 

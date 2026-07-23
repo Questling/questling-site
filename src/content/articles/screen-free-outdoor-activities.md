@@ -6,12 +6,15 @@ heroImage: "/images/article-outdoors.svg"
 heroAlt: "A sunny outdoor scene with a tree, a ball, a kite, and a reward gem"
 ---
 
-Sometimes you don't need a parenting philosophy. You just need a *list.* So when
-your kid is climbing the walls and your brain is empty, here are 25 screen-free
-outdoor ideas to pull from. Most need nothing but a backyard, a park, or a sidewalk,
-and no prep at all.
+Kids can do plenty outside without a screen: quick 5-minute games like cloud
+shapes and stick-sword hunts, creative projects like sidewalk chalk murals and mud
+kitchens, wiggle-burners like obstacle courses and driveway bowling, nature
+detective missions like bug safaris, and bigger afternoon builds like backyard
+forts. Almost all of it needs nothing but a backyard, a park, or a sidewalk, and no
+prep at all.
 
-Save this page. Next time you hear "there's nothing to do," open it and pick one.
+Sometimes you don't need a parenting philosophy, you just need a *list.* Save this
+page. Next time you hear "there's nothing to do," open it and pick one.
 
 ## Quick 5-minute ideas (for when you need it *now*)
 

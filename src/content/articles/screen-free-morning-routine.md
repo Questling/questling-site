@@ -6,15 +6,16 @@ heroImage: "/images/article-morning.svg"
 heroAlt: "A cheerful sunrise over a hill with a clock, a cereal bowl, and a reward gem"
 ---
 
-Mornings have a way of falling apart the second a screen enters the picture. The tablet
-comes out "just while I make breakfast," and forty minutes later you're prying it away
-from a kid who's now late, dysregulated, and furious at you. The screen didn't save the
-morning. It quietly stole it.
+A screen-free morning routine that doesn't end in a fight runs on the same predictable
+order every day (bathroom, dressed, breakfast, shoes, out), a chart on the wall that does
+the reminding instead of you, and one firm rule: no screens before everyone's ready.
+Mornings run on momentum, and a tablet kills that momentum dead, so the fix isn't more
+nagging, it's structure the kid can run on autopilot.
 
-Here's the thing about mornings: they run on momentum, and screens kill momentum dead. A
-kid who's locked into a video isn't getting dressed, isn't eating, isn't moving toward
-the door. So the most useful screen-free rule in the whole day might just be "not before
-we're ready." Let's build a morning that holds together without one.
+Because you know the other version. The tablet comes out "just while I make breakfast,"
+and forty minutes later you're prying it away from a kid who's now late, dysregulated,
+and furious at you. The screen didn't save the morning. It quietly stole it. Let's build
+one that holds together without it.
 
 ## Make the order the same every day
 

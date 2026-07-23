@@ -6,16 +6,18 @@ heroImage: "/images/article-indoor-energy.svg"
 heroAlt: "A cushion obstacle course with a reward gem"
 ---
 
-It's raining sideways, the park is out, and your kid has been vibrating since
-breakfast. By mid-morning they've done a lap of the couch, knocked something over,
-and asked "what can I do" roughly forty times. You can feel the whole day narrowing
-down to one easy answer: hand over the tablet and buy yourself an hour of quiet.
+The fastest way to burn off a kid's energy indoors is to turn the living room into a
+movement space with stuff you already own: a cushion obstacle course, a "hot lava"
+floor, indoor bowling, balloon keep-up, or a dance freeze game. Each one gets a
+wound-up kid moving hard for ten to fifteen minutes, needs no gear or prep, and
+resets the mood without a screen. The trick is physical effort plus a simple goal to
+chase.
 
-That's a fair instinct, and nobody's judging it. But a wound-up kid usually doesn't
-need a screen. They need to *move*, and a living room can absolutely handle that if
-you lean into it instead of fighting it. Here are the go-to indoor activities that
-actually burn energy, use stuff you already own, and reset the mood in about fifteen
-minutes.
+Because when it's raining sideways and your kid has been vibrating since breakfast,
+the tablet starts to look like the only answer. That's a fair instinct and nobody's
+judging it. But a wound-up kid usually doesn't need a screen. They need to *move*,
+and a living room can absolutely handle that if you lean into it instead of fighting
+it.
 
 ## Build a cushion obstacle course
 

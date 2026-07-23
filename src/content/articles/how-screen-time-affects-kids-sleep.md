@@ -6,13 +6,15 @@ heroImage: "/images/article-sleep.svg"
 heroAlt: "A crescent moon with Z Z Z and a soft cloud beside a reward gem"
 ---
 
-If your kid fights sleep, lies awake, or wakes up cranky, the tablet before bed is worth a hard
-look. Screens and sleep are a genuinely bad match, and it's not just a parenting hunch, there
-are real reasons a screen right before bed leaves a kid wired instead of drowsy.
+Screen time hurts your kid's sleep in two clear ways: the bright light delays melatonin, the
+hormone that makes us drowsy, and the stimulating content (a game, a fast video, a cliffhanger)
+revs the mind up right when it needs to power down. The fix is one of the most reliable in
+parenting: no screens for at least an hour before bed, keep devices out of the bedroom, and
+put a calm routine in their place. Do that and you'll likely see easier nights within a week.
 
-The good news is this is one of the most fixable sleep problems there is. You don't need a
-sleep clinic. You mostly need to move the screens out of the hour before bed and put something
-calmer in their place. Here's what's actually going on and what to do about it.
+If your kid fights sleep, lies awake, or wakes up cranky, the tablet before bed is worth a hard
+look. The good news is this is one of the most fixable sleep problems there is. You don't need a
+sleep clinic. Here's what's actually going on and what to do about it.
 
 ## What screens do to sleep
 

@@ -6,6 +6,12 @@ heroImage: "/images/article-bored.svg"
 heroAlt: "A bored child with an idea sparking into a reward gem above their head"
 ---
 
+When your kid says "I'm bored," the best move is usually to not fix it right away.
+Resist the urge to hand over a screen or plan an activity. Instead, offer a specific
+mission ("find something older than you in the backyard"), give a small either-or
+choice, or simply let them sit with the boredom for a few minutes, since that itch is
+what pushes them to invent their own fun.
+
 Few sentences land quite like a long, dramatic "I'm booooored." It usually shows up
 the second you've finally sat down, and the fastest way to make it stop is to hand
 over a screen. If that's been your go-to, you're in good company. It doesn't make

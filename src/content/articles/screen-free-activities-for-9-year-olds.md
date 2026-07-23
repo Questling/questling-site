@@ -6,9 +6,9 @@ heroImage: "/images/article-10-year-old.svg"
 heroAlt: "A nine-year-old building an ambitious outdoor project"
 ---
 
-Something shifts at nine. Your kid is not a little kid anymore, and they know it. They want to be handed something real, a task with a bit of weight to it, and then they want you to step back and let them figure it out on their own. Suggest something too easy or too cutesy and you will hear the verdict fast: "that's boring." Half the time boring does not mean boring at all. It means too simple.
+The screen-free activities that land with nine-year-olds are real challenges they can mostly run on their own: builds like forts and working contraptions, physical skills turned into records to beat, and outdoor missions with a bit of weight to them. Nine is the age where kids can hold a plan in their head, stick with something hard for longer than a few minutes, and feel genuinely proud when it finally works. Give them that and a screen loses a lot of its pull.
 
-**A nine-year-old is not asking for more entertainment. They are asking for a real challenge they can mostly pull off by themselves.** Nine is the age where kids can hold a plan in their head, stick with something hard for longer than a few minutes, and feel genuinely proud when it finally works. Give them that and a screen loses a lot of its pull.
+Something shifts at nine. Your kid is not a little kid anymore, and they know it. They want to be handed something real and then want you to step back and let them figure it out on their own. Suggest something too easy or too cutesy and you will hear the verdict fast: "that's boring." Half the time boring does not mean boring at all. It means too simple.
 
 ## Hand them a build, not a craft
 

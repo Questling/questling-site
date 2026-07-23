@@ -6,11 +6,15 @@ heroImage: "/images/article-videogames.svg"
 heroAlt: "A child choosing a real-world activity over a device"
 ---
 
+The best things to do instead of screens are quick, screen-free activities
+matched to the moment: five-minute bridges like a color hunt to reach dinner, big
+physical missions like an obstacle course when energy is high, calm play like
+cloud-watching when everyone is wiped, and solo play like fort-building when they
+need to entertain themselves. You need no supplies, just one idea.
+
 It is 5 p.m., dinner is not started, and your kid is circling your legs asking
-what to do. The screen is right there. It is quiet, it is instant, and it buys
-you twenty minutes of peace. If that is your reflex, you are in good company, and
-it does not make you a bad parent. It just makes you a person with a lot going on
-at once.
+what to do. The screen is right there. If that is your reflex, you are in good
+company, and it does not make you a bad parent.
 
 The thing that actually helps is not more willpower. It is having a **ready
 list**. When you already know a few screen-free things that fit the exact moment

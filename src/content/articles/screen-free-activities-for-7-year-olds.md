@@ -6,7 +6,9 @@ heroImage: "/images/article-7-year-old.svg"
 heroAlt: "A magnifying glass and a kite with a reward gem"
 ---
 
-It's a Saturday afternoon, the weather is fine, and your seven-year-old is lying upside-down on the couch asking for the iPad for the fourth time. You know they have the energy of a small storm. You just can't summon the plan to point it somewhere. So the tablet wins, again, and you feel that little pinch of guilt you promised yourself you'd stop feeling.
+The screen-free activities that work for a seven-year-old are missions with real steps: a backyard expedition with a checklist, a hand-drawn secret map, a five-photo story, or a hands-on building project like a cardboard marble run. At this age kids crave a bit of independence and a challenge they can feel themselves finishing, so the activities that land are the ones with a clear beginning, middle, and end.
+
+It's a Saturday afternoon, your seven-year-old has the energy of a small storm, and they're asking for the iPad for the fourth time. So the tablet wins again, and you feel that little pinch of guilt.
 
 Here's the thing worth remembering: a seven-year-old is not bored because there's nothing to do. They're bored because they've outgrown the easy stuff and haven't been handed the next challenge yet. At this age kids crave a bit of independence and a mission with real steps. Give them that, and they'll disappear into it for an hour. Here are the kinds of activities that actually land at seven.
 

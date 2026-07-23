@@ -6,9 +6,9 @@ heroImage: "/images/article-50-activities.svg"
 heroAlt: "A happy child mid-adventure outside with a reward gem sparkling above"
 ---
 
-It is 4pm. Dinner is an hour off, everyone is a little cranky, and the tablet is sitting right there on the couch like it knows something. You do not want to hand it over again, but you also do not have a craft supply run or a Pinterest board in you today. You just need one good idea, right now, that gets your kid up and moving.
+The best screen-free things to do with kids are small, specific challenges they can start in the next five minutes: outside, that means a stick sword hunt, shadow tag, or a timed race to the fence; inside, a blanket fort, a floor-is-lava course, or building the tallest tower that holds a toy car. **Fun almost never comes from an elaborate plan.** It comes from one clear mission, tossed at a restless kid who takes it and runs.
 
-Here is the reassuring part: **fun almost never comes from a plan.** The best screen-free afternoons are not elaborate setups. They are one small, specific challenge tossed at a restless kid who takes it and runs. Below is a big pile of those, sorted by where you are and how much energy you have (which today is probably not much).
+You know the moment. It is 4pm, dinner is an hour off, everyone is a little cranky, and the tablet is sitting right there like it knows something. You do not have a craft run or a Pinterest board in you today. Below is a big pile of ideas, sorted by where you are and how much energy you have (which today is probably not much).
 
 ## Quick outdoor missions with zero gear
 

@@ -6,12 +6,15 @@ heroImage: "/images/article-videogames.svg"
 heroAlt: "A game controller beside a bright sun and a reward gem"
 ---
 
-You know the feeling. The second there's a free minute, they're asking for the console. Say
-no and everything else is instantly "boring." Say yes and an hour vanishes, then two, and
-peeling them off it starts a fight. It's easy to feel like you're either the bad guy or the
-parent who caved, with no good option in between.
+When your kid only wants video games, don't try to ban or out-argue the console. Figure out
+what they actually get from it (progress, quick wins, mastery, competition, building) and
+offer that same payoff in the real world. Give real life clear goals, fast feedback, and
+rewards to earn, and the game stops being the only good option. Games win because they're
+professionally engineered to, not because your kid lacks willpower or you parented wrong.
 
-First, a deep breath: your kid loving video games this much does not mean you did something
+You know the feeling. The second there's a free minute, they're asking for the console. Say
+no and everything else is instantly "boring," say yes and an hour vanishes. First, a deep
+breath: your kid loving video games this much does not mean you did something
 wrong. Games are *engineered* to be this compelling, by very smart people, on purpose. You're
 not competing against your kid's willpower. You're competing against a professional design
 team. Knowing that changes how you fight it, because you stop blaming yourself and your kid,

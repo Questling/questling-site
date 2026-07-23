@@ -6,11 +6,12 @@ heroImage: "/images/restaurant.svg"
 heroAlt: "A child at a restaurant table drawing on a placemat, with a cup, a plate, and a reward gem"
 ---
 
-There's a very specific window at a restaurant, roughly the twenty minutes between
-ordering and the food actually arriving, when a small child decides they are done.
-Done sitting, done waiting, done being anywhere near a chair. That's usually the
-moment a tablet slides across the table, because it's the one thing guaranteed to buy
-a little peace.
+The screen-free restaurant activities that actually keep kids happy fall into three
+buckets: drawing and paper games on the placemat (the squiggle game, guess-my-drawing,
+tic-tac-toe), a tiny bag of quiet toys and crayons you pack ahead, and fun
+would-you-rather questions that turn the wait into real conversation. Together those
+three cover the twenty minutes between ordering and food that usually sends a tablet
+sliding across the table.
 
 No shame in it. Eating out with little kids is genuinely hard, and you deserve to
 taste your own meal while it's warm. But a screen at dinner also means your kid checks

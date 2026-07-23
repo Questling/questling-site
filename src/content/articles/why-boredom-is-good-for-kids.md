@@ -6,10 +6,15 @@ heroImage: "/images/boredom.svg"
 heroAlt: "A thoughtful child looking up as an idea sparks into a reward gem in a thought cloud"
 ---
 
-Somewhere along the way, boredom became something to prevent. The moment a kid says
-"I'm booored," most of us feel a little jolt of responsibility, like we've failed to
-keep them properly entertained, and we reach for the nearest fix. Usually a screen.
-It's fast, it works, and the complaining stops.
+Boredom is good for kids because it forces them to generate their own ideas, which is
+where creativity, independence, and focus get built. When a kid runs out of outside
+input and nobody rushes in to fill the gap, they start inventing games and stories, and
+they learn they can fill their own time. Letting them be bored gives them the raw
+material the endlessly-entertained ones never get.
+
+Which is hard to remember in the moment. When a kid says "I'm booored," most of us feel
+a jolt of responsibility, like we've failed to keep them entertained, and we reach for
+the nearest fix. Usually a screen. It's fast, it works, and the complaining stops.
 
 But boredom isn't a problem you're failing to solve. It's a normal, useful, slightly
 uncomfortable state that does real work for a growing brain. Kids who get to sit in it,

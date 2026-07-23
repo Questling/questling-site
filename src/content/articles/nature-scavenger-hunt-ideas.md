@@ -6,14 +6,15 @@ heroImage: "/images/scavenger-hunt.svg"
 heroAlt: "A nature scavenger hunt checklist with a leaf, a rock, and a feather, and a reward gem"
 ---
 
-A scavenger hunt is about the closest thing there is to a cheat code for getting kids
-outside. It takes a vague, easy-to-refuse "go play in the yard" and turns it into a
-mission with a finish line. Suddenly the same backyard they were bored of ten minutes
-ago is full of things to find.
+A good nature scavenger hunt is a short list of things for kids to find outside, six to
+ten items long, matched to where you are. In the backyard, hunt for a smooth rock, a
+feather, something red, and a stick shaped like a letter. At the park, add an acorn, a
+bug, and bark you can rub. At the beach, look for a shell, sea glass, and a crab track.
+Give them a bag to collect in and a rule to spot living things without grabbing them.
 
-Better still, it costs nothing and needs almost no prep. A short list, a bag or bucket
-to collect in, and a kid with somewhere to point their energy. Here's how to run one,
-plus ready-made lists for wherever you happen to be.
+It works because it takes a vague, easy-to-refuse "go play in the yard" and turns it
+into a mission with a finish line. It costs nothing and needs almost no prep. Here's how
+to run one, plus ready-made lists for wherever you happen to be.
 
 ## How to run one
 

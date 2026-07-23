@@ -6,9 +6,9 @@ heroImage: "/images/article-5-year-old.svg"
 heroAlt: "Stacking blocks and a ball with a reward gem"
 ---
 
-It's a rainy Tuesday, your five-year-old has already asked for the tablet four times, and you have about nine minutes of energy left in the tank. You know screen time isn't the enemy, exactly, but you can also feel that it's the easy button you keep pressing, and you'd love an alternative that doesn't require a Pinterest craft supply run.
+The screen-free activities that actually work for a five-year-old are the ones pitched at exactly where they are: big pretend play, short bursts, real stuff to touch, and a grown-up who says "yes, go" instead of "let me set this up." Think couch-turned-rocket, a two-minute treasure hunt, playdough within arm's reach, and a job with a title. None of them need a Pinterest supply run, and most take under five minutes to start.
 
-Here's the good news about this age. Five-year-olds are wired for imagination and they'll throw themselves into almost anything if you frame it right. The trick isn't more elaborate activities. It's activities pitched at exactly where they are: big pretend, short bursts, real stuff to touch, and a grown-up who says "yes, go" instead of "let me set this up."
+If it's a rainy Tuesday and your five-year-old has already asked for the tablet four times, you don't need more elaborate activities. You need ones framed right, because at this age they'll throw themselves into almost anything if you give them a premise and permission.
 
 ## Lean all the way into pretend play
 

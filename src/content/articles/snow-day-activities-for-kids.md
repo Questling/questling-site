@@ -6,6 +6,8 @@ heroImage: "/images/article-morning.svg"
 heroAlt: "Kids playing outside in fresh snow on a day off"
 ---
 
+The best screen-free snow day activities pair fresh-snow play outside with cozy projects for after. Get kids out early to build a snow fort, go sledding on a cookie sheet, set up a snowball target range, or paint the snow with colored water, then thaw out inside with hot cocoa, blanket forts, and something baking. The snow itself does most of the entertaining, so you mostly just have to get everyone bundled and out the door.
+
 The forecast said maybe an inch. You woke up to six, and the school's automated call came at 6 a.m. Now there's a whole unplanned day in front of you, the driveway needs shoveling, you still have work, and everyone under four feet tall is already asking for the tablet. Letting screens quietly run the whole day is the path of least resistance, and if that's where a surprise day off usually lands, you're in good company. Nobody plans for a snow day. That's the entire point of one.
 
 Here's the reframe worth holding onto, though: **a snow day is one of the few days the outside world does the entertaining for you.** The snow is the activity. You mostly just have to get everyone bundled and out the door before the couch wins.

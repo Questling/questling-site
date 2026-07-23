@@ -6,9 +6,9 @@ heroImage: "/images/article-7-year-old.svg"
 heroAlt: "An eight-year-old proudly finishing an outdoor challenge"
 ---
 
-You can watch it happen right around age eight. The activities that used to work start earning the polite eye-roll. The sticker chart, the simple scavenger hunt, the "go color for a while," all of it suddenly lands as *little-kid stuff*. Your eight-year-old hasn't run out of energy or ideas. They've just outgrown the training-wheels version of everything, and they can tell instantly when they're being handed one.
+The screen-free activities that land at eight are the ones that treat a kid as capable: ambitious builds like real forts and lean-tos, backyard challenges they can time and keep score on, and missions they run without you. **An eight-year-old isn't hard to entertain. They're restless because they want to be trusted with something real, and most of what gets offered is too small for them.** Give them a genuine challenge, a bit of independence, and the chance to get actually good at something, and the screen stops being the obvious answer.
 
-Here's the reframe worth keeping in your pocket: **an eight-year-old isn't hard to entertain. They're restless because they want to be trusted with something real, and most of what gets offered is too small for them.** At this age kids want a genuine challenge, a bit of independence, and the chance to get actually good at something. Give them that, and the screen stops being the obvious answer. Here's the kind of thing that lands at eight.
+You can watch it happen right around age eight. The activities that used to work start earning the polite eye-roll. The sticker chart, the simple scavenger hunt, the "go color for a while," all of it suddenly lands as *little-kid stuff*. Your eight-year-old hasn't run out of energy or ideas. They've just outgrown the training-wheels version of everything, and they can tell instantly when they're being handed one. Here's the kind of thing that lands at eight.
 
 ## Builds with real ambition
 

@@ -6,9 +6,9 @@ heroImage: "/images/article-independent-play.svg"
 heroAlt: "A child happily playing on their own at home with simple materials"
 ---
 
-It is 4pm on a day that has somehow felt about three days long. The weather ruled out the park, everyone is a little done with each other, and your kid is trailing you from room to room to announce that there is officially, tragically, nothing to do. You love them. You are also extremely ready for them to be entertained by anything that is not you.
+The best screen-free things to do with kids at home are low-prep and open-ended: build a blanket fort, turn the kitchen table into a maker station using cardboard and painted rocks, burn off energy with floor-is-lava or balloon keep-up, and let them into real jobs like cracking the eggs for dinner. None of it needs a kit or a Pinterest-perfect plan. Kids just need one small idea, a little permission, and a reason to run with it.
 
-Before you reach for the tablet, here is the reframe worth holding onto: **a slow afternoon at home is not a gap you have to fill with something impressive.** Kids do not need a themed activity station or a Pinterest-perfect craft. They need one small idea, a little permission, and a reason to run with it. Below are low-prep, screen-free things to do at home that ask almost nothing of you.
+It helps most on the days that feel about three days long, when the park is out, everyone is a little done with each other, and your kid is trailing you from room to room to announce that there is officially, tragically, nothing to do. A slow afternoon at home is not a gap you have to fill with something impressive. Below are low-prep, screen-free things to do at home that ask almost nothing of you.
 
 ## Build a fort and let it become a whole world
 

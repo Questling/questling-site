@@ -6,10 +6,16 @@ heroImage: "/images/article-summer.svg"
 heroAlt: "A bright summer scene with a sun, a popsicle, grass, and a reward gem"
 ---
 
-Summer sounds dreamy right up until about day three, when the school routine is gone,
-the days stretch out forever, and "I'm bored" becomes the soundtrack of your life.
+To keep summer from turning into all-day screen time, give each day a loose
+three-part rhythm instead of a strict schedule: mornings outside before it gets
+hot, afternoons for quiet or creative play (a bit of screen time at peak heat is
+fine), and evenings together. Keep a short list of simple, low-prep activities on
+hand so "I'm bored" has an easy answer that isn't the iPad.
+
+Because here's the thing: summer sounds dreamy right up until about day three, when
+the school routine is gone and "I'm bored" becomes the soundtrack of your life.
 That's usually when the iPad quietly takes over. Not because you failed, but because
-unstructured time is genuinely *hard*, and a screen is the path of least resistance.
+unstructured time is genuinely *hard*.
 
 So let's make a plan that's actually realistic. Not a color-coded summer schedule
 you'll ditch by July 5th. Just a loose shape for the days that keeps screens from

@@ -6,11 +6,16 @@ heroImage: "/images/article-siblings.svg"
 heroAlt: "Two kids working together on a shared outdoor project"
 ---
 
-Watch two kids share a single tablet and you'll notice something: they're sitting
-shoulder to shoulder, but they aren't really together. One narrates, one grabs for
-control, and the whole thing tips into a standoff over whose turn it is to hold it. A
-screen built for one pair of hands doesn't teach cooperation. It teaches waiting, and a
-low simmer of resentment.
+The best teamwork activities for kids give two or more of them one job that's too big
+to finish alone, so they have to split the work, figure out who's good at what, and
+land on a result together. Think forts and other builds too big for one kid, relay and
+tag games that need a partner, cooperative treasure hunts, and shared jobs like planting
+a garden bed or washing the car. The trick is that the goal, not you, does the coaching.
+
+You already know the version that doesn't work. Two kids share a single tablet, sitting
+shoulder to shoulder but not really together, and it tips into a standoff over whose turn
+it is to hold it. A screen built for one pair of hands teaches waiting and a low simmer
+of resentment, not cooperation.
 
 Teamwork is a skill, and like any skill it grows with reps. Kids learn to cooperate by
 actually cooperating: splitting up a job, bickering about it a little, working out who's

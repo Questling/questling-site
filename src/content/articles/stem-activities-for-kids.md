@@ -6,16 +6,17 @@ heroImage: "/images/article-educational.svg"
 heroAlt: "A child running a hands-on outdoor science experiment"
 ---
 
+Screen-free STEM activities let kids do real science, technology, engineering, and
+math with their hands instead of on a screen: a cardboard bridge that has to hold a
+can of beans, a stick jabbed into a puddle to measure how deep it goes, a block tower
+rebuilt until it stops falling over. You do not need a kit, a lab, or a single dollar
+of gear to start. You need a backyard and a good question.
+
 Ask ten people what STEM looks like and most will picture a screen: an app with a
 coding robot, a math game with badges, a worksheet with a rocket in the corner. All
-fine. None of it is the real thing.
-
-Real STEM is a kid crouched over a puddle, jabbing a stick in to see how deep it goes.
-It is a block tower that fell for the third time and the small engineer starting
-to figure out why. **Science, technology, engineering, and math are not subjects you
-download. They are things a kid does with their hands, outside, usually a little
-muddy.** Better still, you do not need a kit, a lab, or a single dollar of gear to
-start. You need a backyard and a good question.
+fine, but none of it is the real thing. **Science, technology, engineering, and math
+are not subjects you download. They are things a kid does with their hands, outside,
+usually a little muddy.**
 
 ## Build it, test it, break it, build it better
 

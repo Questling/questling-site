@@ -6,10 +6,15 @@ heroImage: "/images/article-siblings.svg"
 heroAlt: "Two kites in the sky with a reward gem"
 ---
 
-There's a special kind of chaos that happens the moment you turn the screens off and two kids
-are left to entertain each other. Within ninety seconds someone's touching someone, someone's
-"not sharing," and you're refereeing a conflict over a toy nobody wanted five minutes ago. It's
-enough to make you hand the tablets right back just for the quiet.
+The screen-free activities that keep siblings from fighting are cooperative ones aimed at a
+shared goal: building a blanket fort or marble run together, running a pretend restaurant, doing
+a house-wide treasure hunt, or designing a backyard obstacle course as a team. Skip anything with
+a "winner," and if there's an age gap, give the older kid a role like guide or team captain so
+they're united instead of competing.
+
+Because there's a special kind of chaos when you turn the screens off and two kids are left to
+entertain each other. Within ninety seconds someone's touching someone, someone's "not sharing,"
+and you're refereeing a fight over a toy nobody wanted five minutes ago.
 
 But siblings without screens don't have to mean siblings at war. A lot of the fighting comes
 from boredom plus competition. Give them something to do *together*, aimed at a shared goal

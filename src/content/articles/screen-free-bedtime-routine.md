@@ -6,10 +6,11 @@ heroImage: "/images/article-bedtime.svg"
 heroAlt: "A crescent moon, an open book, and a reward gem in a night scene"
 ---
 
+A screen-free bedtime routine is a short, fixed sequence of calm activities done in the same order every night, with screens off well before bed. A simple version is bath, pajamas, teeth, a story, then lights out. The point is sameness and low stimulation, so their body learns to power down on cue instead of fighting sleep.
+
 Bedtime with a screen is a trap that feels like a solution. The tablet keeps them quiet while
 you tidy up, but it also winds them up right when you need them winding down. Then you try to
-take it away and get a second wind of protest, a kid who's now both tired and amped, and a
-lights-out that drags on forever.
+take it away and get a second wind of protest, and a lights-out that drags on forever.
 
 Here's the thing screens do at bedtime: the light tells their brain it's daytime, and the
 content keeps their mind racing. It's the opposite of what sleep needs. So the most useful

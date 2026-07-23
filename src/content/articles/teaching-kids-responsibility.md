@@ -6,11 +6,16 @@ heroImage: "/images/article-transition.svg"
 heroAlt: "A child proudly taking care of a real responsibility"
 ---
 
+The most reliable way to teach kids responsibility is to give them real jobs with
+real consequences, not chores on a chart. Hand over the full care of something that
+depends on them (a plant, a pet, a patch of garden), let them own a task from start
+to finish, and let natural feedback do the teaching instead of nagging. Responsibility
+grows through repeated real-world reps, not reminders.
+
 Somewhere near the top of every parent's wish list is a kid who just... follows
 through. Feeds the dog without being reminded. Puts the bike away because that's
-where the bike goes. Finishes the project they begged to start. Instead, most of us
-live in the gap between "I asked you three times" and "fine, I'll do it myself,"
-and it's exhausting from both sides.
+where the bike goes. Instead, most of us live in the gap between "I asked you three
+times" and "fine, I'll do it myself," and it's exhausting from both sides.
 
 Here's the reframe worth holding onto: **responsibility isn't a personality trait
 some kids are born with. It's a skill, and skills are built through reps.** Nagging

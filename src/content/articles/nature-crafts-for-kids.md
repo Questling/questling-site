@@ -6,12 +6,17 @@ heroImage: "/images/article-gifts.svg"
 heroAlt: "A child making a craft from leaves and sticks they collected"
 ---
 
-Something quietly good happens on the walk to gather craft supplies, and it is easy
-to miss. Your kid slows down. A rock has to be the *right* rock. A leaf gets held up
-to the light and turned over twice before it makes the cut. By the time you are home
-with a pocket full of treasure, the best part has arguably already happened, and that
-is not a problem at all. **The collecting is half the craft.** The gluing and painting
-afterward is really just the excuse to go looking in the first place.
+The best nature crafts for kids use free finds from a short walk: leaf rubbings, leaf
+animals, and suncatchers; painted story stones and kindness rocks; sticks turned into
+wands, God's eyes, or swords; and pressed flowers made into bookmarks and cards. Each
+one costs almost nothing, skips the craft-store run, and starts with a hunt right
+outside your door.
+
+And something quietly good happens on that walk to gather supplies. Your kid slows
+down. A rock has to be the *right* rock. A leaf gets held up to the light and turned
+over twice before it makes the cut. By the time you are home with a pocket full of
+treasure, the best part has arguably already happened. **The collecting is half the
+craft.** The gluing and painting afterward is really just the excuse to go looking.
 
 Nature crafts are the rare screen-free activity that costs almost nothing, uses
 whatever is already outside your door, and hands a kid a reason to look closely at a

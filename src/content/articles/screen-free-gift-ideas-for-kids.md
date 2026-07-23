@@ -6,14 +6,16 @@ heroImage: "/images/article-gifts.svg"
 heroAlt: "A wrapped present with a bow and a reward gem"
 ---
 
-Every parent has bought the exciting, blinking, battery-powered toy that got played with hard
-for three days and then joined the graveyard under the bed. Meanwhile the plain wooden blocks
-are still going strong two years later. That's the quiet truth about kids' gifts: the flashiest
-thing is rarely the one they actually keep playing with.
+The best screen-free gifts for kids are **open-ended** ones that can be a hundred different
+things instead of just one: blocks, magnet tiles, art supplies, play figures, building sets,
+and simple outdoor gear. Match them to the age (stacking cups and shape sorters for toddlers,
+construction and craft kits for older kids) and skip anything that only does one trick. Those
+are the toys that stay in rotation for years instead of dying by January.
 
-If you want to give something screen-free that lasts, the trick is to aim for **open-ended**,
-toys that can be a hundred different things instead of just one. Here's how to think about it,
-plus ideas by age.
+Every parent has bought the blinking, battery-powered toy that got played with hard for three
+days and then joined the graveyard under the bed, while the plain wooden blocks are still going
+strong two years later. That's the quiet truth about kids' gifts: the flashiest thing is rarely
+the one they keep playing with. Here's how to think about it, plus ideas by age.
 
 ## Open-ended beats flashy
 

@@ -6,14 +6,16 @@ heroImage: "/images/article-travel.svg"
 heroAlt: "A friendly airplane above the clouds with a suitcase and a reward gem"
 ---
 
-Travel is the one place even the strictest screen rules quietly fall apart, and honestly,
-that's fine. A delayed flight with a melting-down four-year-old is not the hill to die on.
-But "the tablet is the only thing that works" is a trap, because the moment the battery
-dies or the wifi drops, you've got nothing, and you've got it at 30,000 feet.
+The activities that actually work on planes, in hotels, and on long car rides are small,
+novel, and low-mess: a bag of little wrapped surprises doled out one at a time, sticker
+books and notepads, magnetic or card games, audiobooks, and simple guessing games you
+play out loud. The screen still comes along, but as *one* tool in a bag of several instead
+of the only card you're holding.
 
-So the goal here isn't a screen-free trip. It's a trip where the screen is *one* tool in
-a bag of several, instead of the only card you're holding. That's the difference between a
-manageable travel day and a desperate one.
+Because travel is the one place even the strictest screen rules quietly fall apart, and
+honestly, that's fine. A delayed flight with a melting-down four-year-old is not the hill
+to die on. But "the tablet is the only thing that works" is a trap, because the moment the
+battery dies or the wifi drops, you've got nothing, and you've got it at 30,000 feet.
 
 ## Pack a small bag of "new"
 

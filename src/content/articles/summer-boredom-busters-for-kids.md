@@ -6,15 +6,16 @@ heroImage: "/images/article-summer.svg"
 heroAlt: "A kid on a summer adventure in the backyard"
 ---
 
-Week three of summer break has a very specific feeling. Camp is over, the novelty of
-sleeping in has worn off, the pool has been "done," and "I'm bored" now starts before
-you've finished your coffee. By 9am. Every day. If the tablet has been quietly
-absorbing more and more of those hours, that's not a failure. That's just what
-happens when a kid has six empty weeks and a screen is the closest thing to grab.
+The best screen-free summer boredom busters are one specific, slightly silly mission
+per day: build a bug hotel out of sticks, race a paper boat down the gutter, find five
+things in the yard smaller than your thumb. You don't need a packed schedule or a
+heroic Pinterest summer, just a small stack of ready-to-go ideas so that when the
+whining starts, you have an answer that isn't "go watch something."
 
-The fix isn't a packed schedule or a heroic Pinterest summer. It's a small stack of
-ready-to-go boredom busters, so that when the whining starts, you have an answer that
-isn't "go watch something." Here's what actually works for the long middle of summer.
+Because week three of break has a very specific feeling. Camp is over, sleeping in has
+worn off, the pool has been "done," and "I'm bored" starts before your coffee. By 9am.
+Every day. If the tablet has been quietly absorbing those hours, that's not a failure.
+That's just what happens when a kid has six empty weeks and a screen is closest to grab.
 
 ## Give every day one mission
 

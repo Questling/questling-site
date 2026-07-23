@@ -6,7 +6,9 @@ heroImage: "/images/article-outdoors.svg"
 heroAlt: "A child splashing in a puddle on a bright spring day"
 ---
 
-There's a specific afternoon every year when winter finally lets go. The air smells like wet dirt and something faintly green, the sun has real warmth in it again, and your kid presses their face to the window like they can feel the season changing out there. After months cooped up inside, everyone is restless and more than ready for a change of scenery.
+The best screen-free spring activities for kids use what the season hands you for free: stomping and measuring the first puddles like a science lab, tracking a single bud as it swells and opens, hunting for the first bugs and dandelions, and color-counting walks around the block. None of it needs a plan, a drive, or supplies.
+
+There's a specific afternoon every year when winter finally lets go. The air smells like wet dirt and something faintly green, and your kid presses their face to the window like they can feel the season changing out there. After months cooped up inside, everyone is restless and ready to get out.
 
 Here's the good part: spring does most of the work for you. You don't need a big plan or a drive across town. The puddles, the mud, the first bugs, the buds pushing up out of nowhere, all of it is brand new to a kid who spent the winter indoors. **The season itself is the activity.** Your only job is to open the door and point them toward it.
 

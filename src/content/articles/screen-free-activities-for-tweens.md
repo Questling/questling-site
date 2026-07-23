@@ -6,15 +6,17 @@ heroImage: "/images/article-tweens.svg"
 heroAlt: "A skateboard, a basketball, and a reward gem in a bright scene"
 ---
 
+The screen-free activities that actually work for tweens lean on independence, challenge, and
+anything that feels a bit grown-up: biking somewhere alone-ish, cooking a real family dinner,
+building or fixing something that gets used, or taking up a real interest like skating,
+cooking, or coding. A ten-to-thirteen-year-old isn't too old for real-world stuff, they're
+too old for stuff that feels like it's *for* little kids.
+
 Little kids will chase a bubble across the yard. Tweens will look at you like you've lost
 your mind. Somewhere around ten, "go play outside" stops working, the toys get labeled
-babyish, and the phone or the console becomes the center of gravity. It's easy to feel like
-you've lost the kid who used to build forts, and easy to just give up and hand over the
-screen.
-
-You haven't lost them. A ten-to-thirteen-year-old isn't too old for real-world stuff, they're
-too old for stuff that feels like it's *for* little kids. The trick is to stop offering
-activities and start offering independence, challenge, and things that feel a bit grown-up.
+babyish, and the phone or the console becomes the center of gravity. You haven't lost the kid
+who used to build forts. The trick is to stop offering activities and start offering things
+that feel a bit grown-up.
 
 ## Give them real independence, not busywork
 

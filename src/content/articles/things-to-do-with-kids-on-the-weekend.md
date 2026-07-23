@@ -6,7 +6,9 @@ heroImage: "/images/article-family-night.svg"
 heroAlt: "A family spending a screen-free weekend outdoors together"
 ---
 
-The weekend shows up with two whole days stretched out in front of you, and for about ten minutes that feels great. Then it is nine in the morning, everyone is still in pajamas, and the kids have already drifted toward the couch and the tablet. Two open days is a lot of hours to fill, and the screen is right there, quiet and easy and always willing. If that is how a lot of your Saturdays go, you are not doing anything wrong. A screen is the path of least resistance, and you are tired.
+Good screen-free weekend activities for kids split naturally across the day: a morning walk or outdoor mission while everyone is fresh, a hands-on afternoon project like fort-building or rock painting, and a calm evening of board games or a read-aloud chapter book. You do not need a whole plan, just one first move for each stretch of the day and a kid willing to run with it.
+
+If a lot of your Saturdays start with everyone still in pajamas at nine, already drifting toward the couch and the tablet, you are not doing anything wrong. Two open days is a lot of hours to fill, and the screen is right there, quiet and easy and always willing. It is the path of least resistance, and you are tired.
 
 But here is a reframe worth holding onto: **a weekend does not have to be planned to be good, it just needs a first move.** One decent idea in the morning has a way of pulling the rest of the day along behind it. Here are enough of those first moves to carry a whole weekend, roughly in the order a day tends to unfold.
 

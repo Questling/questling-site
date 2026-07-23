@@ -6,9 +6,9 @@ heroImage: "/images/article-tweens.svg"
 heroAlt: "An eleven-year-old absorbed in an ambitious outdoor project"
 ---
 
-Eleven is a strange, wonderful in-between age. Your kid is not a little kid anymore, and they will tell you so (loudly) the second you suggest one of the games that thrilled them at seven. But they are not a teenager yet either. They still want you nearby, even while they are rolling their eyes at you. What an eleven-year-old is really hungry for is independence: a chance to do something real, on their own terms, and be trusted to handle it.
+The best screen-free activities for eleven-year-olds hand them real independence and a challenge with a number attached. Think measurable physical records they can beat (long jump, plank holds, sprint times), projects they design and run themselves like obstacle courses and invented games, and solo missions they plan and pull off alone, such as a sunrise watch or mapping the block. At this age your job is not to entertain them but to hand them something big enough to feel like it is theirs.
 
-That hunger is also why so many of them drift toward a screen. A phone or a game feels grown-up and self-directed, like a world they run without a parent hovering. The good news is that the real world can offer the exact same feeling, often better, if you pitch it right. **At this age, your job is not to entertain your kid. It is to hand them something big enough to feel like it is theirs.**
+Eleven is a strange, wonderful in-between age. Your kid is not a little kid anymore, and they will tell you so (loudly) the second you suggest a game that thrilled them at seven, yet they still want you nearby while rolling their eyes. What an eleven-year-old is really hungry for is independence, which is also why so many of them drift toward a screen: a phone feels grown-up and self-directed, like a world they run without a parent hovering. The good news is that the real world can offer the exact same feeling, often better, if you pitch it right.
 
 ## Give them a challenge with a number attached
 

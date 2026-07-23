@@ -6,14 +6,18 @@ heroImage: "/images/article-indoors.svg"
 heroAlt: "A kid stepping outside, curious about a mission"
 ---
 
+To get kids to play outside without a fight, stop giving the order "go play
+outside" and hand them a specific mission instead, like finding a stick shaped
+like a sword. Shrink the first step to ten minutes in the yard, go with them for
+the first five, and give the play a finish line so there's a reason to start.
+The core idea is simple: **outside doesn't come with a plot, and screens do**, so
+your job is putting a story on the other side of the door.
+
 You've said it a hundred times: "Go play outside." And you've heard the answer a
-hundred times too: "There's nothing to do out there." Here's the annoying truth:
-from where your kid is standing, that's not laziness talking. A game or a show
-hands them a goal, a next step, and a little win every few seconds. The backyard
-hands them grass. It's not that outside is boring. It's that **outside doesn't
-come with a plot, and screens do.** So the fix isn't pushing harder on the door.
-It's putting a story on the other side of it. Once there's a mission waiting out
-there, the door stops being the battleground.
+hundred times too: "There's nothing to do out there." From where your kid is
+standing, that's not laziness talking. A game or a show hands them a goal, a next
+step, and a little win every few seconds. The backyard hands them grass. Once
+there's a mission waiting out there, the door stops being the battleground.
 
 Here's how to do that without turning yourself into a full-time camp counselor.
 

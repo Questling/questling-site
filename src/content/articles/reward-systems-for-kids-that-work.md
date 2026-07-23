@@ -6,11 +6,15 @@ heroImage: "/images/article-rewards.svg"
 heroAlt: "A child earning points toward a reward they chose"
 ---
 
-If you've ever made a sticker chart, you know how this story goes. Day one, your
-kid is thrilled and volunteers for extra chores. Day three, the excitement dips.
-By the end of the week the chart is still on the fridge, half filled, and nobody
-quite remembers what the stickers were building toward. It's not that your kid is
-unmotivated, and it's definitely not that you did it wrong. Most reward systems
+The reward systems that actually work for kids share four things: a prize your
+kid genuinely wants (never screen time), visible progress they can watch add up,
+real choice over what they earn and how, and boringly consistent payouts at the
+promised rate. Get those four right and the chart part takes care of itself.
+
+If you've ever made a sticker chart, you know why the rest fail. Day one, your
+kid is thrilled. Day three, the excitement dips. By the end of the week the chart
+is half filled and nobody remembers what the stickers were building toward. It's
+not that your kid is unmotivated, or that you did it wrong. Most reward systems
 just ship with a missing piece or two.
 
 Here's the reframe that fixes it: **a reward system isn't a chart, it's a loop.**

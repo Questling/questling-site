@@ -6,14 +6,16 @@ heroImage: "/images/article-family-night.svg"
 heroAlt: "A cozy evening scene with a crescent moon, a game board, dice, and a reward gem"
 ---
 
-The idea of a screen-free family night sounds lovely right up until you announce it and
-get a room full of groans. Everyone had their own plan, the TV was already on, and now
-you're the person who ruined the evening. So it quietly dies after one attempt, and the
-screens win by default.
+To start a screen-free family night that actually sticks, pick one night and rough time
+each week and protect it, keep the bar low with a single activity plus snacks, let the
+kids help choose it, and lean on a short list of reliable go-to games. The goal is a
+small, predictable habit that's easier to say yes to than to fight, not a wholesome event
+you host.
 
-The fix isn't more willpower. It's lowering the stakes so far that the night can't fail.
-A good family night is not a wholesome event you host. It's a small, predictable habit
-that's easier to say yes to than to fight. Here's how to make one that sticks.
+That matters because the idea sounds lovely right up until you announce it and get a room
+full of groans. Everyone had their own plan, the TV was already on, and now you're the
+person who ruined the evening. The fix isn't more willpower, it's lowering the stakes so
+far the night can't fail. Here's how to make one that sticks.
 
 ## Pick a time and protect it
 

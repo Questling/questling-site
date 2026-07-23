@@ -6,14 +6,12 @@ heroImage: "/images/article-grandparents.svg"
 heroAlt: "A large heart with two small hearts and a reward gem"
 ---
 
-A lot of grandparents feel quietly outmatched by the tablet. The grandkids show up glued to a
-screen, and it's tempting to just let them, or to feel like you can't compete with something so
-shiny. But here's the good news: you have something no device does. You're a novelty, you have
-stories, and you have time. That's a winning hand.
+The best screen-free activities for grandparents and grandkids are low-energy and connection-focused: card and board games, baking together, puzzles or crafts at the table, and reading or making up stories. Add gentle outings like a slow walk or feeding ducks, and share a skill you have, gardening, fishing, or a family recipe. You don't need to be high-energy or tech-savvy, just a handful of simple things sized to the energy you've got that day.
 
-You don't need to be high-energy or tech-savvy to be the grandparent kids remember. You need a
-handful of simple, screen-free things you can do together, sized to whatever energy you've got
-that day. Here are some that connect without wearing you out.
+A lot of grandparents feel quietly outmatched by the tablet. The grandkids show up glued to a
+screen, and it's tempting to feel like you can't compete with something so shiny. But you have
+something no device does: you're a novelty, you have stories, and you have time. That's a
+winning hand.
 
 ## You are the novelty
 

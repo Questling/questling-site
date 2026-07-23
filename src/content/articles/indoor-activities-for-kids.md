@@ -6,9 +6,9 @@ heroImage: "/images/article-indoor-energy.svg"
 heroAlt: "A child building a blanket fort in the living room"
 ---
 
-It is the third rainy day in a row. Your kid has circled the living room like a small weather system, asked for the tablet four times, and announced that there is "nothing to do" in a house that is, objectively, full of things. You love them. You are also out of ideas, and it is only ten in the morning.
+The best screen-free indoor activities for kids turn things you already own into a project: build a fort out of couch cushions and a bedsheet, run kitchen-science experiments with baking soda and vinegar, set up an art station with paper taped to the floor, hunt for echoes room to room, or invent a game with tape and a ball. Each one starts in about five minutes, needs no craft-store run, and holds a kid's attention on rainy days and long afternoons at home.
 
-Here is the reframe worth holding onto: **a house stuck indoors is not a problem, it is a pile of raw materials.** A couch turns into a fort. A hallway turns into an echo chamber. A handful of rocks turns into an art gallery. Kids rarely need more space. They need a reason to look at the space they have a little differently. Below are real, screen-free ideas you can start in the next five minutes, using things you already own.
+It is the third rainy day in a row. Your kid has circled the living room like a small weather system, asked for the tablet four times, and announced that there is "nothing to do" in a house that is, objectively, full of things. Here is the reframe worth holding onto: **a house stuck indoors is not a problem, it is a pile of raw materials.** A couch turns into a fort. A hallway turns into an echo chamber. Kids rarely need more space. They need a reason to look at the space they have a little differently.
 
 ## Build a fort and let it take over the room
 

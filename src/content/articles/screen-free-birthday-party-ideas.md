@@ -6,7 +6,13 @@ heroImage: "/images/article-party.svg"
 heroAlt: "A birthday cake with a candle, a balloon, and a reward gem"
 ---
 
-Somewhere along the way, kids' birthday parties picked up a lot of screens. The gaming truck
+The best screen-free birthday party ideas are the classics that get kids moving: a scavenger
+or treasure hunt, relay races and obstacle courses, musical statues, tag, pass the parcel, and
+a piñata. Add one make-and-take craft (decorate a cupcake, string a bead bracelet, paint a
+pot) that doubles as the party favor, give the day a loose running order, and the party mostly
+runs itself.
+
+Somewhere along the way, kids' birthday parties picked up a lot of screens: the gaming truck
 parked out front, the tablets handed out to keep everyone calm, the movie in the background.
 It's understandable, a room full of excited kids is a lot to manage, and a screen buys quiet.
 But a birthday is the one day that's practically built for the opposite: running around,

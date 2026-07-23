@@ -6,13 +6,16 @@ heroImage: "/images/article-playspace.svg"
 heroAlt: "A toy box with blocks and a ball and a reward gem"
 ---
 
-Here's a quiet truth about kids and play: the setup does half the work. A kid faced with a wall
-of overwhelming, half-broken toys often just asks for the tablet, because nothing there is
-inviting. A kid faced with a simple, tidy, reachable set of good toys will usually just... start
-playing. You can nudge screen-free play without saying a word, by shaping the space.
+To set up a screen-free play space at home, put out fewer toys, not more: a small, rotating
+selection of open-ended toys (blocks, magnet tiles, art supplies) on low, open shelves at kid
+height, over a clear floor or rug, with screens kept in another room entirely. The goal is a
+tidy, reachable, inviting setup a kid can survey at a glance and start playing in without your
+help. You don't need a Pinterest playroom or a big budget, just less stuff arranged well.
 
-You don't need a Pinterest playroom or a big budget. You need less stuff, arranged so it invites
-play. Here's how to set it up.
+Here's the quiet truth behind it: the setup does half the work. A kid faced with a wall of
+overwhelming, half-broken toys often just asks for the tablet, because nothing there is inviting.
+A kid faced with a simple, tidy, reachable set of good toys will usually just... start playing.
+You can nudge screen-free play without saying a word, by shaping the space.
 
 ## Less is more (rotate the toys)
 

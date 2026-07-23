@@ -6,9 +6,9 @@ heroImage: "/images/article-10-year-old.svg"
 heroAlt: "A skateboard and a compass with a reward gem"
 ---
 
-You suggest an activity, and your 10-year-old gives you the look. Not the tantrum look from a few years back, the newer one. The slow blink that says "I am not five." Craft kits feel babyish. A nature scavenger hunt with cartoon animals on it? Please. Somewhere in the last year the stuff that used to work started landing wrong.
+The screen-free activities that work for a 10-year-old are the ones that treat them as capable, not little. Hand them a real skill (cooking a full meal, using a real knife), a bit of independence (biking to a friend's, an errand with real cash), or a multi-day project with actual scope. At ten, the reward is feeling trusted and a little bit grown-up, so anything that looks like a "kids' craft" gets an eye roll.
 
-The thing is, they still want to be busy, and they still want to be off the screen more than they admit. What changed is the bar. At ten, kids want to feel a little bit trusted, a little bit capable, and a little bit like they are getting away with something grown-up. Get that part right and screen-free stops being a fight.
+That look is real. Craft kits feel babyish, a scavenger hunt with cartoon animals? Please. But they still want to be busy, and they still want to be off the screen more than they admit. What changed is the bar. At ten, kids want to feel a little bit trusted, a little bit capable, and a little bit like they are getting away with something grown-up. Get that part right and screen-free stops being a fight.
 
 ## Give them a real skill, not a craft
 

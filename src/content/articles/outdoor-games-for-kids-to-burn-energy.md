@@ -6,7 +6,9 @@ heroImage: "/images/article-outdoorplay.svg"
 heroAlt: "Kids racing and laughing across a grassy yard"
 ---
 
-It is 5 p.m., dinner is twenty minutes out, and your kid is doing laps around the kitchen island like a windup toy that will not wind down. They have already climbed the back of the couch twice. A kid who has been sitting still all day builds up a very specific kind of energy, and it does not just quietly fade. It comes out one way or another, usually on your furniture.
+The outdoor games that burn the most kid energy are the ones with a lot of running, climbing, and full-body movement: chasing games like tag, sharks and minnows, and shadow tag; low-to-the-ground races like wheelbarrow and crab-walk relays; and balance challenges that make a kid work hard while barely realizing it. The best part is they need almost nothing, just a patch of grass or a park and about thirty seconds of setup.
+
+Which matters, because it is usually 5 p.m., dinner is twenty minutes out, and your kid is doing laps around the kitchen island like a windup toy that will not wind down. A kid who has been sitting still all day builds up a very specific kind of energy, and it does not just quietly fade. It comes out one way or another, usually on your furniture.
 
 Here is the reframe worth keeping in your pocket: **a kid with too much energy isn't misbehaving. They're a full battery with nowhere to plug in.** The answer is almost never "please calm down." It is "go run." Outdoor games are the oldest, cheapest way to drain that battery, and the best ones need nothing but a patch of grass and thirty seconds of setup.
 

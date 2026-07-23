@@ -6,9 +6,9 @@ heroImage: "/images/article-10-year-old.svg"
 heroAlt: "A twelve-year-old taking on a real outdoor challenge"
 ---
 
-There is a specific eye-roll that shows up around age twelve. You suggest something to do, anything at all, and you get the look that says "I am not a little kid." Then ten minutes later that same kid is curled around a phone, thumb going, not because the screen is so amazing but because it was the only option that did not feel babyish.
+The screen-free activities that actually work for a twelve-year-old are the ones that respect how capable they have become: measurable challenges they can try to beat, projects they get to design and run themselves, and real missions with a grown-up goal. Think chasing a personal record, building an obstacle course, or heading out to catch the sunset. The trick is to swap "things to keep a kid busy" for challenges that let them prove how much they have grown.
 
-Here is the reframe that helps: **your twelve-year-old is not too old for activities. They are too old for the activities you keep offering.** At twelve they are strong, capable, and quietly desperate to prove it. Hand them a challenge that respects how much they have grown, and the eye-roll tends to vanish faster than you would expect.
+Here is the reframe that helps: **your twelve-year-old is not too old for activities. They are too old for the activities you keep offering.** At twelve they are strong, capable, and quietly desperate to prove it. Hand them a challenge that respects that, and the eye-roll tends to vanish faster than you would expect.
 
 ## Give them something worth beating
 

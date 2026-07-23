@@ -6,9 +6,9 @@ heroImage: "/images/article-rain.svg"
 heroAlt: "Kids playing in water outside on a hot day"
 ---
 
-It is the kind of afternoon where the air sits thick and warm, everyone is a little sticky, and the mood in the house has quietly gone sideways. The kids are bickering over nothing, your patience is running thin, and the tablet is starting to look like the easiest way to buy ten minutes of peace. Before you reach for it, try the oldest trick there is. Add water.
+**The best screen-free water play uses stuff you already have.** Set up a pouring station with cups and a funnel for calm play, turn the puddle outside into a floating-boat science lab, or lay out stepping stones across the grass for an energy-burning river-crossing game. Water cools kids down, gives restless energy somewhere to go, and wears them out, no pool, sprinkler, or trip to the store required. Most of these take about five minutes to set up.
 
-**Water fixes a hot, cranky day almost every time.** It cools kids down, gives all that restless energy somewhere to go, and wears them out in the best possible way, using stuff you already have in the kitchen. No pool, no fancy sprinkler, and no trip to the store required. Here are some water-play ideas you can set up in about five minutes.
+It is the kind of afternoon where the air sits thick and warm, everyone is a little sticky, and the mood has quietly gone sideways. The kids are bickering over nothing, your patience is thin, and the tablet is starting to look like the easiest way to buy ten minutes of peace. Before you reach for it, try the oldest trick there is. Add water.
 
 ## Start with the puddle right outside
 

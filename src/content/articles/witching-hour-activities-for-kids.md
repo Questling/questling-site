@@ -6,13 +6,17 @@ heroImage: "/images/article-afterschool.svg"
 heroAlt: "A parent and child getting through the late-afternoon slump together"
 ---
 
-It has a name in a lot of houses: the witching hour. Somewhere around 4pm the whole
-day seems to turn. You're trying to get dinner started, the pan is already hot, and
-suddenly everyone within ten feet of you is falling apart. One kid is whining into
-your leg, another is doing something you can hear but can't quite see, and the tablet
-is sitting right there on the counter, quietly promising you twenty minutes of peace.
+The activities that survive the 4pm witching hour are the ones that run themselves so
+you can keep cooking: a blanket fort with a mission, a low-cleanup table station like
+rock painting, big-energy outdoor play such as a chalk obstacle course, or handing a
+clingy kid a real dinner job. The goal isn't a fancy activity, it's something that
+holds their attention without you standing there running it while hunger and tiredness
+peak.
 
-If that's your evening, you're not doing anything wrong, and neither are your kids.
+Somewhere around 4pm the whole day seems to turn. You're trying to get dinner started,
+the pan is already hot, and everyone within ten feet of you is falling apart, with the
+tablet sitting right there on the counter promising twenty minutes of peace. If that's
+your evening, you're not doing anything wrong, and neither are your kids.
 **The witching hour isn't a behavior problem. It's a timing problem.** It's the exact
 moment hunger, end-of-day tiredness, and a parent who has suddenly gone unavailable
 all collide at once. Once you see it that way, the fix isn't a calmer kid. It's a

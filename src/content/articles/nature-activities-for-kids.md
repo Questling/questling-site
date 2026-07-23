@@ -6,7 +6,7 @@ heroImage: "/images/article-outdoors.svg"
 heroAlt: "A child crouched in the grass examining a bug up close"
 ---
 
-Watch a young kid meet a snail for the first time and you will see something most of us slowly grow out of: complete, unhurried attention. They will hover over that snail for ten minutes, narrating its every slow-motion move, totally unbothered that it is, by grown-up standards, deeply boring. Kids come wired to notice the natural world. Somewhere between the tablet and the busy calendar, that noticing just gets fewer and fewer chances to switch on.
+The best nature activities for kids are simple, close-up ones that reward slow attention: flipping rocks to hunt for bugs, lying back to watch clouds change shape, collecting one thing in every color of the rainbow, and blowing dandelion seeds into a wish. None of them need a national park or a planned trip. A backyard, a weedy strip of sidewalk, or a walk around the block is plenty. Kids come wired to notice the natural world; they mostly just need someone to slow down and give the noticing a chance to switch on.
 
 Here is the reframe worth keeping: **you do not need a big planned outing to make your kid curious. You mostly just need to slow down and point.** A walk around the block, a corner of the backyard, a weedy strip along the sidewalk, all of it is stuffed with things worth wondering about, once someone gives your kid permission to stop and really look.
 

@@ -6,15 +6,16 @@ heroImage: "/images/article-quick-activities.svg"
 heroAlt: "A stopwatch and a spark with a reward gem"
 ---
 
-You know the moment. Dinner is fifteen minutes out, your kid is orbiting the
-kitchen like a tiny satellite, and the phone is right there, glowing, promising
-to make the whining stop. It would work, too. That is exactly why it is so
-tempting.
+The best quick screen-free activities take zero setup and finish in ten minutes
+or less: no-prop games like I-spy, thumb war, and counting things out a window; a
+fast scavenger hunt for five random objects; a two-minute couch-cushion fort; and
+races like a sixty-second drawing contest or balloon keep-up. Each one starts in
+the next thirty seconds with nothing to buy and nothing to clean up.
 
-But you do not always need a big activity to get through a small gap. Most of the
-time the fix is something you can start in the next thirty seconds, with nothing
-to buy, nothing to set up, and nothing to clean up after. Here are the fast wins,
-the ones that fit in ten minutes or less.
+You know the moment. Dinner is fifteen minutes out, your kid is orbiting the
+kitchen like a tiny satellite, and the phone is right there, promising to make the
+whining stop. But you do not need a big activity to get through a small gap. Here
+are the fast wins, the ones that fit in ten minutes or less.
 
 ## Games you can start with zero setup
 

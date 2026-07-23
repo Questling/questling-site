@@ -6,11 +6,16 @@ heroImage: "/images/article-preschool.svg"
 heroAlt: "A four-year-old absorbed in simple hands-on play"
 ---
 
+The best screen-free activities for a four-year-old are short, sensory, and hands-on:
+pouring and water play at the sink, drawing and scribbling, simple pretend play, helping
+with a real household job, and outdoor runs around the yard. Keep each one to about ten
+minutes, offer three or four in a row, and let them repeat the favorites. Almost no setup
+required.
+
 Four-year-olds run on two settings: completely fascinated and completely finished. The
-same kid who asks why the moon follows the car, what worms eat, and whether dogs dream
-will also abandon the puzzle you just set up before you've even sat down. That's not a
-focus problem. That's just four. Huge curiosity, short attention, and a deep need to
-touch everything.
+same kid who asks why the moon follows the car will also abandon the puzzle you set up
+before you've sat down. That's not a focus problem. That's just four. Huge curiosity,
+short attention, and a deep need to touch everything.
 
 Which is why screens are so tempting at this age, and why they're also a bit of a trap.
 A show holds a four-year-old still, but all that curiosity is exactly the fuel

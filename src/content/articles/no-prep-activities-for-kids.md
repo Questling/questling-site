@@ -6,17 +6,16 @@ heroImage: "/images/article-quick-activities.svg"
 heroAlt: "A parent giving a kid a quick no-prep challenge on the spot"
 ---
 
-It is 4:30, someone is whining, and you have got nothing. No craft kit in the
-closet, no time to scroll through a hundred saved activity ideas, no glue sticks,
-no printout, no plan. You need something for your kid to do right now, and you
-need it to take zero setup, because setup is the one thing you do not have in you
-today.
+The best no-prep activities for kids need nothing but you, your kid, and the room
+you are already standing in. Voice games like twenty questions and story-building,
+body games like freeze dance and animal races, and imagination prompts using
+whatever is lying around all run with zero supplies, no printout, and no setup.
+You can start any of them in the next ten seconds.
 
-Here is the good news you can lean on: **the best screen-free activities need
-nothing but you, your kid, and the room you are already standing in.** No supplies
-to dig out, no Pinterest board, no trip to the store. The strongest ones run
-entirely on your voice, their body, or whatever happens to be lying around, and
-you can start them in the next ten seconds.
+Which matters most when it is 4:30, someone is whining, and you have got nothing.
+No craft kit in the closet, no time to scroll through a hundred saved ideas, no
+glue sticks, no plan. You need something right now, and setup is the one thing you
+do not have in you today.
 
 ## Games that run on your voice alone
 

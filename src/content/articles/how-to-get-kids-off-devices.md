@@ -6,13 +6,16 @@ heroImage: "/images/article-devices.svg"
 heroAlt: "A tablet resting on a table while a paper plane and a reward gem float nearby, suggesting trading screen time for play"
 ---
 
-If getting your kid off a device sometimes feels like defusing a bomb, you're very
-much not alone. And it isn't a sign you're doing anything wrong. Phones and tablets
-are built by enormous teams whose whole job is to make them hard to put down. "Just
-turn it off" was never a fair fight to begin with.
+The calmest way to get kids off their devices is to replace the screen instead of
+just removing it: offer a more interesting thing to do right now, give a five-minute
+heads-up before the switch, and use the free built-in limits (Apple Screen Time or
+Google Family Link) so the rule feels shared, not sprung. Set device-free pockets
+like dinners and bedtime, and join in yourself when you can.
 
-The good news is that a few small shifts make the whole thing calmer, and none of
-them turn you into the screen police. Here's the one idea that helps most, plus a
+If getting your kid off a device sometimes feels like defusing a bomb, you're very
+much not alone. It isn't a sign you're doing anything wrong. Phones and tablets are
+built by enormous teams whose whole job is to make them hard to put down, so "just
+turn it off" was never a fair fight. Here's the one idea that helps most, plus a
 handful of gentle options. Pick the one or two that fit your family and skip the
 rest.
 

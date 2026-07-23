@@ -6,17 +6,20 @@ heroImage: "/images/article-50-activities.svg"
 heroAlt: "A family checking off a week of screen-free missions"
 ---
 
-Somewhere around the third straight afternoon of tablet time, most parents have the
-same thought: we need a reset. The tempting version is dramatic. You announce a total
-screen ban, collect the devices in a basket, and give a speech about the good old
-days. It feels decisive in the moment. It also tends to collapse by Wednesday,
-because an all-or-nothing rule leaves no room for a rainy day, a tired parent, or a
-kid who genuinely has nothing to do.
+A 7-day screen-free challenge works best as one small mission a day, not a total ban.
+Give the family a single screen-off activity each evening, ten minutes is plenty,
+starting tiny on day one and building to a bigger mission by day seven, and count
+every finished mission as a win even when it goes sideways. Here's the reframe that
+makes it stick: **you're not taking screens away for a week, you're adding one good
+thing a day for a week.** Additions hold up far better than bans, and they don't
+invite a fight.
 
-There's a gentler version that actually holds: a 7-day screen-free challenge built
-around one small mission a day. And here's the reframe that makes it work: **you're
-not taking screens away for a week. You're adding one good thing a day for a week.**
-Additions are far easier to stick to than bans, and they don't invite a fight.
+Most parents reach for this around the third straight afternoon of tablet time. The
+tempting version is dramatic. You announce a total screen ban, collect the devices in
+a basket, and give a speech about the good old days. It feels decisive in the moment.
+It also tends to collapse by Wednesday, because an all-or-nothing rule leaves no room
+for a rainy day, a tired parent, or a kid who genuinely has nothing to do. The
+gentler version is the one that actually holds.
 
 ## Keep the rules light
 

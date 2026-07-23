@@ -6,9 +6,13 @@ heroImage: "/images/article-creative-activities.svg"
 heroAlt: "A child doing a simple kitchen science experiment at home"
 ---
 
+The easiest science experiments for kids at home use things you already own. A
+baking soda and vinegar volcano, dancing raisins in fizzy water, a sink-or-float
+test, a static-electricity balloon, and a bean sprouting in a damp paper towel all
+deliver a wow moment with no kit. Each is a real reaction your kid can run again.
+
 There is a specific face a kid makes the first time they mix two ordinary things
-and something happens. Eyebrows up, mouth open, a tiny gasp. You cannot get that
-face from a video. A kid watching a science channel is a spectator, politely
+and something happens. A kid watching a science channel is a spectator, politely
 impressed and then on to the next thing. A kid who just made a cup fizz over onto
 the kitchen counter is something else: a scientist who is now fairly sure they have
 powers.

@@ -6,11 +6,17 @@ heroImage: "/images/article-transition.svg"
 heroAlt: "A child calmly handing over a tablet in exchange for a reward gem"
 ---
 
-You say "okay, time's up," and in half a second your calm, happy kid turns into
-someone screaming on the floor like you just cancelled Christmas. It happens to
-basically every family with a tablet in the house, and it can feel like your kid is
-being dramatic on purpose. Usually they're not. Something real is going on, and
-once you see it, the whole handoff gets a lot easier to manage.
+Taking away the screen causes a meltdown because games and videos drip steady hits
+of dopamine, and getting pulled off mid-stimulation feels genuinely uncomfortable
+to a brain that can't self-regulate that crash yet. Stack that on top of kids being
+bad at transitions in general, and the reaction isn't really defiance. What actually
+helps: warn before the screen goes off, let the content reach a natural stopping
+point, and line up something good for your kid to walk into next.
+
+You say "okay, time's up," and in half a second your calm kid turns into someone
+screaming on the floor like you just cancelled Christmas. It happens to basically
+every family with a tablet in the house, and once you see what's going on, the whole
+handoff gets a lot easier to manage.
 
 ## What's actually happening
 

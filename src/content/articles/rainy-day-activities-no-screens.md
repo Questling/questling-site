@@ -6,14 +6,16 @@ heroImage: "/images/article-rain.svg"
 heroAlt: "A rainy window with a child building a blanket fort inside, a reward gem nearby"
 ---
 
-Rainy days are their own special kind of hard. No backyard, no park, no "just go
-outside" card to play. The walls close in fast, and by 10am you're already
-negotiating with a small, restless person who has nowhere to put all that energy.
-Screens win a lot of rainy days by default, simply because nothing else got
-suggested fast enough.
+The rainy day activities that actually work without screens are the ones matched to
+how much energy you have left. Low-effort wins like a blanket fort, indoor scavenger
+hunt, or drawing the view out the window buy quiet time. When kids need to move, an
+indoor obstacle course, freeze dance, or balloon volleyball burns energy safely
+inside. With ten minutes of setup, try kitchen science, a cardboard box build, or a
+paper airplane contest.
 
-So here's a list sorted by how much you actually have left in the tank. Pick from
-whichever section matches your morning.
+Rainy days are their own special kind of hard. The walls close in fast, and screens
+win by default simply because nothing else got suggested fast enough. So here's a
+list sorted by what you actually have left in the tank.
 
 ## When you have zero energy left
 

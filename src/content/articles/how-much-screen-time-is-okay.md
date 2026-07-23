@@ -6,10 +6,16 @@ heroImage: "/images/article-screen-time.svg"
 heroAlt: "A balance scale weighing a tablet against a reward gem, roughly level"
 ---
 
-It's probably the most-Googled parenting question there is: *how much screen time is
-actually okay?* And most answers either pile on the guilt or hand you a number so
-strict it falls apart the first busy week. So let's do this honestly. Real
-guidelines, why they're not the whole story, and permission to stop stressing.
+There's no single perfect number, but here's the honest version by age: under 18
+months, keep screens to a minimum apart from video calls; ages 2 to 5, aim for
+roughly an hour a day of good-quality content; ages 6 and up, drop the time limit
+and instead protect sleep, movement, meals, and real-world play. What the screen
+replaces matters far more than the exact minutes on the clock.
+
+Most answers to *how much screen time is actually okay?* either pile on the guilt or
+hand you a number so strict it falls apart the first busy week. So let's do this
+honestly: real guidelines, why they're not the whole story, and permission to stop
+stressing.
 
 First, the big truth: **there's no perfect number, and a screen is not the enemy.**
 What matters way more than counting minutes is *what* the screen replaces and *how*

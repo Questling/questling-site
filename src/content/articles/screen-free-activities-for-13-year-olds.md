@@ -6,11 +6,16 @@ heroImage: "/images/article-tweens.svg"
 heroAlt: "A teenager taking on a real outdoor challenge independently"
 ---
 
-Let's be honest about the audience. A thirteen-year-old with a phone is the hardest
+The screen-free activities that land at thirteen feel like challenges, not chores: record
+attempts they can beat week over week, real skills that earn independence (cooking,
+fixing, earning money), and outdoor missions with a measurable goal. Frame it as "an
+activity" and it dies; frame it as a challenge that makes them feel capable and trusted,
+and it works.
+
+Because let's be honest about the audience. A thirteen-year-old with a phone is the hardest
 crowd in parenting. "Go play outside" got laughed out of the room around age eleven,
 craft ideas are an insult, and family game night earns a sigh you can hear from the
-driveway. Meanwhile the phone is competing for their attention with a team of
-professionals and a very large budget.
+driveway.
 
 Here's the thing, though. You are not competing with the phone on entertainment. You
 will lose that fight every single time. **You're competing on something the phone is

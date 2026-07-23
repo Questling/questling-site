@@ -6,7 +6,9 @@ heroImage: "/images/article-outdoorplay.svg"
 heroAlt: "A child balancing and climbing during active outdoor play"
 ---
 
-You know the look. Your kid has been sitting for a while, and now they are bouncing one leg, drumming on the table, sliding off the couch upside down, and treating the furniture like playground equipment. That is not bad behavior. That is a body with a full tank and nowhere to burn it.
+Gross motor activities are the big-muscle kind of play: running, jumping, climbing, throwing, and balancing. They build the strength, coordination, and balance every other skill stands on, and the best ones need no gear, just a reason to move. Think tag with a twist, jumping contests, balance games, and throwing challenges kids actually want to do.
+
+You know the look. Your kid has been sitting for a while, and now they are bouncing one leg, drumming on the table, and treating the furniture like playground equipment. That is not bad behavior. That is a body with a full tank and nowhere to burn it.
 
 Screens are very good at hiding this. A tablet keeps a kid quiet and still, but still is the opposite of what a growing body is built for. **All that restless wiggling is not a problem to shut down. It is a request: give me something big to do with my whole body.** Gross motor play, the running, jumping, climbing, and throwing kind, is how kids build the strength, balance, and coordination that everything else stands on. Here is how to hand it to them, no fancy gear required.
 

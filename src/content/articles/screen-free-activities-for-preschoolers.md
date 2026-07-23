@@ -6,11 +6,15 @@ heroImage: "/images/article-preschool.svg"
 heroAlt: "Crayons, a drawing, and a reward gem in a bright scene"
 ---
 
-The preschool years are a funny in-between. Your kid is past the "put everything in their
-mouth" toddler stage, but nowhere near the long-attention-span, follow-the-instructions
-big-kid stage. They have huge imaginations, big feelings, and about eleven minutes of focus
-on a good day. So a screen is tempting, because it holds them still. It just also holds them
-a little too well.
+The best screen-free activities for preschoolers (ages 3 to 5) lean into their exploding
+imaginations and short focus: open-ended pretend play, simple low-stakes crafts like crayons
+and playdough, real helper jobs around the house, and outdoor time to burn energy. You supply
+the props and the space, not a script, and they run with it.
+
+The preschool years are a funny in-between. Your kid is past the toddler stage but nowhere near
+the long-attention-span, follow-the-instructions big-kid stage. They have huge imaginations, big
+feelings, and about eleven minutes of focus on a good day. So a screen is tempting, because it
+holds them still. It just also holds them a little too well.
 
 The good news is that three-to-five is a golden age for real-world play. Their imagination is
 exploding, they want to do *everything* themselves, and they'll turn a cardboard box into a

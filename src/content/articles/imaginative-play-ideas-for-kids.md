@@ -6,11 +6,18 @@ heroImage: "/images/article-preschool.svg"
 heroAlt: "A child deep in a pretend-play adventure outdoors"
 ---
 
-Watch a kid discover a cardboard box. Within a minute it's a boat, then a cave, then a
-race car, then a spaceship with a very serious countdown. Nobody taught them that. It's
-just what a young brain does with an empty object and a little time. And it's the very
-first thing a screen quietly replaces, because a screen hands over a finished, polished
-world to sit inside, while pretend play asks your kid to build one from nothing.
+The best imaginative play ideas for kids hand a child a character and a mission, then get
+out of the way. Give them a "who" (a deep-sea diver, a dragon with a head cold, a vet with
+a waiting room of stuffed animals) and a small, urgent "what now," turn ordinary objects
+into props, and set up open-ended scenes like a pretend restaurant or a backyard
+expedition. No craft closet or themed afternoon required, just a good prompt and a little
+room.
+
+It's how a young brain already works. Watch a kid discover a cardboard box and within a
+minute it's a boat, then a cave, then a spaceship with a very serious countdown. Nobody
+taught them that. And it's the first thing a screen quietly replaces, because a screen
+hands over a finished world to sit inside, while pretend play asks your kid to build one
+from nothing.
 
 The good news is how little it takes to switch back on. **Imagination isn't a gift some
 kids have and others don't. It's a muscle, and it fires the moment you give it a scrap of
