@@ -6,6 +6,13 @@ dist/
 # dependencies
 node_modules/
 
+# EXCEPTION: the folded-in Expo web build (public/app) bundles its icon fonts
+# and other assets under a node_modules/ path. Without re-including them here,
+# the `node_modules/` rule above drops them from git, so Cloudflare never gets
+# the Ionicons font -> it 404s on the live site and every icon is a square.
+!public/app/**/node_modules/
+!public/app/**/node_modules/**
+
 # generated types
 .astro/
 
