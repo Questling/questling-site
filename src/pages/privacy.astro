@@ -5,13 +5,16 @@ import { CONTACT_EMAIL } from '../consts';
 // NOTE FOR THE DEVELOPER (not shown on the page): this policy is written to be
 // accurate and honest, but it is not legal advice. Before you rely on it for the
 // App Store or for EU/UK traffic, have a real lawyer read it. See COMPLIANCE.md.
+// Keep this in sync with what the app ACTUALLY does: Firebase Auth (Google +
+// email/password), Firestore for account + game data, Firebase Analytics, and
+// the admin dashboard. Photos are still device-only (not uploaded).
 
 const title = 'Privacy Policy | Questling';
 const description =
-  'Questling has no accounts and no servers. Everything the app saves stays on your phone, and this site sets no cookies. Nothing personal is collected, tracked, sold, or shared.';
+  'What Questling collects and stores. Using the app needs a free account, and your account and game progress are saved in the cloud. Your Memory Journal photos stay on your device. Nothing is sold or shared.';
 
 // The date the policy was last actually changed (not auto-updated).
-const lastUpdated = 'July 6, 2026';
+const lastUpdated = 'July 24, 2026';
 ---
 
 <BaseLayout title={title} description={description}>
@@ -21,86 +24,102 @@ const lastUpdated = 'July 6, 2026';
       <p class="updated">Last updated {lastUpdated}</p>
 
       <p class="lead">
-        I'm the developer of Questling, and I built it so your family's stuff stays
-        with your family. This policy covers two things: the Questling app on your
-        phone, and this website at getquestling.com. Neither one collects personal
-        information about you or your child. Here is exactly how each one works.
+        I'm the developer of Questling. This policy explains, in plain language, what the
+        Questling app and this website (getquestling.com) collect, where it is stored, and
+        who can see it. Using the app now needs a free account, so there is real information
+        involved, and I want to be straight with you about all of it.
       </p>
 
-      <h2>What the app keeps on your phone</h2>
+      <h2>You need a free account</h2>
       <p>
-        The Questling app has no accounts, no login, and no servers behind it.
-        Everything it saves lives only on your own device:
+        To use the app you sign in, either with Google or with an email and password. That
+        is how your quests, gems, and rewards stay saved and follow you to another device.
+        When you sign in, I collect and store:
+      </p>
+      <ul>
+        <li>your <strong>email address</strong></li>
+        <li>your <strong>name</strong>, if you sign in with Google (Google shares the name on your account)</li>
+        <li>a <strong>user ID</strong> that the sign-in system assigns to your account</li>
+        <li>a <strong>username</strong> (it starts as your Google name and you can edit it), plus the dates your account was created and last used</li>
+      </ul>
+
+      <h2>Your game progress is saved in the cloud</h2>
+      <p>
+        So your progress isn't stuck on one device, the app saves your game data to the
+        cloud while you're signed in:
       </p>
       <ul>
         <li>your gems, the quests you've finished, and the quest you're on now</li>
         <li>the rewards you set up in the Shop</li>
-        <li>any photos you add to the Memory Journal</li>
       </ul>
       <p>
-        I never see any of it. There is nowhere for the app to send it, so it doesn't.
-        Because there is no server in the middle, nothing syncs between devices either.
+        This is stored using Google Firebase (see below). It is tied to your account, not
+        sold or shared, and used only to run the app for you.
       </p>
 
-      <h2>Camera and photos</h2>
+      <h2>Your photos stay on your phone</h2>
       <p>
-        Questling asks for camera or photo access for one reason: so you can save a
-        picture alongside a quest as a keepsake in the Memory Journal. Those photos
-        stay on your phone and are never uploaded anywhere.
+        The Memory Journal is the exception, on purpose. Any photos you add to a quest are
+        saved <strong>only on your own device</strong> and are never uploaded to the cloud
+        or to me. They do not sync between devices, and I never see them. Deleting a photo
+        in the app, or deleting the app, removes them.
       </p>
 
-      <h2>This website</h2>
+      <h2>Who this data is stored with (Google Firebase)</h2>
       <p>
-        The website you're reading is a set of static files served over Cloudflare's
-        network. It has no backend, no database, and no accounts. The Contact page is
-        just a mailto link that opens your own email app, so anything you send reaches
-        me the way an ordinary email would. Two things are worth naming plainly:
+        Sign-in, accounts, and the cloud save all run on <strong>Google Firebase</strong>
+        (Firebase Authentication and Cloud Firestore). That means your account details and
+        game data are held on Google's servers, which may be located in the United States,
+        and are protected by Google's security. Firebase also sends the password-reset email
+        if you ask for one. If you sign in with Google, Google's own privacy policy also
+        applies to that sign-in.
       </p>
+
+      <h2>Who can see your data</h2>
+      <p>
+        You can, in the app. And I can: I have an admin tool that lets me see account
+        details (username, email, sign-up and last-seen dates) and game stats (gems and
+        quests completed), so I can help with support questions, fix a problem, and keep the
+        app running. I do <strong>not</strong> sell, rent, or share your personal
+        information with anyone, and I don't use it for advertising.
+      </p>
+
+      <h2>Analytics</h2>
       <ul>
         <li>
-          <strong>Analytics.</strong> I use Cloudflare Web Analytics to see rough
-          traffic, like how many people visited a page, which sites linked here, and
-          which countries visitors came from. It is privacy-first and cookieless. It
-          sets no cookies, stores nothing on your device, and builds no profile of you.
-          The numbers are aggregate and cannot identify you.
+          <strong>In the app.</strong> I use Firebase Analytics to understand roughly how the
+          app is used (which screens people visit, whether features work), in aggregate. It
+          helps me improve the app and is not used to advertise to you.
         </li>
         <li>
-          <strong>Fonts.</strong> The site loads the Inter typeface from Google Fonts.
-          To deliver the font, Google may receive your IP address as part of that
-          request. That is standard for Google Fonts, and it is the only third-party
-          resource this site loads.
+          <strong>On this website.</strong> I use Cloudflare Web Analytics for rough traffic
+          numbers (page views, referrers, countries). It is cookieless, stores nothing on
+          your device, and cannot identify you.
+        </li>
+        <li>
+          <strong>Fonts.</strong> The site loads the Inter typeface from Google Fonts, so
+          Google may receive your IP address to deliver the font. That is standard for Google
+          Fonts.
         </li>
       </ul>
-      <p>
-        No cookies. No advertising trackers. No third-party analytics beyond the
-        cookieless counting above.
-      </p>
 
-      <h2>Cookies and consent banners</h2>
+      <h2>Cookies and local storage</h2>
       <p>
-        You will not see a cookie-consent banner on this site, and that is on purpose.
-        The site sets no cookies and stores nothing on your device, and the analytics I
-        use is cookieless. Consent banners exist to cover cookies and similar tracking
-        storage, so with none of that here, there is nothing to ask your permission for.
-      </p>
-
-      <h2>What I collect</h2>
-      <p>
-        To put it plainly: I do not collect any personal information about you or your
-        child, from the app or from this website. The app keeps its data on your device
-        and sends me nothing. The website's traffic numbers are aggregate and anonymous.
-        I do not sell, rent, or share personal information, because I don't have any to
-        begin with.
+        The marketing website sets no cookies and the analytics on it is cookieless, so you
+        won't see a consent banner there. The app itself keeps your sign-in session in your
+        browser's local storage so you stay logged in between visits. That is not an
+        advertising cookie; it's the standard way signing in works, and clearing your browser
+        data or signing out removes it.
       </p>
 
       <h2>Children</h2>
       <p>
-        Questling is made for a parent to run on their own phone. Children do not create
-        accounts, do not log in, and do not use the app on a device of their own. Because
-        nothing is collected from anyone, no personal information is ever gathered from a
-        child. This is how I keep Questling in step with children's privacy rules like
-        COPPA: the surest way to protect a kid's data is to never collect it. Questling is
-        written and positioned for parents. If you're a parent with a question about any of
+        Questling is made for a parent to run on their own phone. The account belongs to the
+        parent (or another adult), not the child: children do not create accounts, do not
+        sign in, and do not enter any information themselves. The only personal details I hold
+        are the account holder's (an adult's) email and name. I do not knowingly collect
+        personal information from a child under 13. This is how I try to stay in step with
+        children's privacy rules like COPPA. If you're a parent with a question about any of
         this, please email me and I'll answer honestly.
       </p>
 
@@ -108,9 +127,9 @@ const lastUpdated = 'July 6, 2026';
         <span class="badge"><span class="badge__dot"></span>Coming soon</span>
         <h2>Subscriptions</h2>
         <p>
-          Questling is free today. I'm planning to add an optional paid subscription,
-          handled through Apple's in-app purchase system (likely using a service called
-          RevenueCat to manage it). When that goes live:
+          Questling is free today, with every quest unlocked. I may add an optional paid
+          subscription later, handled through Apple's in-app purchase system (likely using a
+          service called RevenueCat to manage it). If that goes live:
         </p>
         <ul>
           <li>
@@ -123,25 +142,25 @@ const lastUpdated = 'July 6, 2026';
           </li>
         </ul>
         <p>
-          This section is a placeholder, and none of it is active yet. When the
-          subscription launches, I'll update this policy with the specifics and change the
-          date at the top before it turns on.
+          This section is a placeholder, and none of it is active yet. When a subscription
+          launches, I'll update this policy with the specifics and change the date at the top
+          before it turns on.
         </p>
       </div>
 
       <h2>Deleting your data</h2>
       <p>
-        In the app, you can remove individual photos and rewards whenever you like. If you
-        want everything gone at once, deleting the app takes all of it off your device with
-        it. There is nothing stored anywhere else for me to delete, because there is nowhere
-        else. On the website there is no account to close and nothing personal to erase.
+        Photos in the Memory Journal live only on your device, so deleting a photo in the
+        app, or deleting the app, removes them. To delete your <strong>account and the cloud
+        data tied to it</strong> (your profile and game progress), email me at
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> and I'll delete it for you.
+        You can also sign out any time from the Account screen.
       </p>
 
       <h2>Changes</h2>
       <p>
         If I change this policy, I'll update the "Last updated" date at the top. If a change
-        is significant, like the subscription going live, I'll make the update clear rather
-        than quiet.
+        is significant, I'll make it clear rather than quiet.
       </p>
 
       <h2>Questions</h2>
