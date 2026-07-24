@@ -14,7 +14,7 @@ export const SITE_OG_IMAGE = '/questling-icon.png';
 // header and footer automatically.
 export const NAV_LINKS = [
   { label: 'How It Works', href: '/#how-it-works' },
-  { label: 'Quests', href: '/app/quests' },
+  { label: 'Quests', href: '/quest-ideas' },
   { label: 'Articles', href: '/articles' },
   { label: 'Socials', href: '/socials' },
   { label: 'About', href: '/about' },

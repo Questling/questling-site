@@ -15,6 +15,7 @@
   /* Brand ink + accents */
   --ink: #20203a;          /* deep cool-ink text */
   --ink-soft: #54546e;     /* secondary text */
+  --muted: #54546e;        /* alias used across pages (was undefined -> inherited wrong color) */
   --primary: #4f46c7;      /* indigo, primary brand */
   --primary-dark: #3a32a0; /* hover */
   --primary-tint: #ece9fb; /* faint indigo wash */
@@ -140,8 +141,9 @@ p  { margin: 0 0 1rem; color: var(--ink-soft); text-wrap: pretty; }
 .btn--primary { background: var(--primary); color: #fff; box-shadow: var(--shadow-md); }
 .btn--primary:hover { background: var(--primary-dark); box-shadow: var(--shadow-lg); }
 
-.btn--gem { background: var(--gem); color: #fff; box-shadow: var(--shadow-md); }
-.btn--gem:hover { background: var(--gem-dark); }
+/* Darker green so white button text clears WCAG AA (the lighter --gem is 3.48:1). */
+.btn--gem { background: var(--gem-dark); color: #fff; box-shadow: var(--shadow-md); }
+.btn--gem:hover { background: #0f5f38; }
 
 .btn--ghost { background: var(--surface); color: var(--primary); border-color: var(--line); box-shadow: var(--shadow-sm); }
 .btn--ghost:hover { border-color: var(--primary); }
