@@ -3,6 +3,8 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { QUESTS, slug } from './src/data/quest-utils';
 
+import cloudflare from "@astrojs/cloudflare";
+
 // The quest pages now live INSIDE the app (static files served under /app), so
 // the auto-sitemap can't discover them the way it does Astro pages. List every
 // quest URL (plus the app entry points) as customPages so all 200 still land in
@@ -16,4 +18,5 @@ const appPages = [
 export default defineConfig({
   site: 'https://getquestling.com',
   integrations: [sitemap({ customPages: appPages })],
+  adapter: cloudflare()
 });
