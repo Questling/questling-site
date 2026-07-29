@@ -29,7 +29,7 @@ const byAge = HUBS.filter((h) => h.slug.startsWith('quests-for-ages'));
       <ul class="hub-grid">
         {themed.map((h) => (
           <li>
-            <a class="card hub-card" href={`/quest-ideas/${h.slug}`}>
+            <a class="card hub-card" href={`/quest-ideas/${h.slug}/`}>
               <strong>{h.title}</strong>
               <span>{hubQuests(h).length} quests</span>
             </a>
@@ -40,7 +40,7 @@ const byAge = HUBS.filter((h) => h.slug.startsWith('quests-for-ages'));
       <ul class="hub-grid">
         {byAge.map((h) => (
           <li>
-            <a class="card hub-card" href={`/quest-ideas/${h.slug}`}>
+            <a class="card hub-card" href={`/quest-ideas/${h.slug}/`}>
               <strong>{h.title}</strong>
               <span>{hubQuests(h).length} quests</span>
             </a>

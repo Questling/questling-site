@@ -67,7 +67,7 @@ const questPicks = QUESTS.filter((q) => categoryOf(q) === questCat).slice(0, 3);
 
   <article class="post">
     <div class="container container--narrow">
-      <a class="post__back" href="/articles">← All articles</a>
+      <a class="post__back" href="/articles/">← All articles</a>
       <header class="post__head">
         <time datetime={data.pubDate.toISOString()}>{dateLabel}</time>
         <h1>{data.title}</h1>
@@ -97,7 +97,7 @@ const questPicks = QUESTS.filter((q) => categoryOf(q) === questCat).slice(0, 3);
             </li>
           ))}
         </ul>
-        <a class="post__quests-all" href="/quest-ideas">Browse all 200 screen-free quests →</a>
+        <a class="post__quests-all" href="/quest-ideas/">Browse all 200 screen-free quests →</a>
       </aside>
 
       <!-- Soft CTA at the end of every article -->

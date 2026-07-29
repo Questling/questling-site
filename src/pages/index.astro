@@ -33,7 +33,7 @@ const steps = [
         </p>
         <div class="hero__actions">
           <a class="btn btn--gem btn--lg" href="/app">Try Questling free &rarr;</a>
-          <a class="btn btn--ghost" href="/quest-ideas">Browse the quests &rarr;</a>
+          <a class="btn btn--ghost" href="/quest-ideas/">Browse the quests &rarr;</a>
         </div>
 
         <div class="stores" aria-label="App availability">
@@ -157,7 +157,7 @@ const steps = [
         <div class="article-grid">
           {featured.map((a) => (
             <ArticleCard
-              href={`/articles/${a.id}`}
+              href={`/articles/${a.id}/`}
               title={a.data.title}
               description={a.data.description}
               pubDate={a.data.pubDate}
@@ -167,7 +167,7 @@ const steps = [
           ))}
         </div>
         <div class="strip-foot">
-          <a class="btn btn--ghost" href="/articles">All articles</a>
+          <a class="btn btn--ghost" href="/articles/">All articles</a>
         </div>
       </div>
     </section>

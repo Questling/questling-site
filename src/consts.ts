@@ -5,7 +5,7 @@ export const SITE_DESCRIPTION =
   'Questling lives on your phone and turns screen time into real-world quests for your kids. You approve the challenges, they earn gems, you pick the rewards. Your child stays device-free. Free to play in your browser now.';
 
 export const CONTACT_EMAIL = 'hello@getquestling.com';
-export const PRIVACY_URL = '/privacy';
+export const PRIVACY_URL = '/privacy/';
 
 // The gem logo, used for the favicon and social-share previews.
 export const SITE_OG_IMAGE = '/questling-icon.png';
@@ -14,11 +14,11 @@ export const SITE_OG_IMAGE = '/questling-icon.png';
 // header and footer automatically.
 export const NAV_LINKS = [
   { label: 'How It Works', href: '/#how-it-works' },
-  { label: 'Quests', href: '/quest-ideas' },
-  { label: 'Articles', href: '/articles' },
-  { label: 'Socials', href: '/socials' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Quests', href: '/quest-ideas/' },
+  { label: 'Articles', href: '/articles/' },
+  { label: 'Socials', href: '/socials/' },
+  { label: 'About', href: '/about/' },
+  { label: 'Contact', href: '/contact/' },
 ];
 
 // Your social profiles. ⚠️ UPDATE these handles/URLs to your real ones if they

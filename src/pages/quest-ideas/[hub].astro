@@ -41,11 +41,11 @@ const breadcrumbSchema = {
   <section class="section">
     <div class="container container--narrow">
       <nav class="hub-crumbs" aria-label="Breadcrumb">
-        <a href="/quest-ideas">Quest ideas</a> <span>&rsaquo;</span> {hub.title}
+        <a href="/quest-ideas/">Quest ideas</a> <span>&rsaquo;</span> {hub.title}
       </nav>
       <h1>{hub.title}</h1>
       {hub.intro.map((p) => <p class="hub-intro">{p}</p>)}
-      <a class="btn btn--gem" href="/quest-ideas">Browse all quest categories &rarr;</a>
+      <a class="btn btn--gem" href="/quest-ideas/">Browse all quest categories &rarr;</a>
     </div>
   </section>
 
@@ -71,7 +71,7 @@ const breadcrumbSchema = {
       <h2>Keep reading</h2>
       <ul class="hub-articles">
         {hub.articles.map((a) => (
-          <li><a href={`/articles/${a.slug}`}>{a.title} &rarr;</a></li>
+          <li><a href={`/articles/${a.slug}/`}>{a.title} &rarr;</a></li>
         ))}
       </ul>
     </div>
