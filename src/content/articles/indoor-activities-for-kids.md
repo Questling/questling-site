@@ -38,6 +38,7 @@ The best indoor games have almost no rules and no gear:
 - **Floor is lava.** The couch is safe, the rug is safe, the bare floor is certain doom. Toss down cushions as stepping stones and let them plot a route across the room.
 - **Sock basketball.** Roll socks into balls, prop a laundry basket in the corner, and step back after every make. Cheap, quiet enough, and weirdly competitive.
 - **Warmer, colder.** Hide a small toy, then guide them with nothing but "warmer" and "colder" as they search. Toddlers will play this roughly forever.
+- **Scavenger hunt.** Call out a rule ("five red things", "something bumpy") and send them off. It is the one indoor game that works in any room, at any age, with zero setup. Full list and variations in our [indoor scavenger hunt ideas](/articles/indoor-scavenger-hunt-for-kids/).
 
 ## Where Questling fits
 

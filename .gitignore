@@ -27,3 +27,12 @@ yarn-error.log*
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
+
+# Ida the Cloud artwork. The originals are 80MB+ TIFFs, over Cloudflare Pages'
+# 25MB per-file limit, and public/ deploys verbatim so committing them would
+# break the site build. The web versions are partner art under an embargo until
+# the book launches, so the whole folder stays out of git.
+public/idathecloud/
+
+# Search Console CSV exports (public/ deploys verbatim - these must never go live)
+public/getquestling.com-*/

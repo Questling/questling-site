@@ -35,6 +35,7 @@ Some days the trouble is not boredom at all. It is a kid with too much energy an
 - **The floor is lava.** Couch cushions become the only safe islands, and the rule writes itself.
 - **Balloon keep-up.** One balloon, one rule: it cannot touch the ground. Weirdly gripping, and it costs you nothing.
 - **Hallway bowling.** Line up six empty plastic bottles and roll a soft ball down the hall at them.
+- **Speed scavenger hunt.** Ten items, three minutes, whole house. Our [indoor scavenger hunt ideas](/articles/indoor-scavenger-hunt-for-kids/) has a list you can read straight off the screen.
 
 And if you have a garage, a porch, or a stretch of driveway, a bucket of sidewalk chalk turns plain concrete into a full course. [Chalk Obstacle Course](/app/quest/chalk-obstacle-course) gives them the plan: draw a hopscotch, a spin zone, a line to tightrope-walk, then run it start to finish and try to beat their own time.
 

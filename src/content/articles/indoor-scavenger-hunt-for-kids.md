@@ -10,6 +10,66 @@ The fastest indoor scavenger hunt needs zero printing and zero prep: pick a rule
 
 Here's why this beats the printable hunts you find online: **a printable locks you into one list, but a rule scales to any kid and any room.** The same "find something soft" works for a toddler and a nine-year-old; you just change what counts and how fast. So instead of hunting for the perfect PDF, learn a handful of hunt *types* you can pull out anywhere, from the living room to a hotel room to grandma's kitchen.
 
+## The ready-made indoor scavenger hunt list
+
+If you want a list right now, take this one. Read the items out loud, or write the ones you like on a scrap of paper and hand it over. Everything here is in an ordinary house, nothing needs buying, and no item is breakable or sharp.
+
+**In the living room**
+
+- Something softer than your pillow
+- Something with a button on it
+- Something older than you are
+- Something that makes a sound when you shake it
+- Something with a number printed on it
+- Something you could hide behind
+- Something that does not belong in this room
+- Something with more than four corners
+- Something you have never noticed before
+- Something that would float
+
+**In the kitchen**
+
+- Something cold
+- Something that smells strong
+- Something that came from a plant
+- Something round enough to roll
+- Something with a handle
+- Something see-through
+- Something that fits inside a cup
+- Something with a lid
+- Something exactly as long as your hand
+- Something that would be heavy if you filled it
+
+**In a bedroom or bathroom**
+
+- Something that used to be your favourite
+- Something with your initial on it
+- Something you wear only in winter
+- Something in a colour nobody else in the house owns
+- Something that smells like you
+- Something you could balance on your head
+- Something with a zip
+- Something that was a present
+- Something small enough to lose
+- Something you would take on a desert island
+
+**Anywhere in the house (the hard ones)**
+
+- Something bumpy AND blue
+- Something that starts with the same letter as your name
+- Two things that match but are different sizes
+- Something that has been in the house longer than you have
+- Something that would fit in a shoebox and something that would not
+- Something worth exactly nothing and something worth a lot
+- Something with writing so small you have to squint
+- Something you can see through but cannot walk through
+- Something that would still work if the power went out
+- Something you are allowed to keep
+
+That is forty items, which is far more than one hunt needs. Pick eight or ten, or let your kid pick. An indoor treasure hunt lives or dies on how fast it starts, so a short list you begin immediately beats a long one you are still writing when the kid wanders off.
+
+Then, when you have used the list a few times and want hunts you never have to write down at all, keep reading.
+
 ## Hunt by color, shape, and letter
 
 These are the fastest to start because the rule fits in one sentence:
