@@ -22,7 +22,9 @@ list sorted by what you actually have left in the tank.
 - **Blanket fort.** Couch cushions, a sheet, a flashlight. Kids will happily live in
   there for an hour while you drink your coffee.
 - **Indoor scavenger hunt.** Write ten household objects on slips of paper (a
-  spoon, something red, something soft) and let them hunt the house.
+  spoon, something red, something soft) and let them hunt the house. There is a
+  ready-made list of forty, plus hunts you never have to write down, in our
+  [indoor scavenger hunt ideas](/articles/indoor-scavenger-hunt-for-kids/).
 - **Sock puppet theater.** A couple of old socks and some marker dots and you've
   bought yourself twenty quiet minutes.
 - **Draw the view out the window.** Rain, puddles, the neighbor's car. It's oddly

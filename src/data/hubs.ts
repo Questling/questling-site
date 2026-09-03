@@ -147,12 +147,24 @@ export const HUBS: Hub[] = [
   },
 ];
 
-// Quests for a hub, free (playable) first, capped so pages stay fast.
-export function hubQuests(h: Hub, n = 24): Quest[] {
+// Quests for a hub, free (playable) first.
+//
+// This used to cap at 24 "so pages stay fast", and that cap was quietly the
+// site's biggest SEO problem. The 8 hubs are the ONLY pages that link to quest
+// pages in bulk (the app's own /app/quests list renders its cards as tap
+// handlers, not anchors, so it contains zero crawlable quest links). Capped at
+// 24, the hubs reached only 108 of the 206 quests, which left ~98 quest pages
+// linked from nothing but the sitemap and each other. Search Console showed
+// exactly that shape: 117 pages "Discovered - currently not indexed".
+//
+// Uncapped, the five category hubs cover all 206 with no overlap, so every
+// quest page now has a real internal link from a themed page one click off the
+// homepage. The cost is a longer <ul> of plain anchors, which is nothing.
+export function hubQuests(h: Hub, n = Infinity): Quest[] {
   const all = QUESTS.filter(h.filter);
   const free = all.filter(isFree);
   const paid = all.filter((q) => !isFree(q));
-  return [...free, ...paid].slice(0, n);
+  return n === Infinity ? [...free, ...paid] : [...free, ...paid].slice(0, n);
 }
 
 export { slug as questSlug };

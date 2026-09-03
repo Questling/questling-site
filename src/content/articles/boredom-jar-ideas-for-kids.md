@@ -39,6 +39,8 @@ Fill the outdoor side with things that have a goal, not just "run around." A goa
 
 ## Slip ideas: indoor and quiet
 
+A scavenger hunt makes an excellent slip because one line of writing buys twenty minutes: "find five round things" is a whole game. There are forty more like it in our [indoor scavenger hunt ideas](/articles/indoor-scavenger-hunt-for-kids/).
+
 For the rainy days, the wound-up evenings, and the ten minutes before you can get out the door.
 
 - **Play [Cloud Zoo](/app/quest/cloud-zoo)** from the window and spot as many animals hiding in the clouds as you can before one drifts apart.

@@ -27,3 +27,10 @@ yarn-error.log*
 .DS_Store
 .vscode/*
 !.vscode/extensions.json
+
+# Ida the Cloud print-resolution originals (80MB+ TIFFs, over Cloudflare Pages 25MB file limit)
+public/idathecloud/*.tif
+public/idathecloud/*.pdf
+
+# Search Console CSV exports (public/ deploys verbatim - these must never go live)
+public/getquestling.com-*/
