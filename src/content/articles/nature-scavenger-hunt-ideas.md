@@ -79,6 +79,8 @@ And when the weather makes outside impossible, the same idea works between four
 walls. Our [indoor scavenger hunt ideas](/articles/indoor-scavenger-hunt-for-kids/) has a forty item list for the living
 room, kitchen and bedroom, plus hunts by colour, texture, smell and sound.
 
+If the bug is always the item your kid goes for first, skip the list and do a whole hunt about them: our [bug safari for kids](/articles/bug-safari-for-kids/) covers the six places bugs always are and what you will find in each season.
+
 The magic of a scavenger hunt was never really the list. It's that it gives a kid a
 reason to look closely at a world they usually walk straight past. Do it a few times
 and it sticks. They start spotting the cool rock and the odd bug on their own, no list

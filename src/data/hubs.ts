@@ -44,6 +44,7 @@ export const HUBS: Hub[] = [
     ],
     filter: cat('nature'),
     articles: [
+      { slug: 'bug-safari-for-kids', title: 'Bug safari for kids' },
       { slug: 'nature-activities-for-kids', title: 'Nature activities for kids' },
       { slug: 'nature-scavenger-hunt-ideas', title: 'Nature scavenger hunt ideas' },
       { slug: 'nature-crafts-for-kids', title: 'Nature crafts for kids' },

@@ -47,6 +47,8 @@ think of the question yourself.
 Give a kid a magnifying glass and a few square feet of grass and you have handed
 them an entire ecosystem to investigate. Send them on
 [The Bug Safari](/app/quest/the-bug-safari) and let the questions do the teaching.
+(If you want the six places bugs always hide and what turns up in each season,
+our [bug safari for kids](/articles/bug-safari-for-kids/) guide has the whole method.)
 How many legs does that one have? Which bugs stick to the shade and which ones like
 the warm pavement? Is that ant really carrying something bigger than itself, and how?
 

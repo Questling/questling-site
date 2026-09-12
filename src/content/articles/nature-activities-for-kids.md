@@ -12,6 +12,8 @@ Here is the reframe worth keeping: **you do not need a big planned outing to mak
 
 ## Get down to bug level
 
+The full method, six places to look and what you will find by season, is in our [bug safari for kids](/articles/bug-safari-for-kids/).
+
 Nothing rewards close attention quite like bugs, mostly because there are always more of them than you expect. Flip over a rock, a log, or a forgotten flowerpot and a whole tiny city appears: pill bugs curling into armored balls, an ant highway at full rush hour, some shiny beetle nobody can name. A magnifying glass makes it feel official, but bare eyes and a willingness to get grass-stained work just as well.
 
 Give the looking a mission and it jumps from a two-minute glance to a real hunt. Try following one single ant to see where it actually lives, or counting a creature's legs before anyone is allowed to guess what it is. [The Bug Safari](/app/quest/the-bug-safari) turns that into a proper quest, a checklist of tiny creatures to track down, with gems waiting on the other side.
