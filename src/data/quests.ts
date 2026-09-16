@@ -3265,6 +3265,28 @@ export const QUESTS: Quest[] = [
       `Find the hardest spot they can still solve`,
     ],
   },
+  // 206 is the Ida the Cloud partnership quest. Its page lives in the app
+  // (/app/quest/the-cloud-that-s-going-somewhere); it is listed here so the
+  // sitemap picks it up.
+  {
+    id: 206,
+    title: `The Cloud That's Going Somewhere`,
+    materials: `paper and something to draw with`,
+    parentPrep: `A window with a view of the sky on a day when the clouds are moving. Paper and a pencil, crayons or pens. No need to go outside.`,
+    ageRange: `4–7`,
+    minAge: 4,
+    maxAge: 7,
+    details: `Every cloud in the sky is on its way somewhere. Find one that is really travelling, not just sitting there. Line it up next to something that cannot move, like the edge of the window or the top of a tree, and watch until you are sure it has shifted. Draw your cloud while you watch it. Then decide where it is going, and draw that place underneath. A city, the sea, your school, another country. It is your cloud, so you get to choose.`,
+    steps: [
+      `Look out of the window and find a cloud that is moving`,
+      `Line it up with something that stays still, like the window edge or a treetop`,
+      `Watch until you can tell it has travelled past your marker`,
+      `Draw your cloud on the paper while you keep watching it`,
+      `Decide where your cloud is going`,
+      `Draw that place on the same paper, underneath your cloud`,
+      `Show your picture to someone and tell them where your cloud is heading`,
+    ],
+  },
   // 207-214: the playground set. Listed here so the sitemap picks up their
   // pages; the pages themselves live in the app under /app/quest/<slug>.
   {
