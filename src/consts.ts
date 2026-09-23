@@ -6,6 +6,7 @@ export const SITE_DESCRIPTION =
 
 export const CONTACT_EMAIL = 'hello@getquestling.com';
 export const PRIVACY_URL = '/privacy/';
+export const TERMS_URL = '/terms/';
 
 // The gem logo, used for the favicon and social-share previews.
 export const SITE_OG_IMAGE = '/questling-icon.png';

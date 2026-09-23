@@ -1,0 +1,196 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CONTACT_EMAIL } from '../consts';
+
+// NOTE FOR THE DEVELOPER (not shown on the page): these terms are written to be
+// accurate and readable, but they are NOT legal advice and I am not a lawyer.
+// Before you rely on them for the App Store, for paid subscriptions, or for
+// EU/UK traffic, have a real lawyer read them. See COMPLIANCE.md.
+//
+// Keep this in sync with what Questling ACTUALLY is:
+//   - free, no payments of any kind yet (Quest Plus is not live: FREE_COUNT=999)
+//   - no account required to play; an optional account saves progress
+//   - the PARENT operates the app; the child never uses a device
+//   - photos stay on the device and are never uploaded
+// If any of those change, this page has to change with them.
+
+const title = 'Terms of Use | Questling';
+const description =
+  'The rules for using Questling: who it is for, what it costs, safety and supervision, and what I do and do not promise. Written in plain language.';
+
+const lastUpdated = 'September 23, 2026';
+---
+
+<BaseLayout title={title} description={description}>
+  <section class="section">
+    <div class="container container--narrow">
+      <h1>Terms of Use</h1>
+      <p class="updated">Last updated {lastUpdated}</p>
+
+      <p class="lead">
+        These are the rules for using Questling. I have written them the way I would
+        explain them out loud, because terms nobody reads protect nobody. If something
+        here is unclear, email me and I will fix the wording.
+      </p>
+
+      <h2>Who Questling is for</h2>
+      <p>
+        Questling is a tool for <strong>parents and guardians</strong>. You pick a quest,
+        your child goes and does it in the real world, and you mark it done together. The
+        child does not need a device, an account, or a screen of their own. That is the
+        entire point of the product.
+      </p>
+      <p>
+        Because of that, <strong>the account holder must be an adult</strong>, or a young
+        person old enough to agree to terms where they live, acting with their own
+        parent's knowledge. If you are supervising a child's quests, you are responsible
+        for deciding which quests are suitable for that child.
+      </p>
+
+      <h2>Safety comes before the quest</h2>
+      <p>
+        Quests happen outside, in kitchens, at playgrounds, near water and in the dark.
+        Every quest has a <strong>Parent prep</strong> note, and it is there to be read
+        before you hand the quest over. You know your child, your garden, your street and
+        your weather. I do not.
+      </p>
+      <ul>
+        <li>
+          <strong>You decide what is safe.</strong> Read the quest first. Skip it, change
+          it, or supervise it more closely if that is the right call. Nothing in the app
+          is an instruction you have to follow.
+        </li>
+        <li>
+          <strong>Adapt for age.</strong> Age ranges are a guide, not a rating. A cautious
+          six-year-old and a reckless six-year-old need different answers.
+        </li>
+        <li>
+          <strong>Supervise anything with real risk.</strong> Water, heights, tools, fire,
+          roads, and anything the quest tells you to supervise.
+        </li>
+      </ul>
+      <p>
+        Questling suggests activities. It does not assess your child, your location, or
+        your conditions, and it cannot. That judgement stays with you.
+      </p>
+
+      <h2>What it costs</h2>
+      <p>
+        Right now, <strong>nothing</strong>. Every quest is free, there is no subscription,
+        and the app takes no payment details. You may see "Quest Plus" mentioned in the
+        app; it is not switched on and nothing is being charged for. If that ever changes,
+        the price and the terms will be shown clearly before anyone is asked to pay, and
+        this page will be updated first.
+      </p>
+
+      <h2>Accounts, gems and rewards</h2>
+      <ul>
+        <li>
+          <strong>An account is optional.</strong> You can browse and do quests without
+          one. An account saves your progress and unlocks the memory journal, the rewards
+          shop and the weekly streak.
+        </li>
+        <li>
+          <strong>Gems are not money.</strong> They are a number in your own app. They
+          cannot be bought, sold, cashed out or transferred, and they have no value outside
+          your family's copy of Questling.
+        </li>
+        <li>
+          <strong>You set the rewards.</strong> The shop is a place for you to write down
+          what gems are worth in your house. Honouring a reward is between you and your
+          child; I am not part of that.
+        </li>
+        <li>
+          <strong>Keep your sign-in to yourself.</strong> You are responsible for what
+          happens under your account.
+        </li>
+      </ul>
+
+      <h2>Your photos are yours</h2>
+      <p>
+        Photos you add to the memory journal <strong>stay on your device</strong>. They
+        are not uploaded, not synced, and I never see them. That also means I cannot
+        recover them if you clear the app or lose the phone, so treat them as photos on
+        a phone, not as a backup. The <a href="/privacy/">Privacy Policy</a> covers this
+        in full.
+      </p>
+
+      <h2>The quest content</h2>
+      <p>
+        The quests, the writing on this site and the app itself are mine. You are very
+        welcome to use them with your own family, print one out, or tell a friend. Please
+        do not republish the catalogue as your own, scrape it, or sell it.
+      </p>
+      <p>
+        Some quests are made with partners and their artwork belongs to them. Where that
+        is the case the quest page says so and credits them by name.
+      </p>
+
+      <h2>Please do not</h2>
+      <ul>
+        <li>break into, overload, or try to damage the app, the site, or its database</li>
+        <li>use someone else's account, or pretend to be someone else</li>
+        <li>use Questling for anything illegal, or to harm a child</li>
+      </ul>
+      <p>
+        If an account is being used that way I will close it.
+      </p>
+
+      <h2>What I do not promise</h2>
+      <p>
+        Questling is offered <strong>as it is</strong>. I am one developer. The app may
+        have bugs, may go down, may lose a sync, and may change or disappear. I do not
+        promise it will always be available or always work perfectly, and to the extent
+        the law allows, I am not liable for what happens while you use it, including
+        injuries that happen during a quest you chose to do.
+      </p>
+      <p>
+        That is not me dodging. It is the honest position: I write the quests, you decide
+        which ones happen and supervise them.
+      </p>
+
+      <h2>Stopping</h2>
+      <p>
+        You can stop using Questling whenever you like. If you want your account and its
+        data removed, email me at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+        and I will delete it. I am building a delete button into the app so you will not
+        have to ask.
+      </p>
+
+      <h2>Changes to these terms</h2>
+      <p>
+        If I change anything meaningful here I will update the date at the top. Carrying
+        on using Questling after a change means the new version applies.
+      </p>
+
+      <div class="callout">
+        <h2>Questions</h2>
+        <p>
+          Email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A real person
+          reads it.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container--narrow { max-width: 720px; }
+  h1 { margin-bottom: 0.25rem; }
+  .updated { color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 2rem; }
+  .lead { font-size: 1.15rem; color: var(--ink); margin-bottom: 1.5rem; }
+  h2 { font-size: 1.3rem; margin-top: 2.2rem; }
+  p, li { color: var(--ink); }
+  ul { margin: 0 0 1.1rem; padding-left: 1.3rem; }
+  li { margin-bottom: 0.5rem; }
+  a { color: var(--primary); text-decoration: underline; }
+  .callout {
+    margin-top: 2.4rem;
+    padding: 1.4rem 1.6rem;
+    background: var(--primary-tint);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .callout h2 { margin-top: 0.7rem; }
+  .callout p:last-child { margin-bottom: 0; }
+</style>

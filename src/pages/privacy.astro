@@ -6,15 +6,16 @@ import { CONTACT_EMAIL } from '../consts';
 // accurate and honest, but it is not legal advice. Before you rely on it for the
 // App Store or for EU/UK traffic, have a real lawyer read it. See COMPLIANCE.md.
 // Keep this in sync with what the app ACTUALLY does: Firebase Auth (Google +
-// email/password), Firestore for account + game data, Firebase Analytics, and
-// the admin dashboard. Photos are still device-only (not uploaded).
+// email/password), Firestore for account + game data, and the admin dashboard.
+// NO analytics in the app (removed Sept 2026, see src/lib/firebase.ts for why).
+// Photos are still device-only (not uploaded).
 
 const title = 'Privacy Policy | Questling';
 const description =
-  'What Questling collects and stores. Using the app needs a free account, and your account and game progress are saved in the cloud. Your Memory Journal photos stay on your device. Nothing is sold or shared.';
+  'What Questling collects and stores. Quests work with no account at all; an optional free account saves your progress to the cloud. Your Memory Journal photos stay on your device. Nothing is sold or shared.';
 
 // The date the policy was last actually changed (not auto-updated).
-const lastUpdated = 'July 24, 2026';
+const lastUpdated = 'September 23, 2026';
 ---
 
 <BaseLayout title={title} description={description}>
@@ -26,15 +27,15 @@ const lastUpdated = 'July 24, 2026';
       <p class="lead">
         I'm the developer of Questling. This policy explains, in plain language, what the
         Questling app and this website (getquestling.com) collect, where it is stored, and
-        who can see it. Using the app now needs a free account, so there is real information
-        involved, and I want to be straight with you about all of it.
+        who can see it. You can do quests with no account at all. An account is optional and
+        saves your progress, and I want to be straight with you about all of it.
       </p>
 
-      <h2>You need a free account</h2>
+      <h2>An account is optional</h2>
       <p>
-        To use the app you sign in, either with Google or with an email and password. That
-        is how your quests, gems, and rewards stay saved and follow you to another device.
-        When you sign in, I collect and store:
+        You can browse and do quests without signing in at all. If you want your quests,
+        gems and rewards saved and carried to another device, you sign in with Google or with
+        an email and password. Only then do I collect and store:
       </p>
       <ul>
         <li>your <strong>email address</strong></li>
@@ -87,9 +88,10 @@ const lastUpdated = 'July 24, 2026';
       <h2>Analytics</h2>
       <ul>
         <li>
-          <strong>In the app.</strong> I use Firebase Analytics to understand roughly how the
-          app is used (which screens people visit, whether features work), in aggregate. It
-          helps me improve the app and is not used to advertise to you.
+          <strong>In the app.</strong> None. The app used to start Google's Firebase Analytics,
+          and I removed it in September 2026. It never recorded anything useful, but it did give
+          every visitor a tracking id, and I would rather the app carry no tracker at all than a
+          tracker I was not using.
         </li>
         <li>
           <strong>On this website.</strong> I use Cloudflare Web Analytics for rough traffic

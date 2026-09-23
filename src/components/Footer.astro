@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE, SITE_TAGLINE, NAV_LINKS, CONTACT_EMAIL, PRIVACY_URL } from '../consts';
+import { SITE_TITLE, SITE_TAGLINE, NAV_LINKS, CONTACT_EMAIL, PRIVACY_URL, TERMS_URL } from '../consts';
 const year = new Date().getFullYear();
 ---
 
@@ -27,6 +27,7 @@ const year = new Date().getFullYear();
       <h2 class="site-footer__h">Company</h2>
       <ul>
         <li><a href={PRIVACY_URL}>Privacy Policy</a></li>
+        <li><a href={TERMS_URL}>Terms of Use</a></li>
         <li><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></li>
       </ul>
     </div>
