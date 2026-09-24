@@ -88,10 +88,13 @@ const lastUpdated = 'September 23, 2026';
       <h2>Analytics</h2>
       <ul>
         <li>
-          <strong>In the app.</strong> None. The app used to start Google's Firebase Analytics,
-          and I removed it in September 2026. It never recorded anything useful, but it did give
-          every visitor a tracking id, and I would rather the app carry no tracker at all than a
-          tracker I was not using.
+          <strong>In the app.</strong> I use Firebase Analytics (Google Analytics) to see roughly
+          how the app is used: how many people visit, which screens they open, and which country
+          they are in. It is deliberately set up so it cannot be used to advertise to anyone.
+          Ad storage, ad personalisation and Google Signals are switched off permanently in the
+          code, not just in a setting, so no advertising profile is ever built and nothing is
+          shared with ad networks. If you are in the UK or EU it runs in cookieless mode, which
+          means it counts the visit but stores nothing on your device.
         </li>
         <li>
           <strong>On this website.</strong> I use Cloudflare Web Analytics for rough traffic
@@ -112,6 +115,33 @@ const lastUpdated = 'September 23, 2026';
         browser's local storage so you stay logged in between visits. That is not an
         advertising cookie; it's the standard way signing in works, and clearing your browser
         data or signing out removes it.
+      </p>
+
+      <h2>How long I keep things</h2>
+      <p>
+        I do not keep anything indefinitely. Concretely:
+      </p>
+      <ul>
+        <li>
+          <strong>Your account and game progress</strong> are kept while your account exists.
+          Ask me to delete it and it goes, along with everything attached to it.
+        </li>
+        <li>
+          <strong>Analytics</strong> is set to the shortest retention Google offers, two months,
+          after which the underlying records expire automatically.
+        </li>
+        <li>
+          <strong>Photos</strong> are never on my side at all, so there is nothing for me to keep
+          or delete. They live and die on your phone.
+        </li>
+        <li>
+          <strong>Abandoned accounts.</strong> If an account goes unused for a long time I will
+          delete it rather than sit on it forever.
+        </li>
+      </ul>
+      <p>
+        To have your account removed now, email me. I am also building a delete button into the
+        app so you will not have to ask.
       </p>
 
       <h2>Children</h2>
