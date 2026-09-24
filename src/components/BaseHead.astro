@@ -89,3 +89,35 @@ const speculation = {
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
   />
 </noscript>
+
+<!-- Google Analytics (G-XM4XPXFTNB), on the marketing site.
+     Consent Mode v2 is declared BEFORE gtag('config'), which is the whole
+     point: run it the other way round and the first pageview goes out with
+     ad storage granted before anything can deny it.
+       ad_storage / ad_user_data / ad_personalization  -> denied, always.
+         Kills Google Signals and remarketing, so no advertising profile is
+         ever built from a site about children's activities. That is what the
+         2025 COPPA amendment is aimed at.
+       analytics_storage -> denied for Europe/* timezones.
+         An analytics cookie is non-essential under GDPR/ePrivacy, which is
+         what would force a consent banner. Denied means GA sends cookieless
+         pings: the visit still counts, nothing is stored on the device, and
+         no banner is needed. Timezone rather than an IP lookup, so there is
+         no extra network call and no new identifier, and it fails closed.
+     CSP already allows googletagmanager.com and *.google-analytics.com.
+     The app under /app reports separately via Firebase (G-M1MM0YV94N). -->
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  var inEurope = true;
+  try { inEurope = /^Europe\//.test(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (e) {}
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: inEurope ? 'denied' : 'granted',
+  });
+  gtag('js', new Date());
+  gtag('config', 'G-XM4XPXFTNB');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XM4XPXFTNB"></script>
